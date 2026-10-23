@@ -14,7 +14,7 @@
 | D4Vinci/Scrapling | C (크롤링 CLI·Python 라이브러리; 선택 MCP) | `pip install scrapling` | 쉬움 | 브라우저 기능 추가 시 별도 다운로드·사이트 정책 준수 | 기설치 검증 완료: `scrapling --help` 정상, Python 패키지 0.4.5 확인 | `scrapling extract`로 사이트의 필요한 정보를 수집한다. |
 | storytold/photocraft | E (Rust PSD 편집 애플리케이션) | `git clone https://github.com/storytold/photocraft` → `cargo run --release -p photocraft -- image.psd` | 어려움 | Rust 전체 컴파일·Windows 앱 실행·대규모 의존성 | 보류: Rust 앱 전체 빌드와 데스크톱 환경 영향; 미설치 | PSD 파일을 열어 레이어를 편집한다. |
 | blader/humanizer | A (Claude Skill) | `npx skills add blader/humanizer --global --agent claude-code` | 쉬움 | Claude 사용자 스킬 디렉터리 추가 | 설치 검증 완료: `~/.claude/skills/humanizer/SKILL.md` 존재; Claude 플러그인 로드 3.1.0 확인 | Claude에게 `/humanizer`로 문장 다듬기를 요청한다. |
-| abhigyanpatwari/GitNexus | C (저장소 분석 CLI·선택 MCP 설정) | `npx gitnexus analyze` / `npx gitnexus setup` (`npm install -g gitnexus` 선택) | 보통 | `setup`은 코딩 에이전트 설정 변경·전역 npm 설치 옵션 | 설치 검증 완료: `npx gitnexus --version` → `1.6.12`; `setup`은 에이전트 설정 변경으로 미실행 | 프로젝트 폴더 안에서 `npx gitnexus analyze`로 코드 관계를 색인한다. |
+| abhigyanpatwari/GitNexus | C (저장소 분석 CLI·선택 MCP 설정) | `npx gitnexus analyze` / `npx gitnexus setup` (`npm install -g gitnexus` 선택) | 보통 | `setup`은 코딩 에이전트 설정 변경·전역 npm 설치 옵션 | 설치 검증 완료: `npx gitnexus --version` → `1.6.12`; `setup`은 에이전트 설정 변경으로 미실행. MCP 서버로 Claude에 등록 완료(`gitnexus mcp`, API키 불필요). | 프로젝트 폴더 안에서 `npx gitnexus analyze`로 코드 관계를 색인한다. |
 | cloudflare/security-audit-skill | A (Claude Skill·보안 감사) | `npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit --global` | 쉬움 | 감사 실행 시 강한 격리 환경 권장·사용자 스킬 추가 | 설치 검증 완료: `~/.agents/skills/security-audit/SKILL.md` 생성 후 Claude `~/.claude/skills/security-audit/SKILL.md` 복사 및 SHA256 일치; PromptScript 연동만 실패 | Claude에게 현재 코드의 보안 감사를 요청한다. |
 | vercel-labs/skills | C (스킬 설치 CLI) | `npx skills add vercel-labs/agent-skills` | 쉬움 | 선택한 에이전트의 스킬 디렉터리 변경 가능 | 기설치 검증 완료: `npx skills --version` → `1.7.4`; 기존 Humanizer·Cloudflare 설치에 사용 | `npx skills find`로 스킬을 찾고 `npx skills add`로 추가한다. |
 | Yeachan-Heo/oh-my-codex | C (Codex 오케스트레이션 CLI) | `npm install -g oh-my-codex` | 보통 | 전역 npm 설치·Codex 워크플로 설정 변경 | 기설치 검증 완료: `omx --version` → `0.16.4`; 재설치로 덮어쓰기 하지 않음 | `omx doctor`로 Codex 도구 연결 상태를 검사한다. |
@@ -162,7 +162,7 @@
 | repo | 유형 | 설치명령 | 설치 결과 | 사용법 |
 |---|---|---|---|---|
 | AbdullahNaveed/ai-shorts-generator | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | Open-source AI short-form video generator — turn a topic into a captioned YouTube Shorts / TikTok / Reels vide |
-| ChromeDevTools/chrome-devtools-mcp | 설치 가능(스킬/에이전트) | 미확인 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | Chrome DevTools for coding agents |
+| ChromeDevTools/chrome-devtools-mcp | 설치 가능(스킬/에이전트) | 미확인 | 설치 완료(MCP 등록 · API키 불필요) | Chrome DevTools for coding agents |
 | Dark2C/Viral-Faceless-Shorts-Generator | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | Automatically generate faceless YouTube Shorts from trending topics using AI scripts, TTS, and FFmpeg. Fully c |
 | EverMind-AI/EverOS | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving acro |
 | Fincept-Corporation/FinceptTerminal | 설치 가능(CLI/앱) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and e |
@@ -205,9 +205,9 @@
 | chrisryugj/Docufinder | 설치 가능(CLI/앱) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Anything — 파일 이름이 아니라 본문으로 찾는 문서 검색기. HWP·PDF·Office 전문 검색을 오프라인으로. Windows·macOS / Offline content search acr |
 | chrisryugj/archhub-mcp | 보류 | 미확인 | 보류: API 키 필요 | 국토교통부 건축HUB → MCP 서버. 건축물대장·건축인허가·주택인허가 + 법정동코드 + 한 필지 종합카드·동 단위 통계·노후건축물 분석. 공용키 탑재 remote 커넥터(URL만 등록) |
 | chrisryugj/kordoc | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | 모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로. 양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 / Convert Korean documents (HW |
-| chrisryugj/korean-dart-mcp | 보류 | 미확인 | 보류: API 키 필요 | OpenDART 전자공시MCP / 83개 API → 15 MCP 도구. 공시·재무·지분·XBRL + 버핏급 애널리스트 프레임(내부자 시그널·회계 리스크·퀄리티 체크리스트) + HWP/PDF 첨부 마 |
-| chrisryugj/korean-law-mcp | 설치 가능(스킬/에이전트) | 미확인 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | 법제처 국가법령정보를 LLM에서 바로 조회하는 MCP 서버. 법령·판례·조례 검색과 인용 검증 / MCP server for Korean law — search statutes, precedents |
-| chrisryugj/korean-stats-mcp | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 국가데이터처 KOSIS, 이제 사이트에 들어가지 않습니다 — 91개 키워드 · 17개 시도 · 230여 자치구·시군 · 시계열 추세를 자연어로. 시정연설·의회 답변·정책보고서·민원 응대에 출처(통계 |
+| chrisryugj/korean-dart-mcp | 보류 | 미확인 | 설치 불가(DART_API_KEY 필요) | OpenDART 전자공시MCP / 83개 API → 15 MCP 도구. 공시·재무·지분·XBRL + 버핏급 애널리스트 프레임(내부자 시그널·회계 리스크·퀄리티 체크리스트) + HWP/PDF 첨부 마 |
+| chrisryugj/korean-law-mcp | 설치 가능(스킬/에이전트) | 미확인 | 설치 완료(MCP 등록 · API키 불필요) | 법제처 국가법령정보를 LLM에서 바로 조회하는 MCP 서버. 법령·판례·조례 검색과 인용 검증 / MCP server for Korean law — search statutes, precedents |
+| chrisryugj/korean-stats-mcp | 설치 가능(스킬/에이전트) | 미확인 | 설치 불가(KOSIS_API_KEY 필요) | 국가데이터처 KOSIS, 이제 사이트에 들어가지 않습니다 — 91개 키워드 · 17개 시도 · 230여 자치구·시군 · 시계열 추세를 자연어로. 시정연설·의회 답변·정책보고서·민원 응대에 출처(통계 |
 | colbymchenry/codegraph | 설치 가능(스킬/에이전트) | 미확인 | 설치 성공: `npm install -g @colbymchenry/codegraph` → `codegraph --help` 정상 출력(install/uninstall/telemetry/upgrade) | Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode |
 | danielgatis/rembg | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | Rembg is a tool to remove images background |
 | debpalash/VoiceStudio | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbin |
