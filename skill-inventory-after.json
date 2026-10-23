@@ -1,0 +1,63 @@
+{
+ "rows": [
+  {
+   "agent": "claude",
+   "path": "C:\\Users\\imda0\\.claude\\skills",
+   "real": 267,
+   "junction": 0,
+   "usable": 266
+  },
+  {
+   "agent": "gjc",
+   "path": "C:\\Users\\imda0\\.gjc\\agent\\skills",
+   "real": 335,
+   "junction": 0,
+   "usable": 329
+  },
+  {
+   "agent": "omo",
+   "path": "C:\\Users\\imda0\\.omo\\agent\\skills",
+   "real": 33,
+   "junction": 0,
+   "usable": 33
+  },
+  {
+   "agent": "pi",
+   "path": "C:\\Users\\imda0\\.pi\\agent\\skills",
+   "real": 158,
+   "junction": 0,
+   "usable": 158
+  },
+  {
+   "agent": "codex",
+   "path": "C:\\Users\\imda0\\.codex\\skills",
+   "real": 275,
+   "junction": 0,
+   "usable": 273
+  },
+  {
+   "agent": "agents",
+   "path": "C:\\Users\\imda0\\.agents\\skills",
+   "real": 675,
+   "junction": 0,
+   "usable": 674
+  }
+ ],
+ "must": [
+  "naver-coupang-register",
+  "china-sourcing",
+  "coupang-pricing",
+  "coupang-listing-seo",
+  "coupang-ads",
+  "rocket-growth-ops",
+  "ego-browser",
+  "insane-search",
+  "seo",
+  "doksam-design-guide",
+  "notebooklm",
+  "detail-page"
+ ],
+ "missing": [
+  "detail-page"
+ ]
+}

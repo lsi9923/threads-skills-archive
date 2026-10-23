@@ -1,0 +1,3558 @@
+{
+ "multi": 621,
+ "same": [
+  "ad-copy-qa",
+  "agent-team-design",
+  "agentlas",
+  "agentlas-auto-activation",
+  "agentlas-browser",
+  "agentlas-build",
+  "agentlas-call",
+  "agentlas-cloud",
+  "agentlas-connect",
+  "agentlas-graph",
+  "agentlas-hub",
+  "agentlas-local",
+  "agentlas-network",
+  "agentlas-one",
+  "agentlas-operations",
+  "agentlas-packaging",
+  "agentlas-search",
+  "agentlas-security-scan",
+  "agentlas-storm",
+  "agentlas-upload",
+  "agy",
+  "ai-slop-cleaner",
+  "analyze",
+  "api-design",
+  "argo-vault",
+  "argo-vault-sync",
+  "article-writing",
+  "arxiv",
+  "ask",
+  "aspnet-core",
+  "assembly-bill-vote-search",
+  "automation-audit-ops",
+  "autopilot",
+  "autoresearch",
+  "autoresearch-goal",
+  "autoreview",
+  "base-blockchain",
+  "biz-health-check",
+  "blogwatcher",
+  "bok-ecos-stats",
+  "brainstorming",
+  "brand",
+  "browser-ko",
+  "building-register-search",
+  "bunjang-search",
+  "cancel",
+  "canvas-design",
+  "catchtable-sniper",
+  "channel-message-flows",
+  "chatgpt-apps",
+  "cheap-gas-nearby",
+  "chroma",
+  "chrome-ui-safe",
+  "clarify-question-loop",
+  "cloudflare-deploy",
+  "code-review",
+  "codex-web-gpt-setup",
+  "cold-email",
+  "computer-use-ko",
+  "configure-notifications",
+  "corporate-registration-consulting",
+  "coupang-product-search",
+  "coupang-sudong-skill",
+  "court-auction-notice-search",
+  "court-payment-order-assistant",
+  "crawling-overseas-sourcing-excel",
+  "crew-orchestrator",
+  "d2b-notice-search",
+  "daangn-cars-search",
+  "daangn-jobs-search",
+  "daangn-realty-search",
+  "daangn-used-goods-search",
+  "daishin-report-search",
+  "daiso-product-search",
+  "danawa-price-search",
+  "deep-research",
+  "defuddle",
+  "delivery-tracking",
+  "design-system",
+  "develop-web-game",
+  "dispatching-parallel-agents",
+  "distributed-triage",
+  "docker-management",
+  "doctor",
+  "doksam-design-guide",
+  "donation-place-search",
+  "duckduckgo-search",
+  "ecommerce-detail-page",
+  "ego-browser",
+  "emergency-room-beds",
+  "ev-charger-nearby",
+  "ev-subsidy-status",
+  "excalidraw",
+  "express-bus-booking",
+  "extract-errors",
+  "faiss",
+  "fashion-trend",
+  "feature-flags",
+  "figma-implement-design",
+  "find-skills",
+  "fine-dust-location",
+  "fire-your-seo-agency",
+  "flash-attention",
+  "flight-ticket-search",
+  "foresttrip-vacancy",
+  "frontend-design",
+  "frontend-design-direction",
+  "frontend-skill",
+  "fsc-corporate-info",
+  "g2b-order-plan-search",
+  "g2b-sanctioned-supplier",
+  "gajae-code-identity",
+  "gangnamunni-clinic-search",
+  "geeknews-search",
+  "gh-address-comments",
+  "gh-fix-ci",
+  "github-code-review",
+  "github-issues",
+  "github-pr-workflow",
+  "gjc-delegation",
+  "gjcmode",
+  "go",
+  "gongsijiga-search",
+  "google-workspace",
+  "gov-overseas-trip-report",
+  "gptaku-codex-bridge",
+  "gptaku-deep-research",
+  "gws-admin-reports",
+  "gws-calendar",
+  "gws-calendar-agenda",
+  "gws-calendar-insert",
+  "gws-chat",
+  "gws-chat-send",
+  "gws-classroom",
+  "gws-docs",
+  "gws-docs-write",
+  "gws-drive",
+  "gws-drive-upload",
+  "gws-events",
+  "gws-events-renew",
+  "gws-events-subscribe",
+  "gws-forms",
+  "gws-gmail",
+  "gws-gmail-forward",
+  "gws-gmail-read",
+  "gws-gmail-reply",
+  "gws-gmail-reply-all",
+  "gws-gmail-send",
+  "gws-gmail-triage",
+  "gws-gmail-watch",
+  "gws-keep",
+  "gws-meet",
+  "gws-modelarmor",
+  "gws-modelarmor-create-template",
+  "gws-modelarmor-sanitize-prompt",
+  "gws-modelarmor-sanitize-response",
+  "gws-people",
+  "gws-script",
+  "gws-script-push",
+  "gws-shared",
+  "gws-sheets",
+  "gws-sheets-append",
+  "gws-sheets-read",
+  "gws-slides",
+  "gws-tasks",
+  "gws-workflow",
+  "gws-workflow-email-to-task",
+  "gws-workflow-file-announce",
+  "gws-workflow-meeting-prep",
+  "gws-workflow-standup-report",
+  "gws-workflow-weekly-digest",
+  "han-river-water-level",
+  "hephaestus-cloud",
+  "hephaestus-graph",
+  "hephaestus-network",
+  "hephaestus-orchestrator",
+  "hephaestus-storm",
+  "hephaestus-upload",
+  "heretic",
+  "hermes-compress",
+  "hermes-insights",
+  "hermes-memory",
+  "hermes-persona",
+  "hermes-route",
+  "hermes-search",
+  "hermes-skill",
+  "hermes-slack-meeting-room",
+  "hermes-traj",
+  "highway-traffic-status",
+  "hipass-receipt",
+  "hola-poke-yeoksam",
+  "honcho",
+  "household-waste-info",
+  "housing-official-price",
+  "hud",
+  "huggingface-hub",
+  "hwp",
+  "hwpx",
+  "imagegen",
+  "impeccable",
+  "imported-.claude-skills-cf-crawl-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-arxiv-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-base-blockchain-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-blogwatcher-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-chroma-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-docker-management-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-duckduckgo-search-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-excalidraw-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-faiss-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-flash-attention-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-github-code-review-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-github-issues-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-github-pr-workflow-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-google-workspace-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-grpo-rl-training-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-hermes-compress-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-hermes-insights-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-hermes-memory-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-hermes-persona-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-hermes-route-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-hermes-search-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-hermes-skill-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-hermes-traj-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-honcho-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-huggingface-hub-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-instructor-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-jupyter-live-kernel-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-linear-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-llama-cpp-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-manim-video-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-mcporter-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-native-mcp-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-one-password-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-oss-forensics-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-pinecone-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-polymarket-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-qdrant-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-research-paper-writing-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-sherlock-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-solana-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-stable-diffusion-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-subagent-driven-development-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-systematic-debugging-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-test-driven-development-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-vllm-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-whisper-20260424-040044",
+  "imported-1_skills-hermes-ccc-skills-youtube-content-20260424-040044",
+  "imported-1_skills-skillsmp-search-20260424-040044",
+  "imported-1_skills-stitch-skills-skills-design-md-20260424-040044",
+  "imported-1_skills-stitch-skills-skills-enhance-prompt-20260424-040044",
+  "imported-1_skills-stitch-skills-skills-react-components-20260424-040044",
+  "imported-1_skills-stitch-skills-skills-remotion-20260424-040044",
+  "imported-1_skills-stitch-skills-skills-shadcn-ui-20260424-040044",
+  "imported-1_skills-stitch-skills-skills-stitch-loop-20260424-040044",
+  "imported-3_web_and_dashboards-my-app-.agents-skills-base44-cli-20260424-040044",
+  "imported-3_web_and_dashboards-my-app-.agents-skills-base44-sdk-20260424-040044",
+  "imported-cd-manus-project-.agents-skills-base44-cli-20260424-040044",
+  "imported-cd-manus-project-.agents-skills-base44-sdk-20260424-040044",
+  "imported-insane-design-skills-insane-design-20260424-040044",
+  "imported-skills-1password-20260424-040044",
+  "imported-skills-apple-notes-20260424-040044",
+  "imported-skills-apple-reminders-20260424-040044",
+  "imported-skills-bear-notes-20260424-040044",
+  "imported-skills-blogwatcher-20260424-040044",
+  "imported-skills-blucli-20260424-040044",
+  "imported-skills-bluebubbles-20260424-040044",
+  "imported-skills-camsnap-20260424-040044",
+  "imported-skills-discord-20260424-040044",
+  "imported-skills-eightctl-20260424-040044",
+  "imported-skills-gemini-20260424-040044",
+  "imported-skills-gh-issues-20260424-040044",
+  "imported-skills-gifgrep-20260424-040044",
+  "imported-skills-github-20260424-040044",
+  "imported-skills-gog-20260424-040044",
+  "imported-skills-goplaces-20260424-040044",
+  "imported-skills-healthcheck-20260424-040044",
+  "imported-skills-himalaya-20260424-040044",
+  "imported-skills-imsg-20260424-040044",
+  "imported-skills-mcporter-20260424-040044",
+  "imported-skills-model-usage-20260424-040044",
+  "imported-skills-nano-banana-pro-20260424-040044",
+  "imported-skills-nano-pdf-20260424-040044",
+  "imported-skills-notion-20260424-040044",
+  "imported-skills-obsidian-20260424-040044",
+  "imported-skills-openai-image-gen-20260424-040044",
+  "imported-skills-openai-whisper-20260424-040044",
+  "imported-skills-openai-whisper-api-20260424-040044",
+  "imported-skills-openhue-20260424-040044",
+  "imported-skills-oracle-20260424-040044",
+  "imported-skills-ordercli-20260424-040044",
+  "imported-skills-peekaboo-20260424-040044",
+  "imported-skills-sag-20260424-040044",
+  "imported-skills-session-logs-20260424-040044",
+  "imported-skills-sherpa-onnx-tts-20260424-040044",
+  "imported-skills-skill-creator-20260424-040044",
+  "imported-skills-slack-20260424-040044",
+  "imported-skills-songsee-20260424-040044",
+  "imported-skills-sonoscli-20260424-040044",
+  "imported-skills-spotify-player-20260424-040044",
+  "imported-skills-summarize-20260424-040044",
+  "imported-skills-things-mac-20260424-040044",
+  "imported-skills-tmux-20260424-040044",
+  "imported-skills-trello-20260424-040044",
+  "imported-skills-video-frames-20260424-040044",
+  "imported-skills-voice-call-20260424-040044",
+  "imported-skills-weather-20260424-040044",
+  "imported-stitch-skills-skills-enhance-prompt-20260424-040044",
+  "imported-stitch-skills-skills-react-components-20260424-040044",
+  "imported-stitch-skills-skills-remotion-20260424-040044",
+  "imported-stitch-skills-skills-shadcn-ui-20260424-040044",
+  "imported-stitch-skills-skills-stitch-loop-20260424-040044",
+  "insane-research",
+  "insane-research-main",
+  "insane-research-query",
+  "insane-search.backup-20260605-030150",
+  "install-verification",
+  "instructor",
+  "intercity-bus-booking",
+  "iros-registry-automation",
+  "job-posting-match",
+  "jobkorea-talent-search",
+  "joseon-sillok-search",
+  "json-canvas",
+  "json-render",
+  "jupyter-notebook",
+  "k-dart",
+  "k-schoollunch-menu",
+  "k-skill-cleaner",
+  "k-skill-setup",
+  "kakao-bar-nearby",
+  "kakao-map",
+  "kakaotalk-mac",
+  "kanban-video-orchestrator",
+  "kbl-results",
+  "kbo-results",
+  "keris-academic-search",
+  "kleague-results",
+  "kopis-performance-search",
+  "korea-weather",
+  "korean-character-count",
+  "korean-cinema-search",
+  "korean-heritage-search",
+  "korean-holiday-calendar",
+  "korean-humanizer",
+  "korean-jangbu-for",
+  "korean-law-search",
+  "korean-marathon-schedule",
+  "korean-middle-korean",
+  "korean-patent-search",
+  "korean-privacy-terms",
+  "korean-scholarship-search",
+  "korean-slang-writing",
+  "korean-spell-check",
+  "korean-stock-search",
+  "korean-transit-route",
+  "kosis-stats",
+  "kr-whois-lookup",
+  "kstartup-search",
+  "ktx-booking",
+  "lazyweb-add-inspo-source",
+  "lazyweb-design-brainstorm",
+  "lazyweb-design-improve",
+  "lazyweb-design-research",
+  "lazyweb-quick-references",
+  "lazyweb-remove-inspo-source",
+  "lck-analytics",
+  "lh-notice-search",
+  "library-book-search",
+  "llama-cpp",
+  "llm-runtime-architecture",
+  "local-election-candidate-search",
+  "localdata-business-status",
+  "loop-design-check",
+  "lotto-results",
+  "lovebug-report",
+  "maker-selling-register",
+  "manim-video",
+  "market-kurly-search",
+  "marketing-psychology",
+  "meeting-notes",
+  "memory-curator",
+  "memory-ticketing",
+  "meta-title",
+  "mfds-drug-safety",
+  "mfds-food-safety",
+  "migration",
+  "mode-classification",
+  "moneyprinterturbo-video",
+  "myrealtrip-search",
+  "naming-house",
+  "national-pension-workplace",
+  "naver-ad-performance",
+  "naver-blog-research",
+  "naver-coupang-register",
+  "naver-news-search",
+  "naver-rank-probe",
+  "naver-seo-sudong-skill",
+  "naver-shopping-listing",
+  "naver-shopping-search",
+  "netlify-deploy",
+  "newsletter-title",
+  "nhis-care-checkup-search",
+  "notebooklm",
+  "notion-knowledge-capture",
+  "notion-meeting-intelligence",
+  "notion-research-documentation",
+  "notion-spec-to-implementation",
+  "nts-business-registration",
+  "nts-tax-delinquency",
+  "obsidian-bases",
+  "obsidian-cli",
+  "obsidian-markdown",
+  "ohou-today-deal",
+  "olive-young-search",
+  "omd-coach",
+  "omd-critique",
+  "omd-figma",
+  "omd-humanize",
+  "omd-scout",
+  "omd-ultradesign",
+  "omx-setup",
+  "one-password",
+  "ontology-engine",
+  "openai-docs",
+  "oracle",
+  "orca-coordinator",
+  "oss-forensics",
+  "parking-lot-search",
+  "performance-goal",
+  "persona-content-creator",
+  "persona-customer-support",
+  "persona-event-coordinator",
+  "persona-exec-assistant",
+  "persona-hr-coordinator",
+  "persona-it-admin",
+  "persona-project-manager",
+  "persona-researcher",
+  "persona-sales-ops",
+  "persona-team-lead",
+  "pinecone",
+  "pipeline",
+  "pixel-agent-office-simulator",
+  "playwright",
+  "playwright-interactive",
+  "pm-soul",
+  "polish",
+  "popbill",
+  "product-detail-page",
+  "public-plugin-packaging",
+  "public-restroom-nearby",
+  "qdrant",
+  "quality",
+  "ralph",
+  "ready",
+  "real-estate-search",
+  "recipe-backup-sheet-as-csv",
+  "recipe-batch-invite-to-event",
+  "recipe-block-focus-time",
+  "recipe-bulk-download-folder",
+  "recipe-collect-form-responses",
+  "recipe-compare-sheet-tabs",
+  "recipe-copy-sheet-for-new-month",
+  "recipe-create-classroom-course",
+  "recipe-create-doc-from-template",
+  "recipe-create-events-from-sheet",
+  "recipe-create-expense-tracker",
+  "recipe-create-feedback-form",
+  "recipe-create-gmail-filter",
+  "recipe-create-meet-space",
+  "recipe-create-presentation",
+  "recipe-create-shared-drive",
+  "recipe-create-task-list",
+  "recipe-create-vacation-responder",
+  "recipe-draft-email-from-doc",
+  "recipe-email-drive-link",
+  "recipe-find-free-time",
+  "recipe-find-large-files",
+  "recipe-forward-labeled-emails",
+  "recipe-generate-report-from-sheet",
+  "recipe-label-and-archive-emails",
+  "recipe-log-deal-update",
+  "recipe-organize-drive-folder",
+  "recipe-plan-weekly-schedule",
+  "recipe-post-mortem-setup",
+  "recipe-reschedule-meeting",
+  "recipe-review-meet-participants",
+  "recipe-review-overdue-tasks",
+  "recipe-save-email-attachments",
+  "recipe-save-email-to-doc",
+  "recipe-schedule-recurring-event",
+  "recipe-send-team-announcement",
+  "recipe-share-doc-and-notify",
+  "recipe-share-event-materials",
+  "recipe-share-folder-with-team",
+  "recipe-sync-contacts-to-sheet",
+  "recipe-watch-drive-changes",
+  "render-deploy",
+  "research-paper-writing",
+  "reverse-engineer-anything",
+  "rhwp-advanced",
+  "rhwp-edit",
+  "routing-card-authoring",
+  "runtime-adapters",
+  "s2b-notice-search",
+  "saju-fortune",
+  "sang-a-mode",
+  "saramin-talent-search",
+  "scrapling-crawler",
+  "screenshot",
+  "security-audit",
+  "security-best-practices",
+  "security-ownership-map",
+  "security-threat-model",
+  "self-evolving-single-agent",
+  "sentry",
+  "seo",
+  "seo-agentic",
+  "seo-audit",
+  "seo-backlinks",
+  "seo-cluster",
+  "seo-competitor-pages",
+  "seo-content",
+  "seo-content-brief",
+  "seo-dataforseo",
+  "seo-drift",
+  "seo-ecommerce",
+  "seo-flow",
+  "seo-geo",
+  "seo-google",
+  "seo-hreflang",
+  "seo-image-gen",
+  "seo-images",
+  "seo-local",
+  "seo-maps",
+  "seo-outline",
+  "seo-page",
+  "seo-plan",
+  "seo-programmatic",
+  "seo-schema",
+  "seo-sitemap",
+  "seo-sxo",
+  "seo-technical",
+  "seoul-bike",
+  "seoul-density",
+  "seoul-subway-arrival",
+  "session-agent-builder",
+  "sh-notice-search",
+  "sherlock",
+  "sitemap-task-bias",
+  "skill",
+  "skill-lifecycle-promotion",
+  "skillsmp-search",
+  "sleek-design-mobile-apps",
+  "solana",
+  "sonol-agent-runtime",
+  "sonol-multi-agent",
+  "sora",
+  "sourcing-top50-curator",
+  "speech",
+  "srt-booking",
+  "stable-diffusion",
+  "subagent-driven-development",
+  "subway-lost-property",
+  "system-one-connector",
+  "systematic-debugging",
+  "tailwind-design-system",
+  "team",
+  "team-builder-packaging",
+  "test-driven-development",
+  "ticket-availability",
+  "toss-securities",
+  "transcribe",
+  "ui-ux-pro-max",
+  "ultimate-browsing",
+  "ultraqa",
+  "ultrawork",
+  "used-car-price-search",
+  "vercel-deploy",
+  "vercel-react-best-practices",
+  "visual-ralph",
+  "vllm",
+  "wiki",
+  "winui-app",
+  "worker",
+  "yd-agents-mem",
+  "yd-agents-yaml",
+  "yd-blueprint",
+  "yd-db-expert",
+  "yd-doksam-ui",
+  "yd-finguard",
+  "yd-frontend-build",
+  "yd-git-ship",
+  "yd-go-expert",
+  "yd-handoff",
+  "yd-memory-factcheck",
+  "yd-mobile-web-planner",
+  "yd-nextjs-implementer",
+  "yd-oracle-expert",
+  "yd-pg-expert",
+  "yd-react-expert",
+  "yd-sdlc-orchestrator",
+  "yd-session-recording",
+  "yd-skill-evolve",
+  "yd-sqlite-expert",
+  "yd-typescript",
+  "yd-writer-kr",
+  "yebigun-training",
+  "yeet",
+  "youtube-content",
+  "zipcode-search"
+ ],
+ "diff": [
+  "aside-browser",
+  "computer-use",
+  "deep-interview",
+  "dori-mode",
+  "figma",
+  "insane-design",
+  "insane-search",
+  "orca-cli",
+  "orchestration",
+  "ralplan",
+  "ultragoal"
+ ],
+ "reclaim_mb": 6362.2,
+ "detail": {
+  "ad-copy-qa": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\ad-copy-qa",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ad-copy-qa",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ad-copy-qa",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ad-copy-qa"
+  },
+  "api-design": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\api-design",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\api-design",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\api-design",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\api-design"
+  },
+  "article-writing": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\article-writing",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\article-writing",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\article-writing",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\article-writing"
+  },
+  "arxiv": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\arxiv",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\arxiv"
+  },
+  "aside-browser": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\aside-browser",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\aside-browser",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\aside-browser",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\aside-browser"
+  },
+  "assembly-bill-vote-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\assembly-bill-vote-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\assembly-bill-vote-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\assembly-bill-vote-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\assembly-bill-vote-search"
+  },
+  "automation-audit-ops": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\automation-audit-ops",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\automation-audit-ops",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\automation-audit-ops",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\automation-audit-ops"
+  },
+  "autoreview": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\autoreview",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\autoreview",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\autoreview",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\autoreview"
+  },
+  "base-blockchain": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\base-blockchain",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\base-blockchain"
+  },
+  "biz-health-check": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\biz-health-check",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\biz-health-check",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\biz-health-check",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\biz-health-check"
+  },
+  "blogwatcher": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\blogwatcher",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\blogwatcher"
+  },
+  "bok-ecos-stats": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\bok-ecos-stats",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\bok-ecos-stats",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\bok-ecos-stats",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\bok-ecos-stats"
+  },
+  "brainstorming": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\brainstorming",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\brainstorming",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\brainstorming",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\brainstorming"
+  },
+  "brand": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\brand",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\brand",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\brand",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\brand"
+  },
+  "building-register-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\building-register-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\building-register-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\building-register-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\building-register-search"
+  },
+  "bunjang-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\bunjang-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\bunjang-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\bunjang-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\bunjang-search"
+  },
+  "catchtable-sniper": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\catchtable-sniper",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\catchtable-sniper",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\catchtable-sniper",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\catchtable-sniper"
+  },
+  "channel-message-flows": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\channel-message-flows",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\channel-message-flows",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\channel-message-flows",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\channel-message-flows"
+  },
+  "cheap-gas-nearby": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\cheap-gas-nearby",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\cheap-gas-nearby",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\cheap-gas-nearby",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\cheap-gas-nearby"
+  },
+  "chroma": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\chroma",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\chroma"
+  },
+  "codex-web-gpt-setup": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\codex-web-gpt-setup",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\codex-web-gpt-setup",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\codex-web-gpt-setup",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\codex-web-gpt-setup"
+  },
+  "cold-email": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\cold-email",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\cold-email",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\cold-email",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\cold-email"
+  },
+  "computer-use": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\computer-use",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\computer-use",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\computer-use",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\computer-use"
+  },
+  "corporate-registration-consulting": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\corporate-registration-consulting",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\corporate-registration-consulting",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\corporate-registration-consulting",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\corporate-registration-consulting"
+  },
+  "coupang-product-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\coupang-product-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\coupang-product-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\coupang-product-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\coupang-product-search"
+  },
+  "court-auction-notice-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\court-auction-notice-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\court-auction-notice-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\court-auction-notice-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\court-auction-notice-search"
+  },
+  "court-payment-order-assistant": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\court-payment-order-assistant",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\court-payment-order-assistant",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\court-payment-order-assistant",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\court-payment-order-assistant"
+  },
+  "d2b-notice-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\d2b-notice-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\d2b-notice-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\d2b-notice-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\d2b-notice-search"
+  },
+  "daangn-cars-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\daangn-cars-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\daangn-cars-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\daangn-cars-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\daangn-cars-search"
+  },
+  "daangn-jobs-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\daangn-jobs-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\daangn-jobs-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\daangn-jobs-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\daangn-jobs-search"
+  },
+  "daangn-realty-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\daangn-realty-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\daangn-realty-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\daangn-realty-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\daangn-realty-search"
+  },
+  "daangn-used-goods-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\daangn-used-goods-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\daangn-used-goods-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\daangn-used-goods-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\daangn-used-goods-search"
+  },
+  "daishin-report-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\daishin-report-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\daishin-report-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\daishin-report-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\daishin-report-search"
+  },
+  "daiso-product-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\daiso-product-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\daiso-product-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\daiso-product-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\daiso-product-search"
+  },
+  "danawa-price-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\danawa-price-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\danawa-price-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\danawa-price-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\danawa-price-search"
+  },
+  "deep-research": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\deep-research",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\deep-research",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\deep-research",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\deep-research"
+  },
+  "delivery-tracking": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\delivery-tracking",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\delivery-tracking",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\delivery-tracking",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\delivery-tracking"
+  },
+  "design-system": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\design-system",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\design-system",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\design-system",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\design-system"
+  },
+  "dispatching-parallel-agents": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\dispatching-parallel-agents",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\dispatching-parallel-agents",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\dispatching-parallel-agents",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\dispatching-parallel-agents"
+  },
+  "distributed-triage": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\distributed-triage",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\distributed-triage",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\distributed-triage",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\distributed-triage"
+  },
+  "docker-management": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\docker-management",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\docker-management"
+  },
+  "doksam-design-guide": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\doksam-design-guide",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\doksam-design-guide"
+  },
+  "donation-place-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\donation-place-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\donation-place-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\donation-place-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\donation-place-search"
+  },
+  "duckduckgo-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\duckduckgo-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\duckduckgo-search"
+  },
+  "ego-browser": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\ego-browser",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\ego-browser",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ego-browser",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ego-browser"
+  },
+  "emergency-room-beds": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\emergency-room-beds",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\emergency-room-beds",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\emergency-room-beds",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\emergency-room-beds"
+  },
+  "ev-charger-nearby": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\ev-charger-nearby",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ev-charger-nearby",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\ev-charger-nearby",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ev-charger-nearby"
+  },
+  "ev-subsidy-status": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\ev-subsidy-status",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ev-subsidy-status",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\ev-subsidy-status",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ev-subsidy-status"
+  },
+  "excalidraw": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\excalidraw",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\excalidraw"
+  },
+  "express-bus-booking": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\express-bus-booking",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\express-bus-booking",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\express-bus-booking",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\express-bus-booking"
+  },
+  "extract-errors": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\extract-errors",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\extract-errors",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\extract-errors",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\extract-errors"
+  },
+  "faiss": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\faiss",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\faiss"
+  },
+  "feature-flags": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\feature-flags",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\feature-flags",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\feature-flags",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\feature-flags"
+  },
+  "fine-dust-location": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\fine-dust-location",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\fine-dust-location",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\fine-dust-location",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\fine-dust-location"
+  },
+  "fire-your-seo-agency": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\fire-your-seo-agency",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\fire-your-seo-agency",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\fire-your-seo-agency",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\fire-your-seo-agency",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\fire-your-seo-agency",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\fire-your-seo-agency"
+  },
+  "flash-attention": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\flash-attention",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\flash-attention"
+  },
+  "flight-ticket-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\flight-ticket-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\flight-ticket-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\flight-ticket-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\flight-ticket-search"
+  },
+  "foresttrip-vacancy": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\foresttrip-vacancy",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\foresttrip-vacancy",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\foresttrip-vacancy",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\foresttrip-vacancy"
+  },
+  "frontend-design-direction": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\frontend-design-direction",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\frontend-design-direction",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\frontend-design-direction",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\frontend-design-direction"
+  },
+  "fsc-corporate-info": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\fsc-corporate-info",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\fsc-corporate-info",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\fsc-corporate-info",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\fsc-corporate-info"
+  },
+  "g2b-order-plan-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\g2b-order-plan-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\g2b-order-plan-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\g2b-order-plan-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\g2b-order-plan-search"
+  },
+  "g2b-sanctioned-supplier": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\g2b-sanctioned-supplier",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\g2b-sanctioned-supplier",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\g2b-sanctioned-supplier",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\g2b-sanctioned-supplier"
+  },
+  "gangnamunni-clinic-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\gangnamunni-clinic-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gangnamunni-clinic-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\gangnamunni-clinic-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gangnamunni-clinic-search"
+  },
+  "geeknews-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\geeknews-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\geeknews-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\geeknews-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\geeknews-search"
+  },
+  "github-code-review": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\github-code-review",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\github-code-review"
+  },
+  "github-issues": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\github-issues",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\github-issues"
+  },
+  "github-pr-workflow": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\github-pr-workflow",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\github-pr-workflow"
+  },
+  "gjc-delegation": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\gjc-delegation",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gjc-delegation",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\gjc-delegation",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gjc-delegation"
+  },
+  "gongsijiga-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\gongsijiga-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gongsijiga-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\gongsijiga-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gongsijiga-search"
+  },
+  "google-workspace": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\google-workspace",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\google-workspace"
+  },
+  "gov-overseas-trip-report": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\gov-overseas-trip-report",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gov-overseas-trip-report",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\gov-overseas-trip-report",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gov-overseas-trip-report"
+  },
+  "han-river-water-level": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\han-river-water-level",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\han-river-water-level",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\han-river-water-level",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\han-river-water-level"
+  },
+  "hermes-compress": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hermes-compress",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hermes-compress"
+  },
+  "hermes-insights": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hermes-insights",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hermes-insights"
+  },
+  "hermes-memory": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hermes-memory",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hermes-memory"
+  },
+  "hermes-persona": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hermes-persona",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hermes-persona"
+  },
+  "hermes-route": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hermes-route",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hermes-route"
+  },
+  "hermes-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hermes-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hermes-search"
+  },
+  "hermes-skill": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hermes-skill",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hermes-skill"
+  },
+  "hermes-traj": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hermes-traj",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hermes-traj"
+  },
+  "highway-traffic-status": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\highway-traffic-status",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\highway-traffic-status",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\highway-traffic-status",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\highway-traffic-status"
+  },
+  "hipass-receipt": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hipass-receipt",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\hipass-receipt",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\hipass-receipt",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hipass-receipt"
+  },
+  "hola-poke-yeoksam": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hola-poke-yeoksam",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\hola-poke-yeoksam",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\hola-poke-yeoksam",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hola-poke-yeoksam"
+  },
+  "honcho": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\honcho",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\honcho"
+  },
+  "household-waste-info": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\household-waste-info",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\household-waste-info",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\household-waste-info",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\household-waste-info"
+  },
+  "housing-official-price": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\housing-official-price",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\housing-official-price",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\housing-official-price",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\housing-official-price"
+  },
+  "huggingface-hub": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\huggingface-hub",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\huggingface-hub"
+  },
+  "hwp": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\hwp",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\hwp",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\hwp",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hwp"
+  },
+  "insane-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\insane-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\insane-search",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\insane-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\insane-search"
+  },
+  "instructor": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\instructor",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\instructor"
+  },
+  "intercity-bus-booking": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\intercity-bus-booking",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\intercity-bus-booking",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\intercity-bus-booking",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\intercity-bus-booking"
+  },
+  "iros-registry-automation": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\iros-registry-automation",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\iros-registry-automation",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\iros-registry-automation",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\iros-registry-automation"
+  },
+  "job-posting-match": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\job-posting-match",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\job-posting-match",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\job-posting-match",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\job-posting-match"
+  },
+  "jobkorea-talent-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\jobkorea-talent-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\jobkorea-talent-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\jobkorea-talent-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\jobkorea-talent-search"
+  },
+  "joseon-sillok-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\joseon-sillok-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\joseon-sillok-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\joseon-sillok-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\joseon-sillok-search"
+  },
+  "k-dart": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\k-dart",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\k-dart",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\k-dart",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\k-dart"
+  },
+  "k-schoollunch-menu": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\k-schoollunch-menu",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\k-schoollunch-menu",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\k-schoollunch-menu",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\k-schoollunch-menu"
+  },
+  "k-skill-cleaner": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\k-skill-cleaner",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\k-skill-cleaner",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\k-skill-cleaner",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\k-skill-cleaner"
+  },
+  "k-skill-setup": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\k-skill-setup",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\k-skill-setup",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\k-skill-setup",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\k-skill-setup"
+  },
+  "kakao-bar-nearby": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kakao-bar-nearby",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kakao-bar-nearby",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\kakao-bar-nearby",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kakao-bar-nearby"
+  },
+  "kakao-map": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kakao-map",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kakao-map",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\kakao-map",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kakao-map"
+  },
+  "kakaotalk-mac": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kakaotalk-mac",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kakaotalk-mac",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\kakaotalk-mac",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kakaotalk-mac"
+  },
+  "kanban-video-orchestrator": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kanban-video-orchestrator",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kanban-video-orchestrator",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\kanban-video-orchestrator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kanban-video-orchestrator"
+  },
+  "kbl-results": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kbl-results",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kbl-results",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\kbl-results",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kbl-results"
+  },
+  "kbo-results": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kbo-results",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kbo-results",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\kbo-results",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kbo-results"
+  },
+  "keris-academic-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\keris-academic-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\keris-academic-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\keris-academic-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\keris-academic-search"
+  },
+  "kleague-results": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kleague-results",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kleague-results",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\kleague-results",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kleague-results"
+  },
+  "kopis-performance-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kopis-performance-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kopis-performance-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\kopis-performance-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kopis-performance-search"
+  },
+  "korea-weather": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korea-weather",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korea-weather",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korea-weather",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korea-weather"
+  },
+  "korean-character-count": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-character-count",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-character-count",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-character-count",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-character-count"
+  },
+  "korean-cinema-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-cinema-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-cinema-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-cinema-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-cinema-search"
+  },
+  "korean-heritage-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-heritage-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-heritage-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-heritage-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-heritage-search"
+  },
+  "korean-holiday-calendar": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-holiday-calendar",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-holiday-calendar",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-holiday-calendar",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-holiday-calendar"
+  },
+  "korean-humanizer": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-humanizer",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-humanizer",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-humanizer",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-humanizer"
+  },
+  "korean-jangbu-for": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-jangbu-for",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-jangbu-for",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-jangbu-for",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-jangbu-for"
+  },
+  "korean-law-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-law-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-law-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-law-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-law-search"
+  },
+  "korean-marathon-schedule": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-marathon-schedule",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-marathon-schedule",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-marathon-schedule",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-marathon-schedule"
+  },
+  "korean-middle-korean": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-middle-korean",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-middle-korean",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-middle-korean",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-middle-korean"
+  },
+  "korean-patent-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-patent-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-patent-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-patent-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-patent-search"
+  },
+  "korean-privacy-terms": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-privacy-terms",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-privacy-terms",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-privacy-terms",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-privacy-terms"
+  },
+  "korean-scholarship-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-scholarship-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-scholarship-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-scholarship-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-scholarship-search"
+  },
+  "korean-slang-writing": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-slang-writing",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-slang-writing",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-slang-writing",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-slang-writing"
+  },
+  "korean-spell-check": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-spell-check",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-spell-check",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-spell-check",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-spell-check"
+  },
+  "korean-stock-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-stock-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-stock-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-stock-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-stock-search"
+  },
+  "korean-transit-route": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\korean-transit-route",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\korean-transit-route",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\korean-transit-route",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\korean-transit-route"
+  },
+  "kosis-stats": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kosis-stats",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kosis-stats",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\kosis-stats",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kosis-stats"
+  },
+  "kr-whois-lookup": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kr-whois-lookup",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kr-whois-lookup",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\kr-whois-lookup",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kr-whois-lookup"
+  },
+  "kstartup-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\kstartup-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\kstartup-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\kstartup-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\kstartup-search"
+  },
+  "ktx-booking": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\ktx-booking",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ktx-booking",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\ktx-booking",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ktx-booking"
+  },
+  "lck-analytics": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\lck-analytics",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\lck-analytics",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\lck-analytics",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\lck-analytics"
+  },
+  "lh-notice-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\lh-notice-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\lh-notice-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\lh-notice-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\lh-notice-search"
+  },
+  "library-book-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\library-book-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\library-book-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\library-book-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\library-book-search"
+  },
+  "llama-cpp": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\llama-cpp",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\llama-cpp"
+  },
+  "local-election-candidate-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\local-election-candidate-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\local-election-candidate-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\local-election-candidate-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\local-election-candidate-search"
+  },
+  "localdata-business-status": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\localdata-business-status",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\localdata-business-status",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\localdata-business-status",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\localdata-business-status"
+  },
+  "loop-design-check": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\loop-design-check",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\loop-design-check",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\loop-design-check",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\loop-design-check"
+  },
+  "lotto-results": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\lotto-results",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\lotto-results",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\lotto-results",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\lotto-results"
+  },
+  "lovebug-report": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\lovebug-report",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\lovebug-report",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\lovebug-report",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\lovebug-report"
+  },
+  "manim-video": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\manim-video",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\manim-video"
+  },
+  "market-kurly-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\market-kurly-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\market-kurly-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\market-kurly-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\market-kurly-search"
+  },
+  "marketing-psychology": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\marketing-psychology",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\marketing-psychology",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\marketing-psychology",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\marketing-psychology"
+  },
+  "meeting-notes": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\meeting-notes",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\meeting-notes",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\meeting-notes",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\meeting-notes"
+  },
+  "meta-title": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\meta-title",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\meta-title",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\meta-title",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\meta-title",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\meta-title",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\meta-title"
+  },
+  "mfds-drug-safety": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\mfds-drug-safety",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\mfds-drug-safety",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\mfds-drug-safety",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\mfds-drug-safety"
+  },
+  "mfds-food-safety": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\mfds-food-safety",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\mfds-food-safety",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\mfds-food-safety",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\mfds-food-safety"
+  },
+  "moneyprinterturbo-video": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\moneyprinterturbo-video",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\moneyprinterturbo-video",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\moneyprinterturbo-video",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\moneyprinterturbo-video"
+  },
+  "myrealtrip-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\myrealtrip-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\myrealtrip-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\myrealtrip-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\myrealtrip-search"
+  },
+  "naming-house": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\naming-house",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\naming-house",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\naming-house",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\naming-house"
+  },
+  "national-pension-workplace": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\national-pension-workplace",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\national-pension-workplace",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\national-pension-workplace",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\national-pension-workplace"
+  },
+  "naver-ad-performance": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\naver-ad-performance",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\naver-ad-performance",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\naver-ad-performance",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\naver-ad-performance"
+  },
+  "naver-blog-research": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\naver-blog-research",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\naver-blog-research",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\naver-blog-research",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\naver-blog-research",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\naver-blog-research",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\naver-blog-research"
+  },
+  "naver-coupang-register": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\naver-coupang-register",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\naver-coupang-register",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\naver-coupang-register",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\naver-coupang-register",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\naver-coupang-register",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\naver-coupang-register"
+  },
+  "naver-news-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\naver-news-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\naver-news-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\naver-news-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\naver-news-search"
+  },
+  "naver-seo-sudong-skill": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\naver-seo-sudong-skill",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\naver-seo-sudong-skill",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\naver-seo-sudong-skill",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\naver-seo-sudong-skill",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\naver-seo-sudong-skill",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\naver-seo-sudong-skill"
+  },
+  "naver-shopping-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\naver-shopping-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\naver-shopping-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\naver-shopping-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\naver-shopping-search"
+  },
+  "newsletter-title": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\newsletter-title",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\newsletter-title",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\newsletter-title",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\newsletter-title",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\newsletter-title",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\newsletter-title"
+  },
+  "nhis-care-checkup-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\nhis-care-checkup-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\nhis-care-checkup-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\nhis-care-checkup-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\nhis-care-checkup-search"
+  },
+  "notebooklm": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\notebooklm",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\notebooklm",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\notebooklm",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\notebooklm"
+  },
+  "nts-business-registration": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\nts-business-registration",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\nts-business-registration",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\nts-business-registration",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\nts-business-registration"
+  },
+  "nts-tax-delinquency": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\nts-tax-delinquency",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\nts-tax-delinquency",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\nts-tax-delinquency",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\nts-tax-delinquency"
+  },
+  "ohou-today-deal": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\ohou-today-deal",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ohou-today-deal",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\ohou-today-deal",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ohou-today-deal"
+  },
+  "olive-young-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\olive-young-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\olive-young-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\olive-young-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\olive-young-search"
+  },
+  "one-password": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\one-password",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\one-password"
+  },
+  "oracle": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\oracle",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\oracle",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\oracle",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\oracle"
+  },
+  "orca-cli": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\orca-cli",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\orca-cli",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\orca-cli",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\orca-cli"
+  },
+  "orchestration": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\orchestration",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\orchestration",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\orchestration",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\orchestration"
+  },
+  "oss-forensics": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\oss-forensics",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\oss-forensics"
+  },
+  "parking-lot-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\parking-lot-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\parking-lot-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\parking-lot-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\parking-lot-search"
+  },
+  "pinecone": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\pinecone",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\pinecone"
+  },
+  "popbill": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\popbill",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\popbill",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\popbill",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\popbill"
+  },
+  "public-restroom-nearby": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\public-restroom-nearby",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\public-restroom-nearby",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\public-restroom-nearby",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\public-restroom-nearby"
+  },
+  "qdrant": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\qdrant",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\qdrant"
+  },
+  "quality": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\quality",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\quality",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\quality",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\quality"
+  },
+  "real-estate-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\real-estate-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\real-estate-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\real-estate-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\real-estate-search"
+  },
+  "research-paper-writing": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\research-paper-writing",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\research-paper-writing"
+  },
+  "reverse-engineer-anything": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\reverse-engineer-anything",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\reverse-engineer-anything"
+  },
+  "rhwp-advanced": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\rhwp-advanced",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\rhwp-advanced",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\rhwp-advanced",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\rhwp-advanced"
+  },
+  "rhwp-edit": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\rhwp-edit",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\rhwp-edit",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\rhwp-edit",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\rhwp-edit"
+  },
+  "s2b-notice-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\s2b-notice-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\s2b-notice-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\s2b-notice-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\s2b-notice-search"
+  },
+  "saju-fortune": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\saju-fortune",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\saju-fortune",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\saju-fortune",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\saju-fortune"
+  },
+  "saramin-talent-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\saramin-talent-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\saramin-talent-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\saramin-talent-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\saramin-talent-search"
+  },
+  "security-audit": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\security-audit",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\security-audit"
+  },
+  "seo": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo"
+  },
+  "seo-agentic": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-agentic",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-agentic",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-agentic",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-agentic",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-agentic",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-agentic"
+  },
+  "seo-audit": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-audit",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-audit",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-audit",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-audit",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-audit",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-audit"
+  },
+  "seo-backlinks": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-backlinks",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-backlinks",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-backlinks",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-backlinks",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-backlinks",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-backlinks"
+  },
+  "seo-cluster": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-cluster",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-cluster",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-cluster",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-cluster",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-cluster",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-cluster"
+  },
+  "seo-competitor-pages": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-competitor-pages",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-competitor-pages",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-competitor-pages",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-competitor-pages",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-competitor-pages",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-competitor-pages"
+  },
+  "seo-content": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-content",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-content",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-content",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-content",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-content",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-content"
+  },
+  "seo-content-brief": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-content-brief",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-content-brief",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-content-brief",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-content-brief",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-content-brief",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-content-brief"
+  },
+  "seo-dataforseo": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-dataforseo",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-dataforseo",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-dataforseo",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-dataforseo",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-dataforseo",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-dataforseo"
+  },
+  "seo-drift": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-drift",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-drift",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-drift",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-drift",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-drift",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-drift"
+  },
+  "seo-ecommerce": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-ecommerce",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-ecommerce",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-ecommerce",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-ecommerce",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-ecommerce",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-ecommerce"
+  },
+  "seo-flow": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-flow",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-flow",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-flow",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-flow",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-flow",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-flow"
+  },
+  "seo-geo": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-geo",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-geo",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-geo",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-geo",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-geo",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-geo"
+  },
+  "seo-google": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-google",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-google",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-google",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-google",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-google",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-google"
+  },
+  "seo-hreflang": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-hreflang",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-hreflang",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-hreflang",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-hreflang",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-hreflang",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-hreflang"
+  },
+  "seo-image-gen": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-image-gen",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-image-gen",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-image-gen",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-image-gen",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-image-gen",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-image-gen"
+  },
+  "seo-images": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-images",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-images",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-images",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-images",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-images",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-images"
+  },
+  "seo-local": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-local",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-local",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-local",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-local",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-local",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-local"
+  },
+  "seo-maps": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-maps",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-maps",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-maps",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-maps",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-maps",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-maps"
+  },
+  "seo-outline": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-outline",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-outline",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-outline",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-outline",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-outline",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-outline"
+  },
+  "seo-page": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-page",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-page",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-page",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-page",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-page",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-page"
+  },
+  "seo-plan": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-plan",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-plan",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-plan",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-plan",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-plan",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-plan"
+  },
+  "seo-programmatic": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-programmatic",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-programmatic",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-programmatic",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-programmatic",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-programmatic",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-programmatic"
+  },
+  "seo-schema": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-schema",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-schema",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-schema",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-schema",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-schema",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-schema"
+  },
+  "seo-sitemap": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-sitemap",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-sitemap",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-sitemap",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-sitemap",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-sitemap",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-sitemap"
+  },
+  "seo-sxo": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-sxo",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-sxo",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-sxo",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-sxo",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-sxo",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-sxo"
+  },
+  "seo-technical": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seo-technical",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seo-technical",
+   "omo": "C:\\Users\\imda0\\.omo\\agent\\skills\\seo-technical",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seo-technical",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\seo-technical",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seo-technical"
+  },
+  "seoul-bike": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seoul-bike",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seoul-bike",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seoul-bike",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seoul-bike"
+  },
+  "seoul-density": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seoul-density",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seoul-density",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seoul-density",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seoul-density"
+  },
+  "seoul-subway-arrival": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\seoul-subway-arrival",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\seoul-subway-arrival",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\seoul-subway-arrival",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\seoul-subway-arrival"
+  },
+  "sh-notice-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\sh-notice-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\sh-notice-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\sh-notice-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\sh-notice-search"
+  },
+  "sherlock": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\sherlock",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\sherlock"
+  },
+  "solana": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\solana",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\solana"
+  },
+  "srt-booking": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\srt-booking",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\srt-booking",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\srt-booking",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\srt-booking"
+  },
+  "stable-diffusion": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\stable-diffusion",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\stable-diffusion"
+  },
+  "subagent-driven-development": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\subagent-driven-development",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\subagent-driven-development"
+  },
+  "subway-lost-property": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\subway-lost-property",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\subway-lost-property",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\subway-lost-property",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\subway-lost-property"
+  },
+  "systematic-debugging": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\systematic-debugging",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\systematic-debugging"
+  },
+  "test-driven-development": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\test-driven-development",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\test-driven-development"
+  },
+  "ticket-availability": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\ticket-availability",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ticket-availability",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\ticket-availability",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ticket-availability"
+  },
+  "toss-securities": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\toss-securities",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\toss-securities",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\toss-securities",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\toss-securities"
+  },
+  "ultimate-browsing": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\ultimate-browsing",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ultimate-browsing",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ultimate-browsing",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ultimate-browsing"
+  },
+  "used-car-price-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\used-car-price-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\used-car-price-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\used-car-price-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\used-car-price-search"
+  },
+  "vercel-react-best-practices": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\vercel-react-best-practices",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\vercel-react-best-practices"
+  },
+  "vllm": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\vllm",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\vllm"
+  },
+  "yd-agents-mem": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-agents-mem",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-agents-mem"
+  },
+  "yd-agents-yaml": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-agents-yaml",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-agents-yaml"
+  },
+  "yd-blueprint": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-blueprint",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-blueprint"
+  },
+  "yd-db-expert": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-db-expert",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-db-expert"
+  },
+  "yd-doksam-ui": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-doksam-ui",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-doksam-ui"
+  },
+  "yd-finguard": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-finguard",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-finguard"
+  },
+  "yd-frontend-build": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-frontend-build",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-frontend-build"
+  },
+  "yd-git-ship": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-git-ship",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-git-ship"
+  },
+  "yd-go-expert": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-go-expert",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-go-expert"
+  },
+  "yd-handoff": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-handoff",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-handoff"
+  },
+  "yd-memory-factcheck": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-memory-factcheck",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-memory-factcheck"
+  },
+  "yd-mobile-web-planner": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-mobile-web-planner",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-mobile-web-planner"
+  },
+  "yd-nextjs-implementer": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-nextjs-implementer",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-nextjs-implementer"
+  },
+  "yd-oracle-expert": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-oracle-expert",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-oracle-expert"
+  },
+  "yd-pg-expert": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-pg-expert",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-pg-expert"
+  },
+  "yd-react-expert": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-react-expert",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-react-expert"
+  },
+  "yd-sdlc-orchestrator": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-sdlc-orchestrator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-sdlc-orchestrator"
+  },
+  "yd-session-recording": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-session-recording",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-session-recording"
+  },
+  "yd-skill-evolve": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-skill-evolve",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-skill-evolve"
+  },
+  "yd-sqlite-expert": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-sqlite-expert",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-sqlite-expert"
+  },
+  "yd-typescript": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-typescript",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-typescript"
+  },
+  "yd-writer-kr": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yd-writer-kr",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yd-writer-kr"
+  },
+  "yebigun-training": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\yebigun-training",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\yebigun-training",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\yebigun-training",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yebigun-training"
+  },
+  "youtube-content": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\youtube-content",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\youtube-content"
+  },
+  "zipcode-search": {
+   "claude": "C:\\Users\\imda0\\.claude\\skills\\zipcode-search",
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\zipcode-search",
+   "pi": "C:\\Users\\imda0\\.pi\\agent\\skills\\zipcode-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\zipcode-search"
+  },
+  "agent-team-design": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agent-team-design",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agent-team-design"
+  },
+  "agentlas": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas"
+  },
+  "agentlas-auto-activation": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-auto-activation",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-auto-activation"
+  },
+  "agentlas-browser": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-browser",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-browser"
+  },
+  "agentlas-build": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-build",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-build"
+  },
+  "agentlas-call": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-call",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-call"
+  },
+  "agentlas-cloud": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-cloud",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-cloud"
+  },
+  "agentlas-connect": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-connect",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-connect"
+  },
+  "agentlas-graph": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-graph",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-graph"
+  },
+  "agentlas-hub": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-hub",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-hub"
+  },
+  "agentlas-local": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-local",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-local"
+  },
+  "agentlas-network": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-network",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-network"
+  },
+  "agentlas-one": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-one",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-one"
+  },
+  "agentlas-operations": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-operations",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-operations"
+  },
+  "agentlas-packaging": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-packaging",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-packaging"
+  },
+  "agentlas-search": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-search"
+  },
+  "agentlas-security-scan": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-security-scan",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-security-scan"
+  },
+  "agentlas-storm": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-storm",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-storm"
+  },
+  "agentlas-upload": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agentlas-upload",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agentlas-upload"
+  },
+  "agy": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\agy",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\agy"
+  },
+  "argo-vault": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\argo-vault",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\argo-vault"
+  },
+  "argo-vault-sync": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\argo-vault-sync",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\argo-vault-sync"
+  },
+  "chrome-ui-safe": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\chrome-ui-safe",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\chrome-ui-safe"
+  },
+  "clarify-question-loop": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\clarify-question-loop",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\clarify-question-loop"
+  },
+  "coupang-sudong-skill": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\coupang-sudong-skill",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\coupang-sudong-skill"
+  },
+  "crawling-overseas-sourcing-excel": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\crawling-overseas-sourcing-excel",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\crawling-overseas-sourcing-excel"
+  },
+  "crew-orchestrator": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\crew-orchestrator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\crew-orchestrator"
+  },
+  "deep-interview": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\deep-interview",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\deep-interview",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\deep-interview"
+  },
+  "find-skills": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\find-skills",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\find-skills"
+  },
+  "gajae-code-identity": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gajae-code-identity",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gajae-code-identity"
+  },
+  "gjcmode": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gjcmode",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gjcmode"
+  },
+  "go": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\go",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\go"
+  },
+  "gws-admin-reports": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-admin-reports",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-admin-reports"
+  },
+  "gws-calendar": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-calendar",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-calendar"
+  },
+  "gws-calendar-agenda": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-calendar-agenda",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-calendar-agenda"
+  },
+  "gws-calendar-insert": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-calendar-insert",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-calendar-insert"
+  },
+  "gws-chat": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-chat",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-chat"
+  },
+  "gws-chat-send": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-chat-send",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-chat-send"
+  },
+  "gws-classroom": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-classroom",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-classroom"
+  },
+  "gws-docs": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-docs",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-docs"
+  },
+  "gws-docs-write": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-docs-write",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-docs-write"
+  },
+  "gws-drive": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-drive",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-drive"
+  },
+  "gws-drive-upload": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-drive-upload",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-drive-upload"
+  },
+  "gws-events": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-events",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-events"
+  },
+  "gws-events-renew": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-events-renew",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-events-renew"
+  },
+  "gws-events-subscribe": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-events-subscribe",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-events-subscribe"
+  },
+  "gws-forms": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-forms",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-forms"
+  },
+  "gws-gmail": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-gmail",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-gmail"
+  },
+  "gws-gmail-forward": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-gmail-forward",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-gmail-forward"
+  },
+  "gws-gmail-read": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-gmail-read",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-gmail-read"
+  },
+  "gws-gmail-reply": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-gmail-reply",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-gmail-reply"
+  },
+  "gws-gmail-reply-all": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-gmail-reply-all",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-gmail-reply-all"
+  },
+  "gws-gmail-send": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-gmail-send",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-gmail-send"
+  },
+  "gws-gmail-triage": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-gmail-triage",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-gmail-triage"
+  },
+  "gws-gmail-watch": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-gmail-watch",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-gmail-watch"
+  },
+  "gws-keep": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-keep",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-keep"
+  },
+  "gws-meet": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-meet",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-meet"
+  },
+  "gws-modelarmor": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-modelarmor",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-modelarmor"
+  },
+  "gws-modelarmor-create-template": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-modelarmor-create-template",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-modelarmor-create-template"
+  },
+  "gws-modelarmor-sanitize-prompt": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-modelarmor-sanitize-prompt",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-modelarmor-sanitize-prompt"
+  },
+  "gws-modelarmor-sanitize-response": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-modelarmor-sanitize-response",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-modelarmor-sanitize-response"
+  },
+  "gws-people": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-people",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-people"
+  },
+  "gws-script": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-script",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-script"
+  },
+  "gws-script-push": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-script-push",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-script-push"
+  },
+  "gws-shared": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-shared",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-shared"
+  },
+  "gws-sheets": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-sheets",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-sheets"
+  },
+  "gws-sheets-append": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-sheets-append",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-sheets-append"
+  },
+  "gws-sheets-read": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-sheets-read",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-sheets-read"
+  },
+  "gws-slides": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-slides",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-slides"
+  },
+  "gws-tasks": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-tasks",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-tasks"
+  },
+  "gws-workflow": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-workflow",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-workflow"
+  },
+  "gws-workflow-email-to-task": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-workflow-email-to-task",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-workflow-email-to-task"
+  },
+  "gws-workflow-file-announce": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-workflow-file-announce",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-workflow-file-announce"
+  },
+  "gws-workflow-meeting-prep": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-workflow-meeting-prep",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-workflow-meeting-prep"
+  },
+  "gws-workflow-standup-report": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-workflow-standup-report",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-workflow-standup-report"
+  },
+  "gws-workflow-weekly-digest": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\gws-workflow-weekly-digest",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gws-workflow-weekly-digest"
+  },
+  "hephaestus-cloud": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\hephaestus-cloud",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hephaestus-cloud"
+  },
+  "hephaestus-graph": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\hephaestus-graph",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hephaestus-graph"
+  },
+  "hephaestus-network": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\hephaestus-network",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hephaestus-network"
+  },
+  "hephaestus-orchestrator": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\hephaestus-orchestrator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hephaestus-orchestrator"
+  },
+  "hephaestus-storm": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\hephaestus-storm",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hephaestus-storm"
+  },
+  "hephaestus-upload": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\hephaestus-upload",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hephaestus-upload"
+  },
+  "insane-research": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\insane-research",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\insane-research"
+  },
+  "insane-research-main": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\insane-research-main",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\insane-research-main"
+  },
+  "insane-research-query": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\insane-research-query",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\insane-research-query"
+  },
+  "install-verification": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\install-verification",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\install-verification"
+  },
+  "llm-runtime-architecture": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\llm-runtime-architecture",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\llm-runtime-architecture"
+  },
+  "memory-curator": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\memory-curator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\memory-curator"
+  },
+  "memory-ticketing": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\memory-ticketing",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\memory-ticketing"
+  },
+  "migration": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\migration",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\migration"
+  },
+  "mode-classification": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\mode-classification",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\mode-classification"
+  },
+  "naver-rank-probe": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\naver-rank-probe",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\naver-rank-probe"
+  },
+  "naver-shopping-listing": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\naver-shopping-listing",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\naver-shopping-listing"
+  },
+  "ontology-engine": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ontology-engine",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ontology-engine"
+  },
+  "orca-coordinator": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\orca-coordinator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\orca-coordinator"
+  },
+  "persona-content-creator": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\persona-content-creator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\persona-content-creator"
+  },
+  "persona-customer-support": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\persona-customer-support",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\persona-customer-support"
+  },
+  "persona-event-coordinator": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\persona-event-coordinator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\persona-event-coordinator"
+  },
+  "persona-exec-assistant": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\persona-exec-assistant",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\persona-exec-assistant"
+  },
+  "persona-hr-coordinator": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\persona-hr-coordinator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\persona-hr-coordinator"
+  },
+  "persona-it-admin": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\persona-it-admin",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\persona-it-admin"
+  },
+  "persona-project-manager": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\persona-project-manager",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\persona-project-manager"
+  },
+  "persona-researcher": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\persona-researcher",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\persona-researcher"
+  },
+  "persona-sales-ops": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\persona-sales-ops",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\persona-sales-ops"
+  },
+  "persona-team-lead": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\persona-team-lead",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\persona-team-lead"
+  },
+  "pm-soul": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\pm-soul",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\pm-soul"
+  },
+  "public-plugin-packaging": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\public-plugin-packaging",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\public-plugin-packaging"
+  },
+  "ralplan": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ralplan",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ralplan",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ralplan"
+  },
+  "ready": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ready",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ready"
+  },
+  "recipe-backup-sheet-as-csv": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-backup-sheet-as-csv",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-backup-sheet-as-csv"
+  },
+  "recipe-batch-invite-to-event": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-batch-invite-to-event",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-batch-invite-to-event"
+  },
+  "recipe-block-focus-time": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-block-focus-time",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-block-focus-time"
+  },
+  "recipe-bulk-download-folder": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-bulk-download-folder",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-bulk-download-folder"
+  },
+  "recipe-collect-form-responses": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-collect-form-responses",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-collect-form-responses"
+  },
+  "recipe-compare-sheet-tabs": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-compare-sheet-tabs",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-compare-sheet-tabs"
+  },
+  "recipe-copy-sheet-for-new-month": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-copy-sheet-for-new-month",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-copy-sheet-for-new-month"
+  },
+  "recipe-create-classroom-course": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-classroom-course",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-classroom-course"
+  },
+  "recipe-create-doc-from-template": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-doc-from-template",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-doc-from-template"
+  },
+  "recipe-create-events-from-sheet": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-events-from-sheet",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-events-from-sheet"
+  },
+  "recipe-create-expense-tracker": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-expense-tracker",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-expense-tracker"
+  },
+  "recipe-create-feedback-form": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-feedback-form",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-feedback-form"
+  },
+  "recipe-create-gmail-filter": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-gmail-filter",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-gmail-filter"
+  },
+  "recipe-create-meet-space": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-meet-space",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-meet-space"
+  },
+  "recipe-create-presentation": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-presentation",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-presentation"
+  },
+  "recipe-create-shared-drive": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-shared-drive",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-shared-drive"
+  },
+  "recipe-create-task-list": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-task-list",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-task-list"
+  },
+  "recipe-create-vacation-responder": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-create-vacation-responder",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-create-vacation-responder"
+  },
+  "recipe-draft-email-from-doc": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-draft-email-from-doc",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-draft-email-from-doc"
+  },
+  "recipe-email-drive-link": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-email-drive-link",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-email-drive-link"
+  },
+  "recipe-find-free-time": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-find-free-time",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-find-free-time"
+  },
+  "recipe-find-large-files": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-find-large-files",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-find-large-files"
+  },
+  "recipe-forward-labeled-emails": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-forward-labeled-emails",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-forward-labeled-emails"
+  },
+  "recipe-generate-report-from-sheet": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-generate-report-from-sheet",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-generate-report-from-sheet"
+  },
+  "recipe-label-and-archive-emails": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-label-and-archive-emails",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-label-and-archive-emails"
+  },
+  "recipe-log-deal-update": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-log-deal-update",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-log-deal-update"
+  },
+  "recipe-organize-drive-folder": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-organize-drive-folder",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-organize-drive-folder"
+  },
+  "recipe-plan-weekly-schedule": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-plan-weekly-schedule",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-plan-weekly-schedule"
+  },
+  "recipe-post-mortem-setup": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-post-mortem-setup",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-post-mortem-setup"
+  },
+  "recipe-reschedule-meeting": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-reschedule-meeting",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-reschedule-meeting"
+  },
+  "recipe-review-meet-participants": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-review-meet-participants",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-review-meet-participants"
+  },
+  "recipe-review-overdue-tasks": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-review-overdue-tasks",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-review-overdue-tasks"
+  },
+  "recipe-save-email-attachments": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-save-email-attachments",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-save-email-attachments"
+  },
+  "recipe-save-email-to-doc": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-save-email-to-doc",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-save-email-to-doc"
+  },
+  "recipe-schedule-recurring-event": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-schedule-recurring-event",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-schedule-recurring-event"
+  },
+  "recipe-send-team-announcement": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-send-team-announcement",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-send-team-announcement"
+  },
+  "recipe-share-doc-and-notify": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-share-doc-and-notify",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-share-doc-and-notify"
+  },
+  "recipe-share-event-materials": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-share-event-materials",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-share-event-materials"
+  },
+  "recipe-share-folder-with-team": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-share-folder-with-team",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-share-folder-with-team"
+  },
+  "recipe-sync-contacts-to-sheet": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-sync-contacts-to-sheet",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-sync-contacts-to-sheet"
+  },
+  "recipe-watch-drive-changes": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\recipe-watch-drive-changes",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\recipe-watch-drive-changes"
+  },
+  "routing-card-authoring": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\routing-card-authoring",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\routing-card-authoring"
+  },
+  "runtime-adapters": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\runtime-adapters",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\runtime-adapters"
+  },
+  "sang-a-mode": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\sang-a-mode",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\sang-a-mode"
+  },
+  "self-evolving-single-agent": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\self-evolving-single-agent",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\self-evolving-single-agent"
+  },
+  "session-agent-builder": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\session-agent-builder",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\session-agent-builder"
+  },
+  "sitemap-task-bias": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\sitemap-task-bias",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\sitemap-task-bias"
+  },
+  "skill-lifecycle-promotion": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\skill-lifecycle-promotion",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\skill-lifecycle-promotion"
+  },
+  "sourcing-top50-curator": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\sourcing-top50-curator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\sourcing-top50-curator"
+  },
+  "team-builder-packaging": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\team-builder-packaging",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\team-builder-packaging"
+  },
+  "ultragoal": {
+   "gjc": "C:\\Users\\imda0\\.gjc\\agent\\skills\\ultragoal",
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ultragoal",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ultragoal"
+  },
+  "ai-slop-cleaner": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ai-slop-cleaner",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ai-slop-cleaner"
+  },
+  "analyze": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\analyze",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\analyze"
+  },
+  "ask": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ask",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ask"
+  },
+  "aspnet-core": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\aspnet-core",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\aspnet-core"
+  },
+  "autopilot": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\autopilot",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\autopilot"
+  },
+  "autoresearch": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\autoresearch",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\autoresearch"
+  },
+  "autoresearch-goal": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\autoresearch-goal",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\autoresearch-goal"
+  },
+  "browser-ko": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\browser-ko",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\browser-ko"
+  },
+  "cancel": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\cancel",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\cancel"
+  },
+  "canvas-design": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\canvas-design",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\canvas-design"
+  },
+  "chatgpt-apps": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\chatgpt-apps",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\chatgpt-apps"
+  },
+  "cloudflare-deploy": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\cloudflare-deploy",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\cloudflare-deploy"
+  },
+  "code-review": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\code-review",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\code-review"
+  },
+  "computer-use-ko": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\computer-use-ko",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\computer-use-ko"
+  },
+  "configure-notifications": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\configure-notifications",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\configure-notifications"
+  },
+  "defuddle": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\defuddle",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\defuddle"
+  },
+  "develop-web-game": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\develop-web-game",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\develop-web-game"
+  },
+  "doctor": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\doctor",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\doctor"
+  },
+  "dori-mode": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\dori-mode",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\dori-mode"
+  },
+  "ecommerce-detail-page": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ecommerce-detail-page",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ecommerce-detail-page"
+  },
+  "fashion-trend": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\fashion-trend",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\fashion-trend"
+  },
+  "figma": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\figma",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\figma"
+  },
+  "figma-implement-design": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\figma-implement-design",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\figma-implement-design"
+  },
+  "frontend-design": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\frontend-design",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\frontend-design"
+  },
+  "frontend-skill": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\frontend-skill",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\frontend-skill"
+  },
+  "gh-address-comments": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\gh-address-comments",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gh-address-comments"
+  },
+  "gh-fix-ci": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\gh-fix-ci",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gh-fix-ci"
+  },
+  "gptaku-codex-bridge": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\gptaku-codex-bridge",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gptaku-codex-bridge"
+  },
+  "gptaku-deep-research": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\gptaku-deep-research",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\gptaku-deep-research"
+  },
+  "heretic": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\heretic",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\heretic"
+  },
+  "hermes-slack-meeting-room": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\hermes-slack-meeting-room",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hermes-slack-meeting-room"
+  },
+  "hud": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\hud",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hud"
+  },
+  "hwpx": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\hwpx",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\hwpx"
+  },
+  "imagegen": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imagegen",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imagegen"
+  },
+  "impeccable": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\impeccable",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\impeccable"
+  },
+  "imported-.claude-skills-cf-crawl-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-.claude-skills-cf-crawl-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-.claude-skills-cf-crawl-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-arxiv-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-arxiv-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-arxiv-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-base-blockchain-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-base-blockchain-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-base-blockchain-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-blogwatcher-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-blogwatcher-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-blogwatcher-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-chroma-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-chroma-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-chroma-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-docker-management-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-docker-management-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-docker-management-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-duckduckgo-search-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-duckduckgo-search-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-duckduckgo-search-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-excalidraw-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-excalidraw-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-excalidraw-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-faiss-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-faiss-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-faiss-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-flash-attention-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-flash-attention-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-flash-attention-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-github-code-review-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-github-code-review-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-github-code-review-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-github-issues-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-github-issues-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-github-issues-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-github-pr-workflow-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-github-pr-workflow-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-github-pr-workflow-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-google-workspace-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-google-workspace-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-google-workspace-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-grpo-rl-training-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-grpo-rl-training-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-grpo-rl-training-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-hermes-compress-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-hermes-compress-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-hermes-compress-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-hermes-insights-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-hermes-insights-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-hermes-insights-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-hermes-memory-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-hermes-memory-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-hermes-memory-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-hermes-persona-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-hermes-persona-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-hermes-persona-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-hermes-route-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-hermes-route-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-hermes-route-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-hermes-search-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-hermes-search-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-hermes-search-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-hermes-skill-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-hermes-skill-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-hermes-skill-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-hermes-traj-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-hermes-traj-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-hermes-traj-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-honcho-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-honcho-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-honcho-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-huggingface-hub-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-huggingface-hub-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-huggingface-hub-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-instructor-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-instructor-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-instructor-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-jupyter-live-kernel-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-jupyter-live-kernel-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-jupyter-live-kernel-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-linear-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-linear-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-linear-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-llama-cpp-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-llama-cpp-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-llama-cpp-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-manim-video-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-manim-video-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-manim-video-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-mcporter-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-mcporter-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-mcporter-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-native-mcp-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-native-mcp-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-native-mcp-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-one-password-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-one-password-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-one-password-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-oss-forensics-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-oss-forensics-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-oss-forensics-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-pinecone-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-pinecone-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-pinecone-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-polymarket-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-polymarket-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-polymarket-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-qdrant-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-qdrant-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-qdrant-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-research-paper-writing-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-research-paper-writing-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-research-paper-writing-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-sherlock-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-sherlock-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-sherlock-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-solana-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-solana-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-solana-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-stable-diffusion-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-stable-diffusion-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-stable-diffusion-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-subagent-driven-development-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-subagent-driven-development-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-subagent-driven-development-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-systematic-debugging-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-systematic-debugging-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-systematic-debugging-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-test-driven-development-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-test-driven-development-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-test-driven-development-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-vllm-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-vllm-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-vllm-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-whisper-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-whisper-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-whisper-20260424-040044"
+  },
+  "imported-1_skills-hermes-ccc-skills-youtube-content-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-hermes-ccc-skills-youtube-content-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-hermes-ccc-skills-youtube-content-20260424-040044"
+  },
+  "imported-1_skills-skillsmp-search-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-skillsmp-search-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-skillsmp-search-20260424-040044"
+  },
+  "imported-1_skills-stitch-skills-skills-design-md-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-stitch-skills-skills-design-md-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-stitch-skills-skills-design-md-20260424-040044"
+  },
+  "imported-1_skills-stitch-skills-skills-enhance-prompt-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-stitch-skills-skills-enhance-prompt-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-stitch-skills-skills-enhance-prompt-20260424-040044"
+  },
+  "imported-1_skills-stitch-skills-skills-react-components-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-stitch-skills-skills-react-components-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-stitch-skills-skills-react-components-20260424-040044"
+  },
+  "imported-1_skills-stitch-skills-skills-remotion-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-stitch-skills-skills-remotion-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-stitch-skills-skills-remotion-20260424-040044"
+  },
+  "imported-1_skills-stitch-skills-skills-shadcn-ui-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-stitch-skills-skills-shadcn-ui-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-stitch-skills-skills-shadcn-ui-20260424-040044"
+  },
+  "imported-1_skills-stitch-skills-skills-stitch-loop-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-1_skills-stitch-skills-skills-stitch-loop-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-1_skills-stitch-skills-skills-stitch-loop-20260424-040044"
+  },
+  "imported-3_web_and_dashboards-my-app-.agents-skills-base44-cli-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-3_web_and_dashboards-my-app-.agents-skills-base44-cli-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-3_web_and_dashboards-my-app-.agents-skills-base44-cli-20260424-040044"
+  },
+  "imported-3_web_and_dashboards-my-app-.agents-skills-base44-sdk-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-3_web_and_dashboards-my-app-.agents-skills-base44-sdk-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-3_web_and_dashboards-my-app-.agents-skills-base44-sdk-20260424-040044"
+  },
+  "imported-cd-manus-project-.agents-skills-base44-cli-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-cd-manus-project-.agents-skills-base44-cli-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-cd-manus-project-.agents-skills-base44-cli-20260424-040044"
+  },
+  "imported-cd-manus-project-.agents-skills-base44-sdk-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-cd-manus-project-.agents-skills-base44-sdk-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-cd-manus-project-.agents-skills-base44-sdk-20260424-040044"
+  },
+  "imported-insane-design-skills-insane-design-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-insane-design-skills-insane-design-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-insane-design-skills-insane-design-20260424-040044"
+  },
+  "imported-skills-1password-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-1password-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-1password-20260424-040044"
+  },
+  "imported-skills-apple-notes-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-apple-notes-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-apple-notes-20260424-040044"
+  },
+  "imported-skills-apple-reminders-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-apple-reminders-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-apple-reminders-20260424-040044"
+  },
+  "imported-skills-bear-notes-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-bear-notes-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-bear-notes-20260424-040044"
+  },
+  "imported-skills-blogwatcher-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-blogwatcher-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-blogwatcher-20260424-040044"
+  },
+  "imported-skills-blucli-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-blucli-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-blucli-20260424-040044"
+  },
+  "imported-skills-bluebubbles-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-bluebubbles-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-bluebubbles-20260424-040044"
+  },
+  "imported-skills-camsnap-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-camsnap-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-camsnap-20260424-040044"
+  },
+  "imported-skills-discord-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-discord-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-discord-20260424-040044"
+  },
+  "imported-skills-eightctl-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-eightctl-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-eightctl-20260424-040044"
+  },
+  "imported-skills-gemini-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-gemini-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-gemini-20260424-040044"
+  },
+  "imported-skills-gh-issues-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-gh-issues-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-gh-issues-20260424-040044"
+  },
+  "imported-skills-gifgrep-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-gifgrep-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-gifgrep-20260424-040044"
+  },
+  "imported-skills-github-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-github-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-github-20260424-040044"
+  },
+  "imported-skills-gog-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-gog-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-gog-20260424-040044"
+  },
+  "imported-skills-goplaces-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-goplaces-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-goplaces-20260424-040044"
+  },
+  "imported-skills-healthcheck-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-healthcheck-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-healthcheck-20260424-040044"
+  },
+  "imported-skills-himalaya-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-himalaya-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-himalaya-20260424-040044"
+  },
+  "imported-skills-imsg-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-imsg-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-imsg-20260424-040044"
+  },
+  "imported-skills-mcporter-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-mcporter-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-mcporter-20260424-040044"
+  },
+  "imported-skills-model-usage-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-model-usage-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-model-usage-20260424-040044"
+  },
+  "imported-skills-nano-banana-pro-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-nano-banana-pro-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-nano-banana-pro-20260424-040044"
+  },
+  "imported-skills-nano-pdf-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-nano-pdf-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-nano-pdf-20260424-040044"
+  },
+  "imported-skills-notion-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-notion-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-notion-20260424-040044"
+  },
+  "imported-skills-obsidian-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-obsidian-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-obsidian-20260424-040044"
+  },
+  "imported-skills-openai-image-gen-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-openai-image-gen-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-openai-image-gen-20260424-040044"
+  },
+  "imported-skills-openai-whisper-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-openai-whisper-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-openai-whisper-20260424-040044"
+  },
+  "imported-skills-openai-whisper-api-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-openai-whisper-api-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-openai-whisper-api-20260424-040044"
+  },
+  "imported-skills-openhue-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-openhue-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-openhue-20260424-040044"
+  },
+  "imported-skills-oracle-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-oracle-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-oracle-20260424-040044"
+  },
+  "imported-skills-ordercli-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-ordercli-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-ordercli-20260424-040044"
+  },
+  "imported-skills-peekaboo-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-peekaboo-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-peekaboo-20260424-040044"
+  },
+  "imported-skills-sag-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-sag-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-sag-20260424-040044"
+  },
+  "imported-skills-session-logs-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-session-logs-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-session-logs-20260424-040044"
+  },
+  "imported-skills-sherpa-onnx-tts-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-sherpa-onnx-tts-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-sherpa-onnx-tts-20260424-040044"
+  },
+  "imported-skills-skill-creator-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-skill-creator-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-skill-creator-20260424-040044"
+  },
+  "imported-skills-slack-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-slack-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-slack-20260424-040044"
+  },
+  "imported-skills-songsee-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-songsee-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-songsee-20260424-040044"
+  },
+  "imported-skills-sonoscli-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-sonoscli-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-sonoscli-20260424-040044"
+  },
+  "imported-skills-spotify-player-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-spotify-player-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-spotify-player-20260424-040044"
+  },
+  "imported-skills-summarize-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-summarize-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-summarize-20260424-040044"
+  },
+  "imported-skills-things-mac-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-things-mac-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-things-mac-20260424-040044"
+  },
+  "imported-skills-tmux-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-tmux-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-tmux-20260424-040044"
+  },
+  "imported-skills-trello-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-trello-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-trello-20260424-040044"
+  },
+  "imported-skills-video-frames-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-video-frames-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-video-frames-20260424-040044"
+  },
+  "imported-skills-voice-call-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-voice-call-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-voice-call-20260424-040044"
+  },
+  "imported-skills-weather-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-skills-weather-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-skills-weather-20260424-040044"
+  },
+  "imported-stitch-skills-skills-enhance-prompt-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-stitch-skills-skills-enhance-prompt-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-stitch-skills-skills-enhance-prompt-20260424-040044"
+  },
+  "imported-stitch-skills-skills-react-components-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-stitch-skills-skills-react-components-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-stitch-skills-skills-react-components-20260424-040044"
+  },
+  "imported-stitch-skills-skills-remotion-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-stitch-skills-skills-remotion-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-stitch-skills-skills-remotion-20260424-040044"
+  },
+  "imported-stitch-skills-skills-shadcn-ui-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-stitch-skills-skills-shadcn-ui-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-stitch-skills-skills-shadcn-ui-20260424-040044"
+  },
+  "imported-stitch-skills-skills-stitch-loop-20260424-040044": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\imported-stitch-skills-skills-stitch-loop-20260424-040044",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\imported-stitch-skills-skills-stitch-loop-20260424-040044"
+  },
+  "insane-design": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\insane-design",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\insane-design"
+  },
+  "insane-search.backup-20260605-030150": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\insane-search.backup-20260605-030150",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\insane-search.backup-20260605-030150"
+  },
+  "json-canvas": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\json-canvas",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\json-canvas"
+  },
+  "json-render": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\json-render",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\json-render"
+  },
+  "jupyter-notebook": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\jupyter-notebook",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\jupyter-notebook"
+  },
+  "lazyweb-add-inspo-source": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\lazyweb-add-inspo-source",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\lazyweb-add-inspo-source"
+  },
+  "lazyweb-design-brainstorm": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\lazyweb-design-brainstorm",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\lazyweb-design-brainstorm"
+  },
+  "lazyweb-design-improve": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\lazyweb-design-improve",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\lazyweb-design-improve"
+  },
+  "lazyweb-design-research": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\lazyweb-design-research",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\lazyweb-design-research"
+  },
+  "lazyweb-quick-references": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\lazyweb-quick-references",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\lazyweb-quick-references"
+  },
+  "lazyweb-remove-inspo-source": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\lazyweb-remove-inspo-source",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\lazyweb-remove-inspo-source"
+  },
+  "maker-selling-register": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\maker-selling-register",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\maker-selling-register"
+  },
+  "netlify-deploy": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\netlify-deploy",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\netlify-deploy"
+  },
+  "notion-knowledge-capture": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\notion-knowledge-capture",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\notion-knowledge-capture"
+  },
+  "notion-meeting-intelligence": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\notion-meeting-intelligence",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\notion-meeting-intelligence"
+  },
+  "notion-research-documentation": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\notion-research-documentation",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\notion-research-documentation"
+  },
+  "notion-spec-to-implementation": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\notion-spec-to-implementation",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\notion-spec-to-implementation"
+  },
+  "obsidian-bases": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\obsidian-bases",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\obsidian-bases"
+  },
+  "obsidian-cli": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\obsidian-cli",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\obsidian-cli"
+  },
+  "obsidian-markdown": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\obsidian-markdown",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\obsidian-markdown"
+  },
+  "omd-coach": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\omd-coach",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\omd-coach"
+  },
+  "omd-critique": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\omd-critique",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\omd-critique"
+  },
+  "omd-figma": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\omd-figma",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\omd-figma"
+  },
+  "omd-humanize": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\omd-humanize",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\omd-humanize"
+  },
+  "omd-scout": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\omd-scout",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\omd-scout"
+  },
+  "omd-ultradesign": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\omd-ultradesign",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\omd-ultradesign"
+  },
+  "omx-setup": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\omx-setup",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\omx-setup"
+  },
+  "openai-docs": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\openai-docs",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\openai-docs"
+  },
+  "performance-goal": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\performance-goal",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\performance-goal"
+  },
+  "pipeline": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\pipeline",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\pipeline"
+  },
+  "pixel-agent-office-simulator": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\pixel-agent-office-simulator",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\pixel-agent-office-simulator"
+  },
+  "playwright": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\playwright",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\playwright"
+  },
+  "playwright-interactive": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\playwright-interactive",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\playwright-interactive"
+  },
+  "polish": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\polish",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\polish"
+  },
+  "product-detail-page": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\product-detail-page",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\product-detail-page"
+  },
+  "ralph": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ralph",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ralph"
+  },
+  "render-deploy": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\render-deploy",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\render-deploy"
+  },
+  "scrapling-crawler": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\scrapling-crawler",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\scrapling-crawler"
+  },
+  "screenshot": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\screenshot",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\screenshot"
+  },
+  "security-best-practices": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\security-best-practices",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\security-best-practices"
+  },
+  "security-ownership-map": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\security-ownership-map",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\security-ownership-map"
+  },
+  "security-threat-model": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\security-threat-model",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\security-threat-model"
+  },
+  "sentry": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\sentry",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\sentry"
+  },
+  "skill": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\skill",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\skill"
+  },
+  "skillsmp-search": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\skillsmp-search",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\skillsmp-search"
+  },
+  "sleek-design-mobile-apps": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\sleek-design-mobile-apps",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\sleek-design-mobile-apps"
+  },
+  "sonol-agent-runtime": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\sonol-agent-runtime",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\sonol-agent-runtime"
+  },
+  "sonol-multi-agent": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\sonol-multi-agent",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\sonol-multi-agent"
+  },
+  "sora": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\sora",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\sora"
+  },
+  "speech": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\speech",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\speech"
+  },
+  "system-one-connector": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\system-one-connector",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\system-one-connector"
+  },
+  "tailwind-design-system": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\tailwind-design-system",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\tailwind-design-system"
+  },
+  "team": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\team",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\team"
+  },
+  "transcribe": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\transcribe",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\transcribe"
+  },
+  "ui-ux-pro-max": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ui-ux-pro-max",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ui-ux-pro-max"
+  },
+  "ultraqa": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ultraqa",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ultraqa"
+  },
+  "ultrawork": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\ultrawork",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\ultrawork"
+  },
+  "vercel-deploy": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\vercel-deploy",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\vercel-deploy"
+  },
+  "visual-ralph": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\visual-ralph",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\visual-ralph"
+  },
+  "wiki": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\wiki",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\wiki"
+  },
+  "winui-app": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\winui-app",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\winui-app"
+  },
+  "worker": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\worker",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\worker"
+  },
+  "yeet": {
+   "codex": "C:\\Users\\imda0\\.codex\\skills\\yeet",
+   "agents": "C:\\Users\\imda0\\.agents\\skills\\yeet"
+  }
+ }
+}
