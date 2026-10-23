@@ -1,6 +1,6 @@
 # Threads 저장글에서 나온 GitHub 저장소 분석
 
-- 갱신: 2026-10-24 05:43:11
+- 갱신: 2026-10-24 05:53:12
 - **집계 대상 글: 278건 / repo 299개** (접근 확인 289개, 접근불가 10개)
 - 스캔한 details2 파일: **674건** (그중 github 링크가 있던 글 278건)
 - 근거: `C:\Users\imda0\tmp\threads-saved\details2\*.json` 의 `links[].url` + `raw_link_candidates[]` (l.threads.net 리다이렉트 디코딩된 값)
