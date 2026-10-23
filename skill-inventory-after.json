@@ -3,23 +3,23 @@
   {
    "agent": "claude",
    "path": "C:\\Users\\imda0\\.claude\\skills",
-   "real": 267,
+   "real": 279,
    "junction": 0,
-   "usable": 266
+   "usable": 278
   },
   {
    "agent": "gjc",
    "path": "C:\\Users\\imda0\\.gjc\\agent\\skills",
-   "real": 335,
+   "real": 349,
    "junction": 0,
-   "usable": 329
+   "usable": 343
   },
   {
    "agent": "omo",
    "path": "C:\\Users\\imda0\\.omo\\agent\\skills",
-   "real": 33,
+   "real": 56,
    "junction": 0,
-   "usable": 33
+   "usable": 56
   },
   {
    "agent": "pi",
@@ -38,9 +38,9 @@
   {
    "agent": "agents",
    "path": "C:\\Users\\imda0\\.agents\\skills",
-   "real": 675,
+   "real": 692,
    "junction": 0,
-   "usable": 674
+   "usable": 691
   }
  ],
  "must": [
@@ -57,7 +57,5 @@
   "notebooklm",
   "detail-page"
  ],
- "missing": [
-  "detail-page"
- ]
+ "missing": []
 }

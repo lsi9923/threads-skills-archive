@@ -1265,7 +1265,7 @@ gpt_park
 - 목적: 제품 스크린샷·로고와 음악을 사용해 이력서용 모션그래픽 쇼릴 영상을 요청한다.
 - 재사용성: 중 — 15초 길이와 제품 소개 형식은 재사용할 수 있으나 원문은 특정 제품에 맞춰져 있다.
 - 스킬화 제안: `motion-showreel-prompt`
-- 원문: 작성자 댓글. 동일 프롬프트의 제품 교체 변형은 @gptaku_ai Ddz__34ESxY에 게시되어 있어 원문 중복으로 병합했다. 원문의 `muic`, `assts` 표기를 보존한다.
+- 원문: 작성자 댓글. @gptaku_ai Ddz__34ESxY는 제품·도메인과 `music`/`muic` 표기가 다른 변형으로 아래에 별도 보존했다. 두 댓글 모두 원문의 `assts` 표기를 유지했다.
 
 ```text
 gptaku_ai
@@ -1276,9 +1276,573 @@ Make it a video to introduce `fivetaku.github.io/gptak…`
 2. must have music and motion must match the music. Do it like a real professional production video, not like a demo or prototype.
 ```
 
+#### 같은 쇼릴 템플릿의 제품 교체 변형
+
+- 출처: @gptaku_ai — https://www.threads.com/@gptaku_ai/post/Ddz__34ESxY
+- 중복 관계: 위 #17의 첫 문장과 샷 형식이 같지만 대상 제품·URL과 `muic` 오타가 달라 완전 동일 원문은 아니다.
+- 원문: 작성자 댓글 `comments[0]`의 입력 지시 구간. 댓글에 이어 붙은 `번역하기`·링크 카드·반응 수는 제외했다.
+
+```text
+Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.
+Make it a video to introduce devswha.github.io/herdr…
+1. Use actual product screenshot/logo/assts
+2. must have muic and motion must match the music. Do it like a real professional production video, not like a demo or prototype.
+```
+
+### 20. OpenRouter 연결 설정용 짧은 지시문 — 끝부분 생략
+
+- 출처: @dak.korea — https://www.threads.com/@dak.korea/post/DcWjHkio0yj
+- 목적: gjc에 OpenRouter의 OpenAI 호환 API 키·엔드포인트 연결을 지시한다.
+- 재사용성: 중 — 대상 에이전트·제공자를 바꾸면 재사용 가능하나 실제 키와 접속 설정은 확인이 필요하다.
+- 카테고리: 개발·자동화
+- 스킬화 제안: `provider-connection-brief`
+- 원문: 본문 `<세팅프롬프트>` 아래 한 문장. 엔드포인트가 화면에서 `openrouter.ai/api/v…`로 잘린 상태라 완성 URL을 원문에 보충하지 않았다. 상세 JSON의 `links[]`에는 별도로 `https://openrouter.ai/api/v1/chat/completions`가 기록되어 있다.
+
+```text
+gjc에서 openrouter를 사용하게 세팅해줘. openai 호환 api key <내 API key> openrouter.ai/api/v…
+```
+
+### 21. 사진 틸트 시프트 효과 명령 예시
+
+- 출처: @color_of_vince — https://www.threads.com/@color_of_vince/post/DeVUeLRkzrp
+- 목적: 사진의 일부만 선명하고 주변은 흐린 미니어처 효과를 요청하는 짧은 명령.
+- 재사용성: 중 — 짧은 효과 명령이지만 해당 명령을 해석하는 도구가 전제된다.
+- 카테고리: 이미지·영상
+- 스킬화 제안: `image-effect-command`
+- 원문: 작성자 댓글 `comments[0]`의 명령 토큰만. 뒤따르는 문장은 작동 설명이지 입력 프롬프트라고 제시되지 않았다.
+
+```text
+/tiltShift
+```
+
+### 22. Flow 영상 생성 스크립트 호출 예시
+
+- 출처: @gasket_love — https://www.threads.com/@gasket_love/post/DbvDvzaF-wO
+- 목적: 제공된 `flow_gen.py`를 사용하여 영문으로 다듬은 영상 프롬프트를 입력하게 한다.
+- 재사용성: 중 — 스크립트와 로그인된 브라우저에 종속된다.
+- 카테고리: 개발·자동화
+- 스킬화 제안: `browser-video-generation-brief`
+- 원문: 작성자 댓글 `comments[0]`의 “클로드에게 시킬 때는 이렇게 말하면 된다” 다음 문장. 댓글에 붙은 Python 예시는 화면이 끊겨 전체 실행 파일로 간주하지 않았다.
+
+```text
+flow_gen.py 로 <원하는 장면> 영상을 뽑아줘. 프롬프트는 영문으로 다듬어서.
+```
+
+### 23. 브라우저 조사·추출 방식 선택 지시문
+
+- 출처: @gyeol_hh — https://www.threads.com/@gyeol_hh/post/DeC8mKjE8Wd
+- 목적: 조사가 필요한 경우와 대상이 정해진 추출을 구분해 Aside 실행 방식을 선택한다.
+- 재사용성: 중 — 대상 브라우저의 두 호출 방식에 종속되지만 판단/조작 분리 규칙은 일반화할 수 있다.
+- 카테고리: 에이전트·오케스트레이션
+- 스킬화 제안: `browser-investigate-extract-router`
+- 원문: 작성자 댓글 `comments[3]`의 따옴표 안 직접 요청. `comments[1]`·`comments[2]`의 “여러 쇼핑몰에서 이 상품 가격을 비교해줘”, “이 표의 상품명과 가격만 가져와”도 각각 조사·추출에 쓰는 예시다.
+
+```text
+탐색과 판단이 필요하면 Aside exec를 쓰고,
+조작 대상이 확인되면 repl로 필요한 값만 추출해줘.
+```
+
+### 24. 브랜드 디자인 규칙 적용 예시
+
+- 출처: @conanssam — https://www.threads.com/@conanssam/post/DXrZZeLmAbx
+- 목적: 프로젝트 루트에 추가한 `DESIGN.md`를 기준으로 UI를 만들게 한다.
+- 재사용성: 중 — 디자인 규칙 파일의 실제 내용에 의존한다.
+- 카테고리: 개발·자동화
+- 스킬화 제안: `design-rule-application`
+- 원문: 작성자 댓글 `comments[0]`에서 인용한 AI 요청. 게시글 본문의 “애플 스타일로 만들어줘”는 구체성이 부족한 반례로 인용됐다.
+
+```text
+이 파일 기준으로 UI 만들어줘
+```
+
+### 25. 음성 생성 입력 예시
+
+- 출처: @h2smusic — https://www.threads.com/@h2smusic/post/DZBNwOiE7gZ
+- 목적: 음성 생성 도구에 목소리 조건을 지정한다.
+- 재사용성: 하 — 한 가지 조건만 제시한 짧은 예시이며 도구·실제 결과는 검증되지 않았다.
+- 카테고리: 이미지·영상
+- 스킬화 제안: `voice-style-brief`
+- 원문: 본문에서 “프롬프트를 짜면”이라고 설명하며 인용한 입력 예시.
+
+```text
+30대 여성 목소리로 만들어줘
+```
+
+## 상세 JSON 수집 전 목록 본문에서 확인된 원문
+
+이 절의 출처는 `threads-saved/posts-partial.json`의 저장글 본문뿐이다. 상세 댓글·이미지가 아직 `details2`에 없으므로 게시물이 “댓글에 이어서”라고 한 뒤의 원문은 확보했다고 주장하지 않는다.
+
+### 26. 제품 후기 말투 전환 예시
+
+- 출처: @th.aiinfo — https://www.threads.com/@th.aiinfo/post/Desm0caE3mQ
+- 목적: 제품 리뷰 요청을 친구에게 대화하듯 말하는 형식으로 바꾼다.
+- 재사용성: 중 — 말투 방향은 재사용 가능하지만 상품 사실과 효과는 검증 대상이다.
+- 카테고리: 콘텐츠·글쓰기
+- 스킬화 제안: `conversational-product-review`
+- 원문: 본문에서 직접 입력한 문장. “프롬프트 그대로 이어서 풀어둠” 이후의 댓글 내용은 상세파일 미수집.
+
+```text
+산 지 일주일 된 친구처럼 나한테 카톡해줘
+```
+
+### 27. 사진 기반 사실적인 이미지 생성 호출 예시
+
+- 출처: @revfactory1 — https://www.threads.com/@revfactory1/post/DcaJkr0GvWw
+- 목적: `photoreal` 스킬에 장면을 주어 이미지 생성을 요청한다.
+- 재사용성: 중 — 스킬 설치와 별도 이미지 생성 도구가 필요하다.
+- 카테고리: 이미지·영상
+- 스킬화 제안: `photoreal-scene-request`
+- 원문: 저장글 본문의 따옴표 안 명령 예시. 스킬 내용은 게시물에서 제공되지 않았다.
+
+```text
+/photoreal 판교 개발자들 미팅하는 장면
+```
+
+### 28. 복수 참조를 사용하는 영상 생성 예시
+
+- 출처: @won.wizard — https://www.threads.com/@won.wizard/post/Db9pMFBDzX8
+- 목적: 참조 이미지 A의 인물, B의 장소, 영상 C의 움직임을 합친 영상 생성을 요청한다.
+- 재사용성: 상 — 자산별 역할 지정 구조는 다른 영상에도 쓸 수 있다.
+- 카테고리: 이미지·영상
+- 스킬화 제안: `reference-to-video-brief`
+- 원문: 저장글 본문에서 `「」`로 표시한 지시문. 실제 A·B·C 자산은 미제공이다.
+
+```text
+이미지 A의 캐릭터를 이미지 B의 장소에서 동영상 C처럼 춤추게 해줘
+```
+
+### 29. 쇼핑 쇼츠 자동화 파이프라인 재설계 지시 예시
+
+- 출처: @quitting_time_lab — https://www.threads.com/@quitting_time_lab/post/DcwzAT7CK-7
+- 목적: 단일 영상 대본 대신 제작 자동화의 작업 순서와 목표를 재검토하도록 요청한다.
+- 재사용성: 중 — 숫자는 작성자의 주장으로서 결과를 보증하지 않는다.
+- 카테고리: 콘텐츠·글쓰기
+- 스킬화 제안: `short-video-workflow-review`
+- 원문: 저장글 본문의 따옴표 안 두 입력 문장. 게시물이 말하는 추가 7개 프롬프트는 상세 댓글 미수집으로 누락 상태다.
+
+```text
+쇼핑 쇼츠 대본 써줘
+조회수 100만 회 이상 나오는 자동화 파이프라인 기준으로 다시 설계해줘
+```
+
+### 30. Notion에 연결된 에이전트 명령 예시 네 개
+
+- 출처: @roach_log — https://www.threads.com/@roach_log/post/DYbXGAvDLfo
+- 목적: Notion 페이지 검색·요약·회의록 생성·DB 상태 조회를 각각 지시한다.
+- 재사용성: 중 — 연결된 Notion 접근 권한과 실제 데이터가 전제된다.
+- 카테고리: 에이전트·오케스트레이션
+- 스킬화 제안: `notion-task-commands`
+- 원문: 저장글 본문의 네 개 직접 인용. 설치 안내가 이어진다는 언급은 있으나 상세 댓글은 미수집이다.
+
+```text
+Notion에서 페이지 찾아줘.
+이 페이지 내용 요약해줘.
+회의록 페이지 만들어줘.
+DB에서 특정 상태만 조회해줘.
+```
+
+## 신규 상세댓글에서 확인된 프롬프트 묶음
+
+### 31. 제품 영상 만들기·수정 프롬프트 7개
+
+- 출처: @makefamily_ai — https://www.threads.com/@makefamily_ai/post/Dd6SZjdk5fB
+- 목적: 상품 사진·클립에서 후킹 컷, 카메라 이동, 배경 변경, 영상 연장, 세로 크롭, 사운드, 첫 컷 변형을 차례로 요청한다.
+- 재사용성: 상 — [상품]·[장소]·[분위기] 등을 바꿔 반복할 수 있다.
+- 카테고리: 이미지·영상
+- 스킬화 제안: `short-product-video-pipeline`
+- 원문: 작성자 댓글 `comments[0]`~`comments[6]`의 따옴표 안 7개 입력문. 번호와 각 입력문의 경계를 보존한다.
+
+```text
+1. [상품]을 손이 집어 드는 3초 영상 만들어줘. 세로 9:16, 배경은 [장소], 카메라는 천천히 뒤로 빠지게. 글자랑 로고는 넣지 마.
+
+2. 이 사진으로 5초 영상 만들어줘. 상품 모양이랑 색은 그대로 두고 카메라만 왼쪽에서 오른쪽으로 천천히 움직여. 나머지는 전부 그대로.
+
+3. 배경만 [장소]로 바꿔줘. 사람 옷이랑 조명은 그대로. 나머지는 전부 그대로 둬.
+
+4. 이 클립 뒤에 5초 더 이어줘. 같은 장소, 같은 조명으로 [다음에 일어날 일]. 새로운 사람은 넣지 마.
+
+5. 이 영상을 9:16 세로로 다시 잡아줘. [대상]이 항상 화면 가운데 오게.
+
+6. 이 장면에 맞는 소리 넣어줘. [분위기] 음악만, 사람 목소리는 없이. 마지막 1초는 소리 줄여줘.
+
+7. 같은 장면으로 첫 3초만 다른 버전 5개 만들어줘. 상품 클로즈업, 손 등장, 쓰는 중, 결과, 표정. 나머지는 전부 그대로.
+```
+
+### 32. 안 팔리는 재고 분석·처분 프롬프트 6개
+
+- 출처: @makefamily_ai — https://www.threads.com/@makefamily_ai/post/DdoQ1lgExIY
+- 목적: 재고에 묶인 금액 계산→부진 이유→회복/처분 분리→묶음 제안→할인 비용 비교→다음 발주 점검.
+- 재사용성: 상 — 자신의 재고·원가·보관비만 대체해 재사용 가능하다.
+- 카테고리: 전자상거래·상품등록
+- 스킬화 제안: `slow-inventory-decision`
+- 원문: 작성자 댓글 `comments[0]`~`comments[5]`의 따옴표 안 여섯 입력문. 일부가 여러 줄이라 개행을 유지했다.
+
+```text
+1. 상품별 재고와 원가야. 안 팔린 기간별로 나누고 각 구간에 묶인 금액을 계산해줘. 내가 원가를 안 준 상품은 비워두고 물어봐줘.
+재고: [붙여넣기]
+
+2. 이 상품들이야. 안 팔리는 이유를 가격, 노출, 상세페이지, 계절, 수요 없음으로 나눠줘. 내 기록으로 확인되는 것만 쓰고 나머지는 확인 필요로 표시해줘.
+상품: [내용]
+
+3. 위 분류야. 고치면 팔릴 것과 그냥 털 것으로 나눠줘. 살리는 쪽은 무엇을 고쳐야 하는지, 터는 쪽은 왜 그런지 한 줄씩 적어줘.
+분류: [내용]
+
+4. 털 상품과 잘 나가는 상품이야. 같이 묶어 팔 조합을 만들어줘. 억지로 끼워 넣지 말고, 고객이 같이 쓸 이유가 있는 것만. 없으면 없다고 해줘.
+상품: [내용]
+
+5. 이 상품의 원가와 보관 비용이야. 할인해서 지금 터는 것과 더 갖고 있는 것 중 어느 쪽이 나은지 계산해줘. 내가 안 준 비용은 물어보고 추정치를 넣지 마.
+원가: [금액] / 보관: [내용]
+
+6. 이번에 묶인 상품들의 공통점을 찾아줘. 발주할 때 무엇을 먼저 확인했으면 이렇게 안 됐을지 점검 항목으로 적어줘.
+상품: [내용]
+```
+
+### 33. Google Flow용 10초 푸들 스포츠 광고 — 댓글 캡처 부분
+
+- 출처: @imusiro — https://www.threads.com/@imusiro/post/DcPPeFgkxF-
+- 목적: 2D 모션그래픽 스포츠 광고의 콘셉트, 색상, 샷과 타이밍을 지정한다.
+- 재사용성: 중 — 촬영·전환 규칙은 재사용 가능하나 푸들·카피에 특화됐다.
+- 카테고리: 이미지·영상
+- 스킬화 제안: `flow-athletic-motion-graphics`
+- 원문: 작성자 댓글 `comments[0]`의 캡처된 입력문. (뒤에 "더 보기" 표시가 있었으나 실제로는 잘린 것이 아니다 — 본문이 문장으로 완결된다. 2026-10-24 클릭 확인)
+
+```text
+Create a 10.000-second ultra-high-impact motion graphics commercial optimized for Google Flow Omni Flash.
+
+CORE CONCEPT
+
+Create a fictional premium sports-brand advertisement starring a tiny brown poodle as an elite athlete.
+
+The film should feel fast, confident, playful, premium, and absurdly energetic.
+
+The emotional contrast is the core idea:
+
+a very small fluffy brown poodle
+with the intensity of a world-class sports campaign.
+
+The visual journey:
+
+FOCUS
+→ START
+→ SPRINT
+→ OBSTACLE RUN
+→ AIRTIME
+→ IMPACT
+→ TYPOGRAPHY
+→ FINAL HERO POSE
+
+The final message must be:
+
+SMALL DOG.
+BIG ENERGY.
+
+Do not copy any existing athletic brand logo, slogan, or trademarked design identity.
+
+Create a completely original graphic world.
+
+VISUAL STYLE
+
+Bold minimalist 2D motion design, crisp flat-vector graphics, premium sports-commercial attitude, high-contrast editorial framing, explosive speed ramps, dynamic silhouette match cuts, aggressive squash-and-stretch, precise graphic choreography, kinetic typography, dramatic pauses, athletic motion language, and clean geometric impact shapes.
+
+The animation should alternate between:
+stillness and explosion,
+small scale and massive scale,
+empty negative space and sudden visual takeover.
+
+No photorealism, no realistic fur rendering, no gradients dominating the image, no unnecessary 3D, no smoke, no lens effects, no glitch, no watermark, and no visual clutter.
+
+COLOR PALETTE
+
+Cocoa brown, warm cream, electric cobalt, acid lime, coral red, and near-black.
+
+Use warm cream as the primary background.
+Use cocoa brown for the poodle.
+Use electric cobalt and acid lime for speed, energy, and athletic activation.
+Use coral red as an impact accent.
+Use near-black for strong contrast and typography.
+
+[SHOT 1 — LOCK IN]
+00:00.000–00:01.200
+
+Begin on a warm cream background.
+
+A tiny brown poodle stands at a starting line in profile facing right.
+
+The starting line is a simple near-black horizontal stroke.
+
+The poodle is small, fluffy, and adorable:
+round head,
+floppy ears,
+tiny dot eyes,
+small oval nose,
+compact athletic body.
+
+Everything is still.
+
+One ear twitches.
+
+CLICK.
+
+The poodle lowers its front body slightly into a ready stance.
+
+Its tail lifts.
+
+A thin acid-lime line appears under its paws like a pressure sensor charging up.
+
+THUMP.
+
+Hold for 2 frames.
+
+Then launch.
+
+[SHOT 2 — SPRINT BURST]
+00:01.200–00:02.800
+
+The poodle explodes forward with a sharp WHIP.
+
+Its body stretches to 180% length for a few frames.
+
+Its ears stream behind like racing flags.
+
+Its paws hit the ground in a rapid rhythm:
+
+TOK — TOK — TOK — BOOM
+
+Each footfall creates a bold geometric impact shape behind it:
+circle,
+triangle,
+square,
+arc.
+
+These shapes vanish within 2–4 frames.
+
+As speed increases, the poodle briefly morphs through shared silhouettes:
+
+poodle → speed arrow → running streak → poodle
+
+Do not crossfade.
+
+At maximum speed, the background flips from warm cream to electric cobalt for a split second, then returns.
+
+The poodle skids sideways with exaggerated follow-through.
+
+A giant acid-lime streak cuts across the whole frame.
+
+[SHOT 3 — EVERYDAY OBJECTS AS TRAINING COURSE]
+00:02.800–00:04.800
+
+Now treat ordinary dog-life objects as elite sports obstacles.
+
+The poodle charges through a rapid sequence:
+
+tennis ball → hoop
+cushion → hurdle
+sofa edge → running ramp
+food bowl → circular target
+leash loop → tunnel
+
+Each object must appear as a clean graphic symbol, not realistic illustration.
+
+The poodle interacts with them at extreme speed:
+
+jumps through the hoop,
+clears the hurdle,
+runs up the ramp,
+spins around the bowl target,
+dives through the leash tunnel.
+
+Every obstacle transforms into the next through shared geometry.
+
+Examples:
+tennis ball circle becomes hoop ring,
+hoop ring flattens into hurdle bar,
+bar bends into ramp,
+ramp curves into bowl,
+bowl loop becomes leash tunnel.
+
+Use synchronized sound:
+POP — SNAP — SWISH — TOK — BOOM
+
+At 00:04.300 the poodle launches off the final ramp.
+```
+
+### 34. 사진+드로잉 미니멀 광고 포스터 JSON
+
+- 출처: @masterkeyai — https://www.threads.com/@masterkeyai/post/DXeqsbDD8XS
+- 목적: 사진 피사체와 검은 펜 낙서를 합친 광고 포스터를 생성한다.
+- 재사용성: 상 — 실제 물체·드로잉 컨셉·카피·브랜드 로고 슬롯 교체 가능.
+- 카테고리: 이미지·영상
+- 스킬화 제안: `minimalist-doodle-ad-poster`
+- 원문: 작성자 댓글 `comments[0]`의 완결된 JSON 입력 구간. (뒤에 `Read more` 표시가 있었으나 JSON이 닫힌 뒤에 붙은 것이고, 그 다음은 작성 안내 문장이다. 2026-10-24 클릭 확인 — 실제 절단 아님)
+
+```json
+{
+"advertisement_design": {
+"theme": "Minimalist and Creative",
+"background": {
+"color": "Pure White",
+"style": "High Negative Space"
+},
+"visual_elements": {
+"primary_subject": {
+"type": "Real Photographic [Real Object]",
+"integration": "Blended into a hand-drawn illustration"
+},
+"illustration_style": {
+"medium": "Simple black ink doodle",
+"stroke_type": "Loose, playful lines",
+"contrast": "High contrast between realistic object and flat drawing"
+},
+"interaction_concept": {
+"description": "[Doodle Concept] interacts directly and cleverly with the real object",
+"metaphor": "Smart visual metaphor making the object part of the scene"
+}
+},
+"typography": {
+"header": {
+"text": "[Ad Copy]",
+"style": "Bold, Uppercase, Black",
+"position": "Top"
+},
+"footer": {
+"brand_logo": "Official [Brand Logo]",
+"alignment": "Centered",
+"position": "Bottom"
+}
+},
+"technical_specs": {
+"layout": "Clean",
+"format": "Print-ready poster design"
+}
+}
+}
+```
+
+### 35. 음식·OOTD·MOTD 사진의 손글씨 메모 프롬프트 세 가지
+
+- 출처: @ju0__ju0 — https://www.threads.com/@ju0__ju0/post/DXfuLv3j5K4
+- 목적: 사진의 여백에 흰색 손그림·한국어 메모를 합성한다. 음식, 의상, 메이크업에 각각 다른 묘사 규칙을 쓴다.
+- 재사용성: 상(음식·OOTD), 중(MOTD) — 상품 호수는 실제 정보를 확인해야 한다.
+- 카테고리: 이미지·영상
+- 중복 관계: 같은 손글씨 메모 형식을 공유하지만 문장이 다른 분야별 변형 세 개. 댓글 `comments[2]`는 MOTD 제목만 있고 원문이 없어 별도 블록으로 세지 않는다.
+- 스킬화 제안: `photo-handwritten-note`의 음식/패션/뷰티 모드.
+- 원문: 작성자 댓글 `comments[0]`, `comments[1]`, `comments[3]`의 공개 입력 구간. (각 댓글 뒤 `Read more` 표시는 실제 절단이 아닌 경우가 많았다 — 2026-10-24 클릭 확인. 절단으로 확인된 것은 `@hyun.doyun` 1건뿐이다.)
+
+**음식용 (`comments[0]`)**
+
+```text
+​📝 인스타 감성 손글씨 메모 프롬프트 (한글판)
+​[컨셉]
+전체적인 분위기는 따뜻하고 감성적인 '인스타 스토리' 또는 '잡지 속 카페 투어' 페이지처럼 연출해줘. 사진의 여백을 활용해 흰색 손글씨 주석을 추가해줘.
+​[드로잉 규칙]
+​펜 스타일: 얇은 흰색 펜으로 직접 그린 듯한 느낌. 한 붓 그리기처럼 자연스럽고 살짝 삐뚤삐뚤한 선.
+​라인: 주요 음식/오브젝트의 외곽선을 따라 얇은 흰색 테두리 추가.
+​유도: 화살표나 부드러운 곡선 점선을 활용해 시선을 아이템으로 유도.
+​장식: 작은 하트(♡), 반짝이(✨), 김이 모락모락 나는 선(♨), 귀여운 미소(о´∀`о) 등 감성적인 아이콘을 과하지 않게 배치.
+​[텍스트 규칙]
+​언어: 한국어(한글) 손글씨체.
+​말투: 짧고 귀여운 혼잣말, 일기 형식, 다정하고 감성적인 톤.
+​내용 구성:
+​메인 음식: 식감과 맛 표현 (예: "완전 겉바속촉!", "입에서 살살 녹아")
+​사이드/음료: 기분과 상태 표현 (예: "시원함 그 자체", "향긋해서 좋아")
+​분위기: 공간의 느낌 (예: "나만 알고 싶은 자리", "햇살 맛집이네")
+​총평: 한 줄 요약 (예: "오늘 하루도 수고했어🍀", "완벽한 한 끼였다!")
+​💡 활용 방법
+​사진을 올리면서 AI에게 다음과 같이 요청해 보세요:
+​"이 사진 속 아이템들을 분석해서, 위에서 정의한 [한글 전용 범용 프롬프트] 규칙대로 흰색 손글씨 메모를 추가해줘. 여백을 잘 살려서 세련되게 만들어줘."
+```
+
+**OOTD용 (`comments[1]`)**
+
+```text
+🧥 OOTD용 감성 손글씨 메모 프롬프트 (한글판)
+
+[컨셉]
+전체적인 분위기는 세련된 '패션 매거진의 스크랩북' 또는 편집 숍의 '룩북' 페이지처럼 연출해줘. 사진 위, 특히 오브젝트 주변의 여백을 활용해 디테일한 흰색 손글씨 메모를 추가해줘.
+[드로잉 규칙]
+
+펜 스타일: 전문 패션 일러스트레이터가 가볍게 스케치한 듯한, 얇고 불규칙한 선.
+
+라인: 주요 패션 아이템(상/하의, 신발, 가방 등)의 외곽선을 따라 얇고 감각적인 흰색 테두리 추가.
+
+유도: 화살표나 곡선 점선을 활용해 시선을 특정 디테일(소재감, 브랜드 로고, 특별한 봉제 등)로 유도.
+
+장식: 반짝이(✨), 작은 별(★), 체크 표시(✅), 세탁 라벨 아이콘(👕), 카메라 아이콘(📷) 등 패션 관련 감성 아이콘을 과하지 않게 배치.
+[텍스트 규칙]
+
+언어: 한국어(한글) 손글씨체.
+
+말투: 전문적이면서도 다정한 피드백, 친구에게 추천하는 톤.
+
+내용 구성:
+
+상의: 핏과 소재감 표현 (예: "루즈한 핏이 예술👍", "실크처럼 부드러운 촉감")
+
+하의: 실루엣과 착용감 표현 (예: "입자마자 다리 2배 길어짐", "이보다 편할 수 없는 데님")
+
+액세서리: 포인트와 레이어링 설명 (예: "레이어링하기 딱 좋은 길이", "은은하게 포인트 주기 좋아")
+
+총평: 전체적인 스타일 요약 (예: "오늘 하루, 기분 좋은 룩! (๑•̀ㅁ•́๑)✧", "스트릿 감성 제대로! 🍀")
+
+해시태그: 상단 여백에 세련된 한글 해시태그 프레임 추가 (예: #오늘의코디 #스트릿패션 #OOTD)
+
+💡 활용 방법
+
+OOTD 사진을 올리면서 AI에게 다음과 같이 요청해 보세요:
+
+> "이 OOTD 사진 속 아이템들을 분석해서, 위에서 정의한 [OOTD용 감성 손글씨 메모 프롬프트] 규칙대로 흰색 손글씨 메모를 추가해줘. 패션 매거진 스크랩처럼 세련되게 만들어줘."
+```
+
+**MOTD용 (`comments[3]`)**
+
+```text
+MOTD용 감성 손글씨 메모 프롬프트 (한글판)
+[컨셉]
+전체적인 분위기는 뷰티 유튜버의 '비밀 스크랩북' 또는 메이크업 아티스트의 **'개인 노트'**처럼 연출해줘. 사진 위, 특히 오브젝트 주변의 여백을 활용해 디테일한 흰색 손글씨 메모를 추가해줘.
+
+[드로잉 규칙]
+
+펜 스타일: 얇은 흰색 펜, 직접 필기한 듯한 자연스럽고 살짝 삐뚤삐뚤한 선.
+
+라인: 주요 화장품 아이템(파운데이션, 립스틱, 팔레트 등)의 외곽선을 따라 얇고 감각적인 흰색 테두리 추가.
+
+유도: 화살표나 곡선 점선을 활용해 특정 화장품을 가리키거나, 해당 화장품을 사용한 얼굴 부위(눈, 입술 등)로 시선을 유도.
+
+장식: 반짝이(✨), 작은 하트(♡), 꽃잎(🌸), 브러시 아이콘(🖌️), 거울 아이콘(🪞) 등 뷰티 관련 감성 아이콘을 과하지 않게 배치.
+
+정보성 장식: 색상 차트처럼 작은 사각형 또는 원형 프레임을 만들고 그 안에 색상을 표현하거나 호수를 적을 수 있게 유도.
+
+[텍스트 규칙]
+
+언어: 한국어(한글) 손글씨체.
+
+말투: 짧고 귀여운 혼잣말, 일기 형식, 다정하고 감성적인 톤.
+
+내용 구성:
+
+베이스 메이크업: 톤과 밀착감 표현 (예: "21호인데도 화사해👍", "밀착력 갑!")
+
+아이 메이크업: 발색과 펄감 설명 (예: "영롱한 펄감, 어쩔 거야✨", "발색 넘예💖")
+
+립 메이크업: 컬러와 제형 표현 (예: "레드의 정석, 넘 매력적💄", "촉촉한 코랄")
+
+치크/하이라이터: 은은함과 분위기 설명 (예: "은은한 생기", "하이라이터 뿜뿜")
+
+호수/정보 (핵심): 사용자가 직접 호수를 입력할 수 있도록 가이드 제공. (예: "색상 호수: [여기에 입력]", "블러셔 호수: [여기에 입력]")
+
+총평: 한 줄 요약 (예: "오늘 메이크업 대만족! (๑>ᴗ<๑)", "소소하게 행복한 하루🍀")
+
+해시태그: 상단 여백에 세련된 한글 해시태그 프레임 추가 (예: #오늘의메이크업 #MOTD #뷰티그램)
+
+💡 활용 방법
+MOTD 사진을 올리면서 AI에게 다음과 같이 요청해 보세요:
+
+"이 MOTD 사진 속 아이템들을 분석해서, 위에서 정의한 [MOTD용 감성 손글씨 메모 프롬프트] 규칙대로 흰색 손글씨 메모를 추가해줘. 사용자가 직접 입력한 호수 정보(베이스: 21호, 립: 01호 로즈핑크)를 포함하여 정확하게 만들어줘."
+```
+
 ## 누적본 현황
 
 - `details2` 현재 보고된 수: 367건(수집 중).
 - GJC 기존 추출본 최신 스냅샷: 322건 스캔, 42개 후보 신호, 14개 원문 항목.
-- 이 파일의 numbered source records: 17개. 여러 레코드는 한 게시물 안에 여러 개의 prompt block을 포함하며, gptaku_ai 쇼릴 프롬프트의 제품 교체형은 중복 변형으로 합쳤다.
+- 이 파일의 numbered source records: 35개(#1~#35, 본문 배치 순서와 번호 순서는 다를 수 있음). #26~#30은 상세 JSON 없이 저장 목록 본문에만 확보된 예시이며, 여러 레코드는 한 게시물 안에 여러 개의 prompt block을 포함한다.
 - 위 수치는 전수 완료 수치가 아니다. 남은 상세파일을 계속 검사하고 이 파일에 이어 반영해야 한다.

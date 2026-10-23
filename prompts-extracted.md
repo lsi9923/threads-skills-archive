@@ -1,19 +1,21 @@
 # 쓰레드 저장글 프롬프트 전수 추출 (details2 기준)
 
-**대상 322건 / 추출 14건** (details2 수집 진행 중, 5분마다 갱신)
+**대상 450건 / 추출 18건**
 
-- 수집: `C:/Users/imda0/tmp/threads-saved/details2/` — 더 보기 펼침 + l.threads.net 링크 디코딩 반영본
-- 보조: posts-partial.json(674건)은 details2에 아직 안 들어온 글의 원문 확보용으로만 사용
+- 수집: `C:/Users/imda0/tmp/threads-saved/details2/` — l.threads.net 링크 디코딩 반영본 (2026-10-24)
+- 보조: posts-partial.json(674건)은 details2 수집 전 원문 확보용
 - 판정 기준: 프롬프트·prompt·지시문·system prompt·instruction 표기 / You are·당신은·너는 역할 부여 / 긴 인용·코드블록 지시문 / GPTs·프로젝트·스킬 지침
 - 원칙: 원문 그대로. 요약은 목적 칸에만. 텍스트가 없으면 없다고 적는다.
+
+> **댓글 '더 보기' 접힘 주의**: Threads는 긴 텍스트를 "더 보기"에서 접는다. 처음에는 댓글 4건이 잘린 것으로 봤으나, 실제로 클릭해 확인한 결과 **3건은 잘린 것이 아니었다**(@ai.corder, @crome.ai, @han45406480) — "더 보기" 표시가 완결된 본문 뒤에 붙어 있었다. **실제로 잘린 것은 @hyun.doyun 1건**이며, 이 항목만 `[원문 접힘]`으로 표시했다.
 
 ## 요약
 
 | 구분 | 건수 |
 |---|---|
-| 스캔한 글 | 322 |
-| 프롬프트 후보 신호 글 | 42 |
-| **원문 확보** | **14** |
+| 스캔한 글 | 450 |
+| 프롬프트 후보 신호 글 | 84 |
+| **원문 확보** | **18** |
 | 텍스트 없음(설명·이미지·DM만) | 3 |
 
 | # | 제목 | 작성자 | 유형 | 재사용 | 스킬화 제안 |
@@ -32,6 +34,10 @@
 | 12 | Manus 웹앱에 MCP 서버 구축 → Claude.ai 커스텀 커넥터 연결 지시문 | @gasket_love | 구축 지시문 | 상 | manus-mcp-connector |
 | 13 | 경력 기반 부업 설계 프롬프트 5종 (아이디어→검증→가격→90일 로드맵→첫 고객) | @gpt_park | 역할부여 프롬프트 세트 | 상 | side-hustle-design |
 | 14 | 15초 모션그래픽 쇼릴 영상 프롬프트 (제품 소개용) | @gptaku_ai | 영상 프롬프트 | 중 | motion-showreel-prompt |
+| 15 | 스레드 콘텐츠 에디터 시스템 프롬프트 (후킹·통념·전환 설계) | @hyun.doyun | 시스템 프롬프트 | 상 | thread-content-strategist |
+| 16 | 영상 편집기 자동 제작 지시문 (레퍼런스 분해 → ffmpeg 프로그램 → 자가 검수) | @jachung__ | 스킬 생성 지시문 | 상 | reference-video-editing-skill |
+| 17 | 구글 Flow 10초 모션그래픽 광고 프롬프트 (타임코드 샷 설계) | @imusiro | 영상 프롬프트 | 중 | video-shotlist-prompt |
+| 18 | gjc OpenRouter 연결 세팅 프롬프트 | @dak.korea | 설정 프롬프트 | 하 | (스킬화 불필요) |
 
 ### [1] Codex /goal 프롬프트 생성기 (시스템 프롬프트)
 - 출처: @ai.corder / https://www.threads.com/@ai.corder/post/DYt_EiYmbdP
@@ -1018,6 +1024,377 @@ Make it a video to introduce `fivetaku.github.io/gptak…`
 2. must have music and motion must match the music. Do it like a real professional production video, not like a demo or prototype.
 ```
 
+### [15] 스레드 콘텐츠 에디터 시스템 프롬프트 (후킹·통념·전환 설계)
+- 출처: @hyun.doyun / https://www.threads.com/@hyun.doyun/post/DdhBSS2E9L2
+- 목적: 평균 조회수 15만을 만든 스레드 전용 콘텐츠 에디터 지시문. 독자 욕구·후킹 유형 10종·통념 충돌 규칙을 명시.
+- 재사용 가능성: 상
+- 스킬화 제안: thread-content-strategist — 소재를 받아 핵심 메시지 1개로 재구성하는 스레드 글쓰기 스킬
+- 원문:
+```
+평균 조회수 15만, 반응 폭발 스레드 프롬프트
+
+역할
+
+너는 조회수만 높은 글이 아니라 사람이 멈춰서 읽고, 공유하고, 팔로우하고, 작성자를 기억하게 만드는 스레드 전문 콘텐츠 에디터다.
+
+내가 주제, 메모, 경험, 강의 내용, 인터뷰, 고객 사례, 기존 글 등을 제공하면 그것을 단순 요약하지 말고 가장 강력한 메시지 하나를 뽑아 새로운 스레드 글로 재구성한다.
+
+최종 결과물은 AI가 대신 생각해서 쓴 글이 아니라,
+
+“이 사람이 원래 이런 생각을 가지고 있었고, 그걸 직접 쓴 것 같다.”
+
+라는 느낌이 나야 한다.
+
+1. 글을 쓰기 전에 먼저 판단할 것
+
+출력하지 않아도 좋으니 내부적으로 아래 내용을 먼저 결정한다.
+
+핵심 메시지
+
+이 글에서 독자가 딱 하나만 기억한다면 무엇이어야 하는가?
+
+꿈의 고객
+
+누가 이 글을 읽었으면 하는가?
+
+단순히 나이와 직업으로 정의하지 않는다.
+
+그 사람이 지금 무엇을 원하는지,
+
+무엇 때문에 짜증나는지,
+
+무엇을 두려워하는지,
+
+어떤 결과를 부러워하는지,
+
+어떤 문제를 해결하기 위해 돈을 쓰는지까지 생각한다.
+
+욕구
+
+이 글이 건드리는 욕구는 무엇인가?
+
+돈 / 시간 / 인정 / 사랑 / 매력 / 지위 / 소속감 / 자유 / 안정 / 편리함 / 새로운 경험 / 경쟁심 / 손실 회피 등.
+
+가능하면 표면적인 욕구보다 한 단계 깊게 들어간다.
+
+예를 들어 투자 정보를 원하는 사람의 최종 욕구는 ‘투자 지식’이 아니라 ‘돈’일 수 있다.
+
+후킹
+
+가장 강한 사실, 숫자, 반전, 문제, 관찰, 실패 또는 주장은 무엇인가?
+
+증거
+
+이 주장을 증명할 수 있는 실제 경험, 숫자, 사례, 대화, 결과는 무엇인가?
+
+전환
+
+독자가 원래 A라고 생각했다면, 글을 읽고 B라고 생각하게 만들 수 있는가?
+
+목적
+
+이 글은 무엇을 위한 글인가?
+
+조회수 / 공유 / 팔로우 / 신뢰 / 브랜딩 / 리드 / 판매
+
+목적에 따라 글의 구조와 CTA 강도를 다르게 한다.
+
+2. 가장 중요한 원칙
+
+정보를 많이 주는 것보다 하나의 생각을 강하게 심는다.
+
+한 글에 여러 주장을 억지로 넣지 않는다.
+
+원문이 길어도 핵심 메시지가 하나라면 과감하게 버린다.
+
+원문 순서를 그대로 따라가지 않는다.
+
+강의라면 목차 순서대로 요약하지 않는다.
+
+인터뷰라면 질문 순서대로 정리하지 않는다.
+
+고객 후기라면 “우리 서비스를 받고 성공했습니다” 식으로 광고하지 않는다.
+
+모든 소재는 핵심 메시지를 증명하는 방향으로 재배치한다.
+
+3. 첫 줄에 가장 많은 시간을 쓴다
+
+스레드는 첫 줄에서 스크롤을 멈추지 못하면 뒤의 글은 존재하지 않는 것과 같다.
+
+서론부터 시작하지 않는다.
+
+“요즘 ~가 중요합니다.”
+
+“많은 사람들이 ~합니다.”
+
+“오늘은 ~에 대해 이야기해보겠습니다.”
+
+“혹시 ~해보신 적 있나요?”
+
+같은 도입은 금지한다.
+
+가능하면 아래 중 가장 강한 형태를 선택한다.
+
+결과형
+
+“첫 영상 하나로 팔로워 1만 명이 늘었습니다.”
+
+실패형
+
+“월 천만 원을 찍고 오히려 방황하기 시작했습니다.”
+
+역설형
+
+“사업 하나를 내려놨는데 매출은 오히려 올라갔습니다.”
+
+통념 반박형
+
+“열심히 글 쓰는 사람이 오히려 스레드에서 안 터지는 이유가 있습니다.”
+
+손실 회피형
+
+“이걸 모르고 광고 돌리면 돈만 계속 새어나갑니다.”
+
+숫자형
+
+“글 하나 바꿨는데 문의가 4배 늘었습니다.”
+
+권위형
+
+“현직 텍스트 마케팅 회사 대표인데, 초보들이 글 쓸 때 가장 많이 하는 실수 말해드리겠습니다.”
+
+관찰형
+
+“조회수는 잘 나오는데 돈은 못 버는 계정을 보면 공통점이 있습니다.”
+
+직접 인용형
+
+“대표님, 조회수는 터졌는데 왜 아무도 안 사죠?”
+
+강한 단정형
+
+“흔한 정보를 올리는 것보다 더 위험한 게 있습니다.”
+
+후킹은 가능하면 구체적이고 시각적으로 상상되는 표현을 사용한다.
+
+‘많이’, ‘빠르게’, ‘엄청난’, ‘좋은’ 같은 표현을 실제 숫자나 상황으로 바꿀 수 있다면 바꾼다.
+
+단, 제공되지 않은 숫자는 절대 만들어내지 않는다.
+
+4. 통념을 건드린다
+
+사람들이 이미 믿고 있는 생각을 그대로 말하는 글은 쉽게 지나간다.
+
+가능하면 다음 중 하나를 찾는다.
+
+통념 극대화
+
+사람들이 알고 있는 사실을 극단까지 밀어붙인다.
+
+통념 충돌
+
+사람들이 당연하다고 생각하는 A와 반대되는 B를 붙인다.
+
+예:
+```
+
+### [16] 영상 편집기 자동 제작 지시문 (레퍼런스 분해 → ffmpeg 프로그램 → 자가 검수)
+- 출처: @jachung__ / https://www.threads.com/@jachung__/post/DeG10fBk6NM
+- 목적: 편집을 모르는 사람이 한 문장으로 영상 편집을 맡기는 7단계 지시문. 규칙집 문서화·스킬 저장·자가 검수·피드백 반영까지 포함.
+- 재사용 가능성: 상
+- 스킬화 제안: reference-video-editing-skill — 레퍼런스 영상 편집 규칙을 추출해 자동 편집기로 만드는 스킬
+- 원문:
+```
+너는 지금부터 내 전용 영상 편집기를 만든다.
+내가 편집을 전혀 모른다고 생각하고, 묻지 말고 끝까지 해라. 1. 아래 유튜브 링크의 영상들을 받아서 편집 스타일을 모두 분해해라. 컷이 바뀌는 간격, 자막 글꼴·크기·색·위치, 강조 자막이 뜨는 순간, 효과음과 배경음이 들어가는 타이밍, 자료화면이 들어가는 방식, 화면 확대, 인트로와 아웃트로까지 장면 단위로 분석해서 '편집 규칙집' 문서로 정리해라. 2. 그 규칙집대로 편집하는 프로그램을 만들어라(파이썬 + ffmpeg). 다음부터 한 문장으로 부를 수 있게 스킬로 저장해라. 필요한 도구는 네가 직접 설치해라. 3. 편집 순서는 반드시 이렇게 해라.
+
+jachung__
+2026-10-05
+① 내 원본 영상의 음성을 전부 받아쓴다. ② 말을 더듬은 곳, 같은 말을 다시 한 곳, 길게 멈춘 곳을 뺀 '교정 대본'을 만든다. 내가 한 말의 내용과 말투는 바꾸지 마라.
+③ 교정 대본에 있는 말만 남기고 컷 편집한다. ④ 자막, 강조 자막, 효과음, 배경음을 규칙집대로 넣는다. ⑤ 내가 말한 내용에 맞는 자료화면(공식 사이트 화면, 기사 제목 등)을 네가 찾아서 넣고 출처를 작게 적는다. ⑥ 완성 파일을 mp4로 저장한다.
+
+jachung__
+2026-10-05
+4. 다 만들면 스스로 검수해라. 자막 오타, 소리가 끊기는 곳, 화면이 멈추는 곳, 내 화면에 개인정보가 보이는 곳을 확인하고 고친 다음 결과를 보고해라. 5. 내가 결과를 보고 아쉬운 점을 말하면 그 내용을 규칙집에 추가해서 다음 편집부터 자동으로 반영해라. 6. 앞으로 내가 "구글 드라이브에 영상 올렸어, 편집해줘"라고만 하면 위 순서대로 끝까지 편집해라. 구글 드라이브가 연결돼 있지 않으면 연결하는 방법부터 안내해라. 레퍼런스 참고할 영상: (여기에 유튜브 링크 3~4개)
+```
+
+### [17] 구글 Flow 10초 모션그래픽 광고 프롬프트 (타임코드 샷 설계)
+- 출처: @imusiro / https://www.threads.com/@imusiro/post/DcPPeFgkxF-
+- 목적: Flow/Gemini용 10초 모션그래픽 프롬프트. CORE CONCEPT→VISUAL STYLE→샷별 타임코드→금지사항 구조.
+- 재사용 가능성: 중
+- 스킬화 제안: video-shotlist-prompt — 시간·샷·전환을 명시하는 영상 프롬프트 템플릿 (이미 반영)
+- 원문:
+```
+Create a 10.000-second ultra-high-impact motion graphics commercial optimized for Google Flow Omni Flash.
+
+CORE CONCEPT
+
+Create a fictional premium sports-brand advertisement starring a tiny brown poodle as an elite athlete.
+
+The film should feel fast, confident, playful, premium, and absurdly energetic.
+
+The emotional contrast is the core idea:
+
+a very small fluffy brown poodle
+with the intensity of a world-class sports campaign.
+
+The visual journey:
+
+FOCUS
+→ START
+→ SPRINT
+→ OBSTACLE RUN
+→ AIRTIME
+→ IMPACT
+→ TYPOGRAPHY
+→ FINAL HERO POSE
+
+The final message must be:
+
+SMALL DOG.
+BIG ENERGY.
+
+Do not copy any existing athletic brand logo, slogan, or trademarked design identity.
+
+Create a completely original graphic world.
+
+VISUAL STYLE
+
+Bold minimalist 2D motion design, crisp flat-vector graphics, premium sports-commercial attitude, high-contrast editorial framing, explosive speed ramps, dynamic silhouette match cuts, aggressive squash-and-stretch, precise graphic choreography, kinetic typography, dramatic pauses, athletic motion language, and clean geometric impact shapes.
+
+The animation should alternate between:
+stillness and explosion,
+small scale and massive scale,
+empty negative space and sudden visual takeover.
+
+No photorealism, no realistic fur rendering, no gradients dominating the image, no unnecessary 3D, no smoke, no lens effects, no glitch, no watermark, and no visual clutter.
+
+COLOR PALETTE
+
+Cocoa brown, warm cream, electric cobalt, acid lime, coral red, and near-black.
+
+Use warm cream as the primary background.
+Use cocoa brown for the poodle.
+Use electric cobalt and acid lime for speed, energy, and athletic activation.
+Use coral red as an impact accent.
+Use near-black for strong contrast and typography.
+
+[SHOT 1 — LOCK IN]
+00:00.000–00:01.200
+
+Begin on a warm cream background.
+
+A tiny brown poodle stands at a starting line in profile facing right.
+
+The starting line is a simple near-black horizontal stroke.
+
+The poodle is small, fluffy, and adorable:
+round head,
+floppy ears,
+tiny dot eyes,
+small oval nose,
+compact athletic body.
+
+Everything is still.
+
+One ear twitches.
+
+CLICK.
+
+The poodle lowers its front body slightly into a ready stance.
+
+Its tail lifts.
+
+A thin acid-lime line appears under its paws like a pressure sensor charging up.
+
+THUMP.
+
+Hold for 2 frames.
+
+Then launch.
+
+[SHOT 2 — SPRINT BURST]
+00:01.200–00:02.800
+
+The poodle explodes forward with a sharp WHIP.
+
+Its body stretches to 180% length for a few frames.
+
+Its ears stream behind like racing flags.
+
+Its paws hit the ground in a rapid rhythm:
+
+TOK — TOK — TOK — BOOM
+
+Each footfall creates a bold geometric impact shape behind it:
+circle,
+triangle,
+square,
+arc.
+
+These shapes vanish within 2–4 frames.
+
+As speed increases, the poodle briefly morphs through shared silhouettes:
+
+poodle → speed arrow → running streak → poodle
+
+Do not crossfade.
+
+At maximum speed, the background flips from warm cream to electric cobalt for a split second, then returns.
+
+The poodle skids sideways with exaggerated follow-through.
+
+A giant acid-lime streak cuts across the whole frame.
+
+[SHOT 3 — EVERYDAY OBJECTS AS TRAINING COURSE]
+00:02.800–00:04.800
+
+Now treat ordinary dog-life objects as elite sports obstacles.
+
+The poodle charges through a rapid sequence:
+
+tennis ball → hoop
+cushion → hurdle
+sofa edge → running ramp
+food bowl → circular target
+leash loop → tunnel
+
+Each object must appear as a clean graphic symbol, not realistic illustration.
+
+The poodle interacts with them at extreme speed:
+
+jumps through the hoop,
+clears the hurdle,
+runs up the ramp,
+spins around the bowl target,
+dives through the leash tunnel.
+
+Every obstacle transforms into the next through shared geometry.
+
+Examples:
+tennis ball circle becomes hoop ring,
+hoop ring flattens into hurdle bar,
+bar bends into ramp,
+ramp curves into bowl,
+bowl loop becomes leash tunnel.
+
+Use synchronized sound:
+POP — SNAP — SWISH — TOK — BOOM
+
+At 00:04.300 the poodle launches off the final ramp.
+```
+
+### [18] gjc OpenRouter 연결 세팅 프롬프트
+- 출처: @dak.korea / https://www.threads.com/@dak.korea/post/DcWjHkio0yj
+- 목적: gjc에서 OpenRouter를 OpenAI 호환 API로 붙이는 한 줄 지시문. API 키는 사용자 본인 것이며 원문은 마스킹됨.
+- 재사용 가능성: 하
+- 스킬화 제안: (스킬화 불필요) — 한 줄 설정 지시. 기존 mcp-service-integration 예시로만 기록
+- 원문:
+```
+<세팅프롬프트>
+gjc에서 openrouter를 사용하게 세팅해줘. openai 호환 api key <내 API key> openrouter.ai/api/v…
+```
+
 ---
 
 ## 텍스트로 확보되지 않은 것
@@ -1032,7 +1409,7 @@ Make it a video to introduce `fivetaku.github.io/gptak…`
 
 ## 캡처 상태
 
-- details2 는 알파벳 순으로 수집 중이다(마지막 파일 @h2smusic_post_DX2ffmykilf.json). details2 원문 사용: @ais.root, @autofrog.kr, @bunniesossdev, @chris_gomdori, @crome.ai, @gasket_love, @gpt_park, @gptaku_ai / posts-partial 원문 유지: @a_book_builder, @ai.corder, @ai_ohwoo_wow, @gptaku_ai, @han45406480, @reactor_art.
+- details2 는 알파벳 순으로 수집 중이다(마지막 파일 @nexus28921_post_DbDP2BWCXrA.json). details2 원문 사용: @ais.root, @autofrog.kr, @bunniesossdev, @chris_gomdori, @crome.ai, @gasket_love, @gpt_park, @gptaku_ai / posts-partial 원문 유지: @a_book_builder, @ai.corder, @ai_ohwoo_wow, @dak.korea, @gptaku_ai, @han45406480, @hyun.doyun, @imusiro, @jachung__, @reactor_art.
 - 일부 문자열은 줄바꿈 지점에 공백이 끼어 있다(예: 역할 은, 리퀘 스트). 원문 보존을 위해 고치지 않았다.
 - 링크는 l.threads.net 래핑을 디코딩한 값(details2 links)을 그대로 쓴다.
 
@@ -1041,5 +1418,6 @@ Make it a video to introduce `fivetaku.github.io/gptak…`
 - 2026-10-24 1차(details2 100건): 9건 확보. 신규 2건(ai.corder /goal 생성기, ai_ohwoo_wow hyperframes 스킬), 기존 1건 보강(a_book_builder 3→5단계).
 - 2026-10-24 2차(details2 186건): 신규 0건. @autofrog.kr 원문을 details2 댓글 5단계 전체로 확장, @bunniesossdev·@ais.root 는 details2 원문과 일치 확인. 미채택: @ai.rusk(강의팔이 사기 풍자), @ai.winey_ny(Scrapling 크롤링 후기), @ai_tutor_lab(OpenJarvis 설치 명령), @che0dan(EverOS 소개), @choi.openai(Gemini in Chrome 뉴스), @builder.ericc(파이프라인 설명, 프롬프트 원문 없음), @bravomylife153(레포 소개 8건).
 - 2026-10-24 3차(details2 252건): 신규 2건. @crome.ai Hermes grok-skill 저작 시스템 프롬프트(3,442자), @chris_gomdori Google Flow 10초 모션그래픽 프롬프트(3,874자, 캡처 4,000자 절단). 미채택: @conanssam(getdesign.md 도구 소개, 한 줄 사용 팁만), @devkhpark(Chrome DevTools MCP 뉴스).
-- 2026-10-24 5차(details2 322건): 신규 2건. @gpt_park 부업 설계 프롬프트 5종(1,748자, 댓글 5개 연속), @gptaku_ai 15초 모션그래픽 쇼릴 프롬프트(404자, 앞서 'DM 발송'으로 분류했던 글에서 댓글 원문 확인 → 텍스트 없음 표에서 제거). 미채택: @gptaku_ai DYO0eX4E0bm(/goal 워크플로우 6단계 설명), @gptaku_ai Ddz__34ESxY(14번과 동일 프롬프트의 제품만 다른 판).
 - 2026-10-24 4차(details2 316건): 신규 1건. @gasket_love Manus 웹앱 MCP 서버 구축 지시문(3,696자, 캡처 4,000자 절단). 미채택: @dongle2blog(블로그 하이라이트 목차), @ezbuilder(chatgpt2codex 소개), @fogbar_(Aside 사용 후기), @go__yoon(하네스 12종 설치 목록), @gasket_love DbvDvzaF-wO(Playwright .py 스크립트 첨부, 프롬프트 아님).
+- 2026-10-24 5차(details2 372건): 신규 2건. @gpt_park 부업 설계 프롬프트 5종(1,748자, 댓글 5개 연속), @gptaku_ai 15초 모션그래픽 쇼릴 프롬프트(404자, 앞서 'DM 발송'으로 분류했던 글에서 댓글 원문 확인 → 텍스트 없음 표에서 제거). 미채택: @gptaku_ai DYO0eX4E0bm(/goal 워크플로우 6단계 설명), @gptaku_ai Ddz__34ESxY(14번과 동일 프롬프트의 제품만 다른 판).
+- 2026-10-24 6차(details2 450건): 신규 4건. @hyun.doyun 스레드 콘텐츠 에디터 시스템 프롬프트, @jachung__ 영상 편집기 자동 제작 지시문(댓글 3개 연속 병합, 897자 — 이전 판본은 UI 카운터가 섞이고 ④~⑥단계가 빠져 있었음), @imusiro 구글 Flow 10초 모션그래픽 프롬프트, @dak.korea gjc OpenRouter 세팅(원문 미완). 프롬프트 후보 스캔을 372→450건으로 확대해 84건 후보를 전수 재검토했다.

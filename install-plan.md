@@ -150,3 +150,116 @@
 - **yazzang-homelab/opencode-cli-gateway**: OpenCode 호환 API로 로컬 에이전트 CLI를 연결한다.
 
 진행: 40/40 판정. 설치 완료 12 / 실패 0 / 보류 28 / 미판정 0
+
+## 추가 판정 (100개)
+
+
+- 판정 시각: 2026-10-24
+- 근거: `repo-cache.json`의 description·stars·language만 사용. README 미수집 항목은 설치명령·설치결과를 `미확인`으로 표기했다(추측 금지).
+- 분류: `설치 가능(스킬/에이전트)`, `설치 가능(CLI/앱)`, `보류`
+- 보류 사유: `API 키 필요`, `시스템 전역 변경`, `대형 빌드/GPU 필요`, `단순 소개·목록 저장소`, `서비스/웹앱이라 설치 대상 아님`, `중복`
+
+| repo | 유형 | 설치명령 | 설치 결과 | 사용법 |
+|---|---|---|---|---|
+| AbdullahNaveed/ai-shorts-generator | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | Open-source AI short-form video generator — turn a topic into a captioned YouTube Shorts / TikTok / Reels vide |
+| ChromeDevTools/chrome-devtools-mcp | 설치 가능(스킬/에이전트) | 미확인 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | Chrome DevTools for coding agents |
+| Dark2C/Viral-Faceless-Shorts-Generator | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | Automatically generate faceless YouTube Shorts from trending topics using AI scripts, TTS, and FFmpeg. Fully c |
+| EverMind-AI/EverOS | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving acro |
+| Fincept-Corporation/FinceptTerminal | 설치 가능(CLI/앱) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and e |
+| GENEXIS-AI/chromex | 설치 가능(CLI/앱) | Chrome 확장 설치 | 설치 불가(Chrome 확장 · 브라우저 UI 설치) | A Codex-powered Chrome side-panel assistant for page context, tabs, voice, and image workflows. |
+| HKUDS/AI-Trader | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | "AI-Trader: 100% Fully-Automated Agent-Native Trading" |
+| HKUDS/RAG-Anything | 미확인 | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | "RAG-Anything: All-in-One RAG Framework" |
+| InsForge/InsForge | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | The all-in-one, open-source backend platform for agentic coding. InsForge gives your coding agent database, au |
+| K-Dense-AI/scientific-agent-skills | 설치 가능(스킬/에이전트) | 미확인 | 설치 성공: `npx skills add K-Dense-AI/scientific-agent-skills --global` → ~/.agents/skills에 177개 스킬 추가(예: biopython, astropy, sympy). PromptScript 타깃은 'global 미지원'으로 실패 | Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists w |
+| Leonxlnx/taste-skill | 설치 가능(스킬/에이전트) | 미확인 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | Agent skills that give coding agents taste: art direction, reference images and a browser check instead of gen |
+| MengTo/Skills | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents |
+| NVlabs/Sana | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer |
+| Niko1221/Strata | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, O |
+| NomaDamas/CozyClay | 보류 | 미확인 | 보류: 서비스/웹앱이라 설치 대상 아님 | Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then |
+| NomaDamas/bananatape | 설치 가능(CLI/앱) | 미확인 | 설치 성공: `npx skills add NomaDamas/bananatape --global` → `~/.agents/skills/bananatape/SKILL.md` (2,254 B) 확인 | Vibe Design Tool for developers - generate, annotate, edit - with your codex subscription |
+| NomaDamas/big-brother | 미확인 | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 미확인 |
+| NomaDamas/god-tibo-imagen | 미확인 | 미확인 | 설치 성공: `npx skills add NomaDamas/god-tibo-imagen --global` → `~/.agents/skills/god-tibo-imagen/SKILL.md` (3,093 B) 확인 | Python & Node package to use GPT image 2.0 model via codex subscription |
+| NomaDamas/k-skill | 설치 가능(스킬/에이전트) | 미확인 | 설치 성공: `npx skills add NomaDamas/k-skill --global` → 총 216개로 증가(예: store-longevity-radar, toss-investment, zipcode-search). PromptScript 타깃 실패 | 한국인을 위한 스킬 모음집 - 에이전트를 한국인으로 |
+| NomaDamas/slides-grab | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Best harness + editor + linter for generating slides in Claude Code / Codex - Claude Design Open Source Altern |
+| NousResearch/Hermes-Bot-Mode | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to- |
+| OpenBMB/VoxCPM | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Clonin |
+| Panniantong/Agent-Reach | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili,  |
+| Q00/o | 미확인 | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 미확인 |
+| Q00/ouroboros | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budget |
+| TauricResearch/TradingAgents | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | TradingAgents: Multi-Agents LLM Financial Trading Framework |
+| Tencent/BrowserSkill | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 설치 불가(Chrome 확장 · 브라우저 UI 설치) | Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser aut |
+| VoltAgent/awesome-codex-subagents | 보류 | 미확인 | 보류: 단순 소개·목록 저장소 | A collection of 130+ specialized Codex subagents covering a wide range of development use cases. |
+| XiaomiMiMo/MiMo-Code | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | MiMo Code: Where Models and Agents Co-Evolve |
+| YusifMurad/ClipPulse-AI | 설치 가능(CLI/앱) | README의 CLI 설치 명령 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 🎬 AI viral clip generator — turn any video into 9:16/16:9/1:1 clips for TikTok, Reels & Shorts. 100% local, op |
+| aaif-goose/goose | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with  |
+| alchaincyf/huashu-design | 설치 가능(스킬/에이전트) | 미확인 | 설치 성공: `npx skills add alchaincyf/huashu-design --global` → `~/.agents/skills/huashu-design/SKILL.md` (15,773 B) 확인 | Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你 |
+| anthropics/commerce-agents | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telec |
+| anthropics/knowledge-work-plugins | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork |
+| apache3563-bit/ddalkkak-threads-community | 설치 가능(CLI/앱) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Windows용 Threads 콘텐츠 제작 및 자동화 도구 Community Edition |
+| baskduf/FableCodex | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 🗿 FableCodex is a Codex-style coding agent workflow that plans like Fable. |
+| browser-use/video-use | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Edit videos with coding agents |
+| bytedance/UI-TARS-desktop | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
+| calesthio/OpenMontage | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent sk |
+| changeroa/StyleGallery | 미확인 | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | describe useful style patterns |
+| chopratejas/headroom | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agen |
+| chrisryugj/Docufinder | 설치 가능(CLI/앱) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Anything — 파일 이름이 아니라 본문으로 찾는 문서 검색기. HWP·PDF·Office 전문 검색을 오프라인으로. Windows·macOS / Offline content search acr |
+| chrisryugj/archhub-mcp | 보류 | 미확인 | 보류: API 키 필요 | 국토교통부 건축HUB → MCP 서버. 건축물대장·건축인허가·주택인허가 + 법정동코드 + 한 필지 종합카드·동 단위 통계·노후건축물 분석. 공용키 탑재 remote 커넥터(URL만 등록) |
+| chrisryugj/kordoc | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | 모두 파싱해버리겠다 — HWP·HWPX·PDF·Office 문서를 Markdown으로. 양식 자동 채우기와 신구대조를 갖춘 CLI·MCP 서버 / Convert Korean documents (HW |
+| chrisryugj/korean-dart-mcp | 보류 | 미확인 | 보류: API 키 필요 | OpenDART 전자공시MCP / 83개 API → 15 MCP 도구. 공시·재무·지분·XBRL + 버핏급 애널리스트 프레임(내부자 시그널·회계 리스크·퀄리티 체크리스트) + HWP/PDF 첨부 마 |
+| chrisryugj/korean-law-mcp | 설치 가능(스킬/에이전트) | 미확인 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | 법제처 국가법령정보를 LLM에서 바로 조회하는 MCP 서버. 법령·판례·조례 검색과 인용 검증 / MCP server for Korean law — search statutes, precedents |
+| chrisryugj/korean-stats-mcp | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 국가데이터처 KOSIS, 이제 사이트에 들어가지 않습니다 — 91개 키워드 · 17개 시도 · 230여 자치구·시군 · 시계열 추세를 자연어로. 시정연설·의회 답변·정책보고서·민원 응대에 출처(통계 |
+| colbymchenry/codegraph | 설치 가능(스킬/에이전트) | 미확인 | 설치 성공: `npm install -g @colbymchenry/codegraph` → `codegraph --help` 정상 출력(install/uninstall/telemetry/upgrade) | Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode |
+| danielgatis/rembg | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | Rembg is a tool to remove images background |
+| debpalash/VoiceStudio | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbin |
+| devswha/herdr-web-ui | 보류 | 미확인 | 보류: 서비스/웹앱이라 설치 대상 아님 | Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for |
+| dgk-dev/dgk-gpt | 보류 | 미확인 | 보류: 시스템 전역 변경 | Safe Codex CLI setup installer with skills, AGENTS.md, profiles, and MCP defaults |
+| djfksjd/ir-search | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 🇰🇷 한국 정부 지원사업 전수조사 에이전트 스킬 [Claude Code·Codex·agy(Antigravity)·Cursor·Gemini CLI·Grok Build 지원] K-Startup·기업마당 |
+| djfksjd/sole-search | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 🇰🇷 소상공인(운영 중인 가게·자영업자) 지원사업 조사 에이전트 스킬 [Claude Code·Codex·agy(Antigravity)·Cursor·Gemini CLI 지원] 소상공인24·기업마당 전 |
+| elie222/rakazo | 미확인 | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Open-source Grok Bot alternative. Choose your own model and sandbox. |
+| emilkowalski/skills | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Skills for Designers and Engineers. |
+| epoko77-ai/im-not-ai | 설치 가능(스킬/에이전트) | 미확인 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | AI가 쓴 한글을 사람 글처럼 윤문하는 Claude 스킬 — Korean AI-text humanizer: detects and rewrites translationese, mechanical pa |
+| ezBuilder/chatgpt2codex | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | macOS-first local MCP and Actions runtime that gives ChatGPT real coding hands over trusted projects |
+| fathah/hermes-desktop | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Desktop Companion for Hermes Agent |
+| fivetaku/fashion-trend | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | KREAM 크롤링으로 실시간 패션 트렌드를 수집하고 다크 매거진 스타일 HTML 리포트를 자동 생성하는 Claude Code 스킬 |
+| fivetaku/gptaku-plugins-codex | 설치 가능(스킬/에이전트) | Claude Code `/plugin marketplace add` | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Codex-native GPTaku plugin marketplace |
+| fivetaku/gptaku_plugins | 설치 가능(스킬/에이전트) | Claude Code `/plugin marketplace add` | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | A Claude Code plugin marketplace for people who want to become AI Native |
+| fivetaku/insane-design | 설치 가능(CLI/앱) | 미확인 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | URL one-shot design system extractor — fetches real CSS, analyzes tokens, generates design.md + interactive HT |
+| fivetaku/insane-search | 보류 | 미확인 | 보류: 서비스/웹앱이라 설치 대상 아님 | Auto-bypass for blocked websites in Claude Code — Phase 0→3 adaptive scheduler, no API keys |
+| fivetaku/kkirikkiri | 설치 가능(스킬/에이전트) | 미확인 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | Natural language team builder for Claude Code Agent Teams — create purpose-driven AI teams with a single sente |
+| fspecii/ace-step-ui | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | 🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, loca |
+| garrytan/gbrain | 설치 가능(스킬/에이전트) | 미확인 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | Garry's Opinionated OpenClaw/Hermes Agent Brain |
+| goyoon2/weft | 미확인 | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 미확인 |
+| grp06/openclaw-studio | 보류 | 미확인 | 보류: 서비스/웹앱이라 설치 대상 아님 | A clean web dashboard for OpenClaw. Connect your Gateway, manage agents, and ship faster. ⭐️ Star if you like  |
+| harnessworks/harness-starter-kit | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 🐴 Prompt-first harness engineering for safer AI coding agent workflows. |
+| jamiepine/voicebox | 설치 가능(CLI/앱) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | The open-source AI voice studio. Clone, dictate, create. |
+| jkf87/gjc-agy-skill | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 설치 실패: `npm install -g gjc` → `npm error code E404 / 404 Not Found - GET https://registry.npmjs.org/gjc - Not found`. 기존 gjc/0.18.12가 별도 경로(`~/.bun/bin/gjc.exe`)에 이미 있음 | GJC(가재코드) 스킬 — Antigravity CLI(agy) 연동: 비전/OCR, 이미지 생성, print 모드 레시피. 실측 기반 함정 문서 포함 |
+| jkf87/ohmyclaw | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | OpenClaw Plan→Work→Review workflow engine with model routing |
+| k2-fsa/OmniVoice | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | High-Quality Voice Cloning TTS for 600+ Languages |
+| kepano/obsidian-skills | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JS |
+| kimlawtech/korean-privacy-terms | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 한국 법령 기반 개인정보처리방침·이용약관 자동 생성 Claude Code 스킬. 2025.4.21 작성지침 및 2026.3 개정 법령 반영. |
+| lidge-jun/ima2-gen | 설치 가능(스킬/에이전트) | 미확인 | 설치 성공: `npm install -g ima2-gen` → `ima2 --help` 정상(gen/video/skill/models/ping) | Local-first visual generation runtime and studio for people and coding agents, with reproducible image and vid |
+| lidge-jun/opencodex | 설치 가능(CLI/앱) | README의 CLI 설치 명령 | 설치 성공: `npm install -g @bitkyc08/opencodex` → `opencodex --version` = 2.91.0 | Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama… |
+| lnikell/loopndroll | 미확인 | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Keep Codex running forever |
+| millionco/react-doctor | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Your agent writes bad React. This catches it |
+| miuuyy/codex-chatgpt-web | 미확인 | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, withou |
+| mochunab/agent-toolkit | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Reusable skills, plugins, and MCP servers for coding agents. Aside browser workflows and Semble code search. |
+| multica-ai/multica | 보류 | 미확인 | 보류: 서비스/웹앱이라 설치 대상 아님 | Make humans and AI agents work as one team — open-source and self-hostable. |
+| mzu-2410z/yt-automation | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | 🎬 A 100% free, fully automated YouTube Shorts generator. Uses Python, Groq (Llama 3), Kokoro TTS, and FFmpeg t |
+| nerin81-netizen/threads-affiliate-automation | 보류 | 미확인 | 보류: 서비스/웹앱이라 설치 대상 아님 | Open-source Threads affiliate marketing & automation toolkit with local dashboard, card studio, and Graph API  |
+| nexu-io/open-design | 보류 | 미확인 | 보류: 서비스/웹앱이라 설치 대상 아님 | The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websi |
+| nico-martin/gemma4-browser-extension | 설치 가능(스킬/에이전트) | Chrome 확장 설치 | 설치 불가(Chrome 확장 · 브라우저 UI 설치) | On-device AI agent Chrome extension powered by Transformers.js and Gemma 4 |
+| openai/codex-plugin-cc | 설치 가능(스킬/에이전트) | 미확인 | 설치 불가(Claude 대화형 명령 · `/plugin marketplace add` · 셸에서 실행 불가) | Use Codex from Claude Code to review code or delegate tasks. |
+| openai/plugins | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | OpenAI Plugins |
+| openai/symphony | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work inste |
+| openclaw/clawsweeper | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | ClawSweeper scans all issues and PRs and suggest what we can close, and why. It runs every PR / Issue once a w |
+| pewdiepie-archdaemon/odysseus | 보류 | 미확인 | 보류: 서비스/웹앱이라 설치 대상 아님 | Self-hosted AI workspace. |
+| public-apis/public-apis | 보류 | 미확인 | 보류: 단순 소개·목록 저장소 | A collective list of free APIs |
+| revfactory/font-harness | 미확인 | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 미확인 |
+| ringhyacinth/Star-Office-UI | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | A pixel office for your OpenClaw: turn invisible work states into a cozy little space with characters, daily n |
+| rohitg00/agentmemory | 설치 가능(스킬/에이전트) | 미확인 | 설치 성공: `npx skills add rohitg00/agentmemory --global` → remember/recall/forget/handoff/memory-discipline 등 설치 확인 | #1 Persistent memory for AI coding agents based on real-world benchmarks |
+| tech-leads-club/agent-skills | 설치 가능(스킬/에이전트) | 미확인 | 설치 성공: `npm install -g @tech-leads-club/agent-skills` → `agent-skills --version` = 1.4.8 | The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Curso |
+| tencent/AngelSlim | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | Model compression toolkit engineered for enhanced usability, comprehensiveness, and efficiency. |
+| vkehfdl1/slides-grab | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Best harness + editor + linter for generating slides in Claude Code / Codex - Claude Design Open Source Altern |
+| yikart/AiToEarn | 미확인 | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Let's use AI to Earn! |
+
+추가 판정 합계: 100개 / 설치 가능(스킬·에이전트) 53 / 설치 가능(CLI·앱) 9 / 보류 27 / 미확인 11
