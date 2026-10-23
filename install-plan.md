@@ -263,3 +263,170 @@
 | yikart/AiToEarn | E (데스크톱/웹 앱) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Let's use AI to Earn! |
 
 추가 판정 합계: 100개 / 설치 가능(스킬·에이전트) 53 / 설치 가능(CLI·앱) 9 / 보류 27 / 미확인 11
+
+## 추가 판정 2차 (157개 — 2026-10-24 수집분 전량 판정)
+
+- 근거: GitHub API 실존확인 160건 + README 실물 148개 + 설치명령 추출 150개
+- 유형은 README 설치명령 패턴 기반 기계 분류. 실존·설치명령 유무는 실측.
+
+| repo | 유형 | 설치명령 | 실존 | README | ★ | 언어 | 최근푸시 | 언급 | 판정 |
+|---|---|---|---|---|---|---|---|---|---|
+| NousResearch/hermes-agent | (E) 데스크톱 앱 | `curl -fsSL https://hermes-agent.nousresearch.com/install.sh \| bash` | O | O | 256,519 | Python | 2026-10-23 | 3 | 보류(데스크톱 앱 직접설치) |
+| anthropics/skills | (A) 스킬·플러그인 | `/plugin marketplace add anthropics/skills` | O | O | 183,284 | Python | 2026-10-09 | 1 | 설치가능 |
+| github/spec-kit | (C) CLI·라이브러리 | `uv tool install specify-cli` | O | O | 142,597 | Python | 2026-10-23 | 1 | 설치가능 |
+| garrytan/gstack | (C) CLI·라이브러리 | `git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack &` | O | O | 137,385 | TypeScript | 2026-10-23 | 1 | 설치가능 |
+| openai/codex | (C) CLI·라이브러리 | `curl -fsSL https://chatgpt.com/codex/install.sh \| sh` | O | O | 130,642 | Rust | 2026-10-23 | 1 | 설치가능 |
+| shadcn-ui/ui | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 126,358 | TypeScript | 2026-10-23 | 1 | 보류(설치법 미기재) |
+| VoltAgent/awesome-design-md | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 123,152 | - | 2026-10-14 | 1 | 보류(설치법 미기재) |
+| JuliusBrussee/caveman | (A) 스킬·플러그인 | `npx @caveman-ai/cli@latest` | O | O | 114,620 | Go | 2026-10-23 | 1 | 설치가능 |
+| vllm-project/vllm | (C) CLI·라이브러리 | `pip install vllm` | O | O | 95,246 | Python | 2026-10-23 | 1 | 설치가능 |
+| bytedance/deer-flow | (C) CLI·라이브러리 | `git clone https://github.com/bytedance/deer-flow.git` | O | O | 84,341 | Python | 2026-10-23 | 1 | 설치가능 |
+| unslothai/unsloth | (C) CLI·라이브러리 | `curl -fsSL https://unsloth.ai/install.sh \| sh` | O | O | 78,483 | Python | 2026-10-23 | 1 | 설치가능 |
+| headroomlabs-ai/headroom | (C) CLI·라이브러리 | `uv tool install --python 3.13 "headroom-ai[all]" # CLI in a self-contained env` | O | O | 77,649 | Python | 2026-10-22 | 1 | 설치가능 |
+| juliangarnier/anime | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 73,785 | JavaScript | 2026-08-21 | 1 | 보류(설치법 미기재) |
+| cline/cline | (C) CLI·라이브러리 | `npm i -g cline` | O | O | 70,784 | TypeScript | 2026-10-23 | 1 | 설치가능 |
+| heygen-com/hyperframes | (A) 스킬·플러그인 | `npx hyperframes skills update` | O | O | 70,755 | TypeScript | 2026-10-23 | 2 | 설치가능 |
+| code-yeongyu/oh-my-openagent | (C) CLI·라이브러리 | `curl -fsSL https://get.omo.dev/install.sh \| bash` | O | O | 70,291 | TypeScript | 2026-10-23 | 5 | 설치가능 |
+| Alishahryar1/free-claude-code | (F) 자료·템플릿 | `curl -fsSL "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/in` | O | O | 62,890 | Python | 2026-10-23 | 1 | 보류(자료·앱, 스킬 아님) |
+| twentyhq/twenty | (A) 스킬·플러그인 | `npm install -g twenty` | O | O | 59,604 | TypeScript | 2026-10-23 | 1 | 설치가능 |
+| Zie619/n8n-workflows | (C) CLI·라이브러리 | `git clone https://github.com/Zie619/n8n-workflows.git` | O | O | 57,065 | Python | 2026-06-24 | 1 | 설치가능 |
+| HKUDS/CLI-Anything | (A) 스킬·플러그인 | `pip install cli-anything-hub` | O | O | 56,564 | Python | 2026-09-22 | 1 | 설치가능 |
+| zhaoxuya520/reverse-skill | (C) CLI·라이브러리 | `git clone https://github.com/zhaoxuya520/reverse-skill.git` | O | O | 43,143 | PowerShell | 2026-09-22 | 1 | 설치가능 |
+| wshobson/agents | (A) 스킬·플러그인 | `/plugin marketplace add wshobson/agents` | O | O | 41,611 | Python | 2026-10-19 | 1 | 설치가능 |
+| lyogavin/airllm | (C) CLI·라이브러리 | `pip install git+https://github.com/huggingface/transformers.git` | O | O | 40,474 | Jupyter Notebook | 2026-10-23 | 1 | 설치가능 |
+| Yeachan-Heo/oh-my-claudecode | (A) 스킬·플러그인 | `/plugin install (recommended for most Claude Code users).` | O | O | 40,207 | TypeScript | 2026-10-23 | 1 | 설치가능 |
+| JCodesMore/ai-website-cloner-template | (C) CLI·라이브러리 | `docker compose up app --build # build and run the app` | O | O | 37,230 | TypeScript | 2026-10-19 | 1 | 설치가능 |
+| webadderall/Recordly | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | - | 34,905 | TypeScript | 2026-10-17 | 2 | 보류(설치법 미기재) |
+| hesamsheikh/awesome-openclaw-usecases | (C) CLI·라이브러리 | `irm attendance, collect notes, and compile a summary — fully automated via AI voice` | O | O | 31,651 | - | 2026-03-24 | 1 | 설치가능 |
+| alirezarezvani/claude-skills | (A) 스킬·플러그인 | `git clone -c core.symlinks=true` | O | O | 28,606 | Python | 2026-10-23 | 1 | 설치가능 |
+| enescingoz/awesome-n8n-templates | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 26,071 | - | 2026-09-12 | 1 | 보류(설치법 미기재) |
+| ahmedkhaleel2004/gitdiagram | (C) CLI·라이브러리 | `git clone https://github.com/ahmedkhaleel2004/gitdiagram.git` | O | O | 18,409 | TypeScript | 2026-10-23 | 1 | 설치가능 |
+| microsoft/playwright-cli | (C) CLI·라이브러리 | `npm install -g @playwright/cli@latest` | O | O | 14,556 | TypeScript | 2026-10-19 | 1 | 설치가능 |
+| cursor/plugins | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 13,775 | TypeScript | 2026-10-23 | 1 | 보류(설치법 미기재) |
+| NangoHQ/nango | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 12,961 | TypeScript | 2026-10-23 | 1 | 보류(설치법 미기재) |
+| jub0t/Concat | (C) CLI·라이브러리 | `brew install ffmpeg` | O | O | 11,070 | Rust | 2026-10-23 | 1 | 설치가능 |
+| averygan/reclip | (C) CLI·라이브러리 | `brew install yt-dlp ffmpeg # or apt install ffmpeg && pip install yt-d` | O | O | 10,814 | HTML | 2026-07-09 | 1 | 설치가능 |
+| NanoNets/Graft | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | - | 10,709 | TypeScript | 2026-10-23 | 1 | 보류(설치법 미기재) |
+| YouMind-OpenLab/awesome-gpt-image-2 | (F) 자료·템플릿 | `bun wears a {argument name="character 1 color theme" default="red and white"} Chines` | O | O | 10,160 | TypeScript | 2026-10-23 | 1 | 보류(자료·앱, 스킬 아님) |
+| ibelick/ui-skills | (C) CLI·라이브러리 | `npx ui-skills start` | O | O | 10,109 | TypeScript | 2026-10-20 | 1 | 설치가능 |
+| MervinPraison/PraisonAI | (C) CLI·라이브러리 | `curl -fsSL https://praison.ai/install.sh \| bash` | O | O | 9,287 | Python | 2026-10-23 | 1 | 설치가능 |
+| revfactory/harness | (A) 스킬·플러그인 | `/plugin marketplace add revfactory/harness` | O | O | 9,243 | - | 2026-09-28 | 1 | 설치가능 |
+| Nutlope/logocreator | (C) CLI·라이브러리 | `git clone https://github.com/Nutlope/logocreator` | O | O | 8,881 | TypeScript | 2026-10-23 | 1 | 설치가능 |
+| SimoneAvogadro/android-reverse-engineering-skill | (A) 스킬·플러그인 | `/plugin marketplace add SimoneAvogadro/android-reverse-engineering-skill` | O | O | 8,280 | Shell | 2026-10-12 | 1 | 설치가능 |
+| CopilotKit/openbot | (C) CLI·라이브러리 | `bun install` | O | O | 7,004 | TypeScript | 2026-10-23 | 1 | 설치가능 |
+| yournextstore/yournextstore | (C) CLI·라이브러리 | `git clone https://github.com/yournextstore/yournextstore.git` | O | O | 5,531 | TypeScript | 2026-10-22 | 1 | 설치가능 |
+| Jakeschincariol/replica-skill | (A) 스킬·플러그인 | `/plugin marketplace add Jakeschincariol/replica-skill` | O | O | 5,014 | Python | 2026-10-03 | 2 | 설치가능 |
+| zhongerxin/iPhone-use | (C) CLI·라이브러리 | `git clone https://github.com/zhongerxin/iPhone-use.git` | O | O | 4,562 | Python | 2026-10-22 | 1 | 설치가능 |
+| Manavarya09/design-extract | (C) CLI·라이브러리 | `npx designlang https://stripe.com # extract everything` | O | O | 4,342 | HTML | 2026-10-23 | 2 | 설치가능 |
+| microsoft/apm | (A) 스킬·플러그인 | `git clone <org/repo> && cd <repo>` | O | O | 4,116 | Python | 2026-10-23 | 1 | 설치가능 |
+| nowork-studio/toprank | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | - | 4,052 | Python | 2026-10-23 | 1 | 보류(설치법 미기재) |
+| T-Auto/dsh-ops | (C) CLI·라이브러리 | `npx --yes dsh-ops@latest install --profile desktop` | O | O | 3,997 | JavaScript | 2026-10-21 | 1 | 설치가능 |
+| code-yeongyu/lazycodex | (C) CLI·라이브러리 | `npx lazycodex-ai install` | O | O | 3,817 | TypeScript | 2026-10-23 | 5 | 설치가능 |
+| jakubkrehel/make-interfaces-feel-better | (A) 스킬·플러그인 | `npx skills add jakubkrehel/make-interfaces-feel-better` | O | O | 3,788 | Markdown | 2026-08-29 | 1 | 설치가능 |
+| onehumanbeing/esp32-iphone-agent | (F) 자료·템플릿 | `irm ...)` | O | O | 3,626 | C | 2026-10-22 | 1 | 보류(자료·앱, 스킬 아님) |
+| rlaope/oh-my-hermes | (C) CLI·라이브러리 | `curl -fsSL https://raw.githubusercontent.com/rlaope/oh-my-hermes/main/install.sh \| sh` | O | O | 3,582 | Python | 2026-10-23 | 4 | 설치가능 |
+| b-nnett/grok-bot-0.18-reconstructed | (C) CLI·라이브러리 | `git clone <your-repository-url>` | O | O | 3,536 | TypeScript | 2026-08-23 | 1 | 설치가능 |
+| deedy5/ddgs | (B) MCP 서버 | `pip install -U ddgs # Base install` | O | O | 3,028 | Python | 2026-08-26 | 1 | 설치가능 |
+| restyler/awesome-n8n | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 2,999 | - | 2026-01-20 | 1 | 보류(설치법 미기재) |
+| kaitranntt/ccs | (C) CLI·라이브러리 | `curl -fsSL https://ccs.kaitran.ca/docker-compose.yaml -o docker-compose.yaml` | O | O | 2,893 | TypeScript | 2026-10-20 | 1 | 설치가능 |
+| nano-muse/nanoMuse | (C) CLI·라이브러리 | `docker compose up -d app` | O | O | 2,428 | Swift | 2026-10-23 | 1 | 설치가능 |
+| facebookincubator/muse-gadget-sdk | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 2,381 | C | 2026-10-21 | 1 | 보류(설치법 미기재) |
+| P4nda0s/reverse-skills | (A) 스킬·플러그인 | `npx skills add P4nda0s/reverse-skills` | O | O | 2,310 | - | 2026-05-06 | 1 | 설치가능 |
+| Dryxio/reagent | (C) CLI·라이브러리 | `pip install --upgrade "auto-re-agent[ghidra-bridge]>=0.4.0"` | O | O | 2,161 | Python | 2026-09-09 | 1 | 설치가능 |
+| shaongitbd/doory | (C) CLI·라이브러리 | `docker compose up -d --build` | O | O | 1,795 | TypeScript | 2026-10-23 | 1 | 설치가능 |
+| jtydhr88/screenwriting-skills | (A) 스킬·플러그인 | `/plugin marketplace add jtydhr88/screenwriting-skills` | O | O | 1,764 | Python | 2026-10-03 | 1 | 설치가능 |
+| lucaswalter/n8n-ai-automations | (F) 자료·템플릿 | `irm directories, identifies individual attorney profiles, evaluates their practice a` | O | O | 1,670 | - | 2026-03-02 | 1 | 보류(자료·앱, 스킬 아님) |
+| agentlas-ai/Agentlas-OS | (E) 데스크톱 앱 | `curl -fsSL https://raw.githubusercontent.com/agentlas-ai/Agentlas-OS/main/scripts/install-a` | O | O | 1,588 | Python | 2026-10-20 | 1 | 보류(데스크톱 앱 직접설치) |
+| boyang-hu/website-rebuild-skill | (C) CLI·라이브러리 | `npx website-rebuild-skill # → ~/.claude/skills/website-rebuild` | O | O | 1,553 | JavaScript | 2026-10-12 | 1 | 설치가능 |
+| pingdotgg/ts-rust | (C) CLI·라이브러리 | `bun check` | O | O | 1,503 | Rust | 2026-10-23 | 1 | 설치가능 |
+| Anil-matcha/awesome-muse-connectors | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 1,381 | Python | 2026-10-13 | 1 | 보류(설치법 미기재) |
+| first-fluke/oh-my-agent | (C) CLI·라이브러리 | `curl -fsSL https://raw.githubusercontent.com/first-fluke/oh-my-agent/main/cli/install.sh \|` | O | O | 1,353 | TypeScript | 2026-10-22 | 1 | 설치가능 |
+| revfactory/harness-100 | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 1,309 | - | 2026-03-22 | 1 | 보류(설치법 미기재) |
+| kessler/gemma-gem | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 974 | TypeScript | 2026-05-29 | 1 | 보류(설치법 미기재) |
+| leopard627/fire-your-seo-agency | (A) 스킬·플러그인 | `/plugin marketplace add leopard627/fire-your-seo-agency` | O | O | 952 | Python | 2026-09-25 | 4 | 설치가능 |
+| stripe/link-cli | (A) 스킬·플러그인 | `npm i -g @stripe/link-cli` | O | O | 869 | TypeScript | 2026-10-23 | 1 | 설치가능 |
+| XHToken/Spark-X2.5 | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | - | 841 | - | 2026-10-20 | 1 | 보류(설치법 미기재) |
+| dragon1086/prism-insight | (C) CLI·라이브러리 | `git clone https://github.com/dragon1086/prism-insight.git` | O | O | 784 | Python | 2026-10-23 | 2 | 설치가능 |
+| Danitilahun/n8n-workflow-templates | (C) CLI·라이브러리 | `pip install -r requirements.txt` | O | O | 723 | Python | 2025-07-11 | 1 | 설치가능 |
+| IsuruMaduranga/harness-engineering-101 | (C) CLI·라이브러리 | `cargo install mdbook mdbook-mermaid # or: brew install mdbook (+ mdbook-mermaid binary)` | O | O | 525 | Python | 2026-10-19 | 1 | 설치가능 |
+| oil-oil/draw-ui | (A) 스킬·플러그인 | `npx skills add oil-oil/draw-ui` | O | O | 509 | Python | 2026-10-04 | 1 | 설치가능 |
+| OnlyTerp/UltraCode-Shim | (C) CLI·라이브러리 | `npm i -g @anthropic-ai/claude-code` | O | O | 439 | Python | 2026-08-22 | 1 | 설치가능 |
+| Paidax01/web-to-design-md | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 437 | JavaScript | 2026-04-18 | 1 | 보류(설치법 미기재) |
+| dance-of-tal/dot-studio | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | - | 437 | TypeScript | 2026-06-03 | 2 | 보류(설치법 미기재) |
+| prekuter/dryforge | (A) 스킬·플러그인 | `/plugin marketplace add prekuter/dryforge` | O | O | 426 | Python | 2026-10-16 | 1 | 설치가능 |
+| Hybirdss/Hycli | (F) 자료·템플릿 | `irm does it run` | O | O | 419 | Rust | 2026-10-22 | 2 | 보류(자료·앱, 스킬 아님) |
+| cellebrite-labs/ghidra-rpc | (C) CLI·라이브러리 | `uv tool install /path/to/ghidra-rpc` | O | O | 388 | Python | 2026-09-17 | 1 | 설치가능 |
+| onewave-ai/claude-skills | (C) CLI·라이브러리 | `git clone https://github.com/OneWave-AI/claude-skills.git ~/.claude/skills` | O | O | 369 | Python | 2026-10-20 | 1 | 설치가능 |
+| ttalkkak-lab/opencode-contexty | (C) CLI·라이브러리 | `npx @ttalkkak-lab/opencode-contexty init` | O | O | 222 | TypeScript | 2026-04-25 | 1 | 설치가능 |
+| julianromli/ai-skills | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 202 | JavaScript | 2026-10-23 | 1 | 보류(설치법 미기재) |
+| ericshang98/perfect-web-clone-skill | (C) CLI·라이브러리 | `pip install "git+https://github.com/ericshang98/Perfect-Web-Clone.git"` | O | O | 189 | - | 2026-08-22 | 1 | 설치가능 |
+| vgrichina/re-skill | (C) CLI·라이브러리 | `git clone https://github.com/USER/re-skill.git` | O | O | 175 | Shell | 2026-03-05 | 1 | 설치가능 |
+| revfactory/skills | (C) CLI·라이브러리 | `git clone https://github.com/revfactory/skills.git` | O | O | 161 | Python | 2026-10-12 | 1 | 설치가능 |
+| unclejobs-ai/motion-video-skill | (A) 스킬·플러그인 | `npx skills add unclejobs-ai/motion-video-skill --skill motion-video-production` | O | O | 129 | Python | 2026-10-18 | 1 | 설치가능 |
+| incogbyte/android-reverse-engineering-claude-skill | (C) CLI·라이브러리 | `pip install frida-tools==<server-version>` | O | O | 128 | Shell | 2026-06-20 | 1 | 설치가능 |
+| fivetaku/insane-review | (A) 스킬·플러그인 | `/plugin marketplace add https://github.com/fivetaku/gptaku_plugins.git` | O | O | 125 | Python | 2026-10-14 | 1 | 설치가능 |
+| haikow/claude-reverse-skills | (C) CLI·라이브러리 | `git clone https://github.com/haikow/claude-reverse-skills && cd claude-reverse-skills` | O | O | 122 | PowerShell | 2026-06-30 | 1 | 설치가능 |
+| Q00/rlm-forge | (C) CLI·라이브러리 | `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install` | O | O | 121 | Python | 2026-05-10 | 1 | 설치가능 |
+| revfactory/claude-code-harness | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 121 | HTML | 2026-03-06 | 1 | 보류(설치법 미기재) |
+| tihanyin/REx-skill | (E) 데스크톱 앱 | `curl -fsSL https://claude.ai/install.sh \| bash` | O | O | 114 | Python | 2026-09-23 | 1 | 보류(데스크톱 앱 직접설치) |
+| incogbyte/iOS-reverse-engineering-claude-skill | (C) CLI·라이브러리 | `brew install blacktop/tap/ipsw` | O | O | 112 | Shell | 2026-07-01 | 1 | 설치가능 |
+| duclm1x1/Muse-Chat-MCP | (B) MCP 서버 | `git clone https://github.com/duclm1x1/Muse-Chat-MCP.git` | O | O | 61 | JavaScript | 2026-09-30 | 1 | 설치가능 |
+| braxtonROSE4/clone-any-website | (E) 데스크톱 앱 | `curl -fsSL https://raw.githubusercontent.com/braxtonROSE4/clone-any-website/main/install.sh` | O | O | 57 | JavaScript | 2026-08-03 | 1 | 보류(데스크톱 앱 직접설치) |
+| nikships/muse-cli | (C) CLI·라이브러리 | `uv tool install muse-cli # or: pipx install muse-cli / pip install muse-cli` | O | O | 54 | Python | 2026-10-22 | 1 | 설치가능 |
+| diggerhq/openmuse | (C) CLI·라이브러리 | `git clone https://github.com/diggerhq/openmuse.git` | O | O | 49 | TypeScript | 2026-09-11 | 1 | 설치가능 |
+| raphaelsalaja/skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 42 | - | 2026-03-17 | 1 | 보류(설치법 미기재) |
+| dance-of-tal/dance-of-tal | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | - | 39 | TypeScript | 2026-05-07 | 1 | 보류(설치법 미기재) |
+| LeeYudok/agents-scaffold | (C) CLI·라이브러리 | `curl -fsSL https://raw.githubusercontent.com/leeyudok/agents-scaffold/main/bin/agents-scaff` | O | O | 36 | Shell | 2026-10-19 | 1 | 설치가능 |
+| JJenglert1/esp32-muse-agent | (C) CLI·라이브러리 | `brew install cmake ninja dfu-util python3 git` | O | O | 32 | Shell | 2026-10-04 | 1 | 설치가능 |
+| minpeter/global-egress | (C) CLI·라이브러리 | `docker compose up -d --build` | O | O | 32 | Go | 2026-10-15 | 1 | 설치가능 |
+| aicodedecode/awesome-muse-skills | (A) 스킬·플러그인 | `irm current terms in the app):` | O | O | 31 | Python | 2026-10-10 | 1 | 설치가능 |
+| johunsang/tauri-dev-screen-cli | (C) CLI·라이브러리 | `npm install -g github:johunsang/tauri-dev-screen-cli` | O | O | 30 | JavaScript | 2026-05-16 | 1 | 설치가능 |
+| w-partners/Wbrowser | (C) CLI·라이브러리 | `curl -fsSL https://raw.githubusercontent.com/w-partners/Wbrowser/main/setup.sh \| bash` | O | O | 30 | JavaScript | 2026-10-12 | 1 | 설치가능 |
+| INONONO66/harness-manager | (C) CLI·라이브러리 | `curl -fsSL https://raw.githubusercontent.com/INONONO66/harness-manager/main/scripts/install` | O | O | 28 | Rust | 2026-06-25 | 1 | 설치가능 |
+| johunsang/smartku | (C) CLI·라이브러리 | `brew install node` | O | O | 28 | Rust | 2026-08-01 | 1 | 설치가능 |
+| kleprevost/muse-mcp | (B) MCP 서버 | `git clone <this-repository> muse-mcp` | O | O | 24 | Python | 2026-09-17 | 1 | 설치가능 |
+| tmdgusya/omp-alibaba-maas | (E) 데스크톱 앱 | `curl -fsSL https://raw.githubusercontent.com/tmdgusya/omp-alibaba-maas/master/bin/alibaba-m` | O | O | 24 | Python | 2026-07-21 | 1 | 보류(데스크톱 앱 직접설치) |
+| Gyu-bot/codex-image-generation-skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 20 | Python | 2026-05-13 | 1 | 보류(설치법 미기재) |
+| santowilem/skills | (A) 스킬·플러그인 | `npx skills add santowilem/skills --skill <skill-name>` | O | O | 18 | Python | 2026-05-11 | 1 | 설치가능 |
+| dalsoop/diy-device-os-bootstrap | (C) CLI·라이브러리 | `git clone https://github.com/dalsoop/diy-device-os-bootstrap.git` | O | O | 16 | Shell | 2026-10-22 | 1 | 설치가능 |
+| RandyNorthrup/muse-spark-code | (C) CLI·라이브러리 | `irm it; unattended v2 delivery is disabled,` | O | O | 14 | TypeScript | 2026-10-22 | 1 | 설치가능 |
+| Birkenpapier/ai-app-cloner | (C) CLI·라이브러리 | `git clone https://github.com/Birkenpapier/ai-app-cloner` | O | O | 13 | JavaScript | 2026-07-16 | 1 | 설치가능 |
+| Mineru98/codex-cron-skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 13 | JavaScript | 2026-07-01 | 1 | 보류(설치법 미기재) |
+| sevzq/screenshot-to-html | (A) 스킬·플러그인 | `npx skills add sevzq/screenshot-to-html` | O | O | 12 | HTML | 2026-06-14 | 1 | 설치가능 |
+| EncidXVII/claude-reverse-engineering-skill | (A) 스킬·플러그인 | `npx skills add` | O | O | 11 | Python | 2026-10-19 | 1 | 설치가능 |
+| Core-Mate/Pixel-Perfect-Web-Replica | (C) CLI·라이브러리 | `curl -fsSL https://raw.githubusercontent.com/Core-Mate/Pixel-Perfect-Web-Replica/main/scrip` | O | O | 10 | Python | 2026-05-09 | 1 | 설치가능 |
+| ssamssae/codex-telegram-bridge | (C) CLI·라이브러리 | `brew install tmux` | O | O | 9 | Python | 2026-10-18 | 1 | 설치가능 |
+| groundroot/muse-orchestration | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 7 | - | 2026-10-15 | 1 | 보류(설치법 미기재) |
+| sodam-ai/SoDam-Design-Kit | (A) 스킬·플러그인 | `npx create-next-app@latest` | O | O | 7 | JavaScript | 2026-10-21 | 1 | 설치가능 |
+| fitoe/DesignToCode | (A) 스킬·플러그인 | `npx skills add fitoe/DesignToCode` | O | O | 6 | JavaScript | 2026-05-25 | 1 | 설치가능 |
+| shinsooshinsoo/Ddara_Jaengi | (C) CLI·라이브러리 | `pip install -r requirements.txt` | O | O | 5 | Python | 2026-05-22 | 1 | 설치가능 |
+| ozaysahin/screenshot-to-qml | (A) 스킬·플러그인 | `npx skills` | O | O | 4 | HTML | 2026-10-20 | 1 | 설치가능 |
+| ssamssae/claude-telegram-bridge | (C) CLI·라이브러리 | `irm tap, auto-send never fires \| off \|` | O | O | 4 | Python | 2026-10-18 | 1 | 설치가능 |
+| KeiaiLab/webEmbedding | (A) 스킬·플러그인 | `npm install -g web-embedding` | O | O | 3 | Python | 2026-10-14 | 1 | 설치가능 |
+| ssamssae/grok-telegram-bridge | (C) CLI·라이브러리 | `git clone https://github.com/ssamssae/grok-telegram-bridge.git` | O | O | 3 | Python | 2026-10-15 | 1 | 설치가능 |
+| GeReV/ghidra-iterative-re | (C) CLI·라이브러리 | `git clone https://github.com/GeReV/ghidra-iterative-re.git` | O | O | 2 | Python | 2026-10-23 | 1 | 설치가능 |
+| Vagabond-K/SearXngSearch | (B) MCP 서버 | `docker run -d --name searxng -p 8080:8080 -v ./searxng:/etc/searxng sea` | O | O | 2 | C# | 2026-09-29 | 1 | 설치가능 |
+| bluman1/muse-connectors | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 2 | Python | 2026-09-16 | 1 | 보류(설치법 미기재) |
+| lycoco067/claude-seo-skill | (C) CLI·라이브러리 | `git clone https://github.com/YOUR_USERNAME/claude-seo-skill.git` | O | O | 2 | - | 2026-03-01 | 1 | 설치가능 |
+| thenavidm/remaster | (A) 스킬·플러그인 | `npx -y @thenavidm/remaster install` | O | O | 2 | JavaScript | 2026-10-04 | 1 | 설치가능 |
+| vishnu-madhavan-git/9designer-skills | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 2 | Python | 2026-05-11 | 1 | 보류(설치법 미기재) |
+| Amanuel2x/clone-skill | (B) MCP 서버 | `npx -y @playwright/mcp@latest` | O | O | 1 | - | 2026-06-15 | 1 | 설치가능 |
+| glebrati-cloud/screenshot-to-code | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 1 | - | 2026-03-23 | 1 | 보류(설치법 미기재) |
+| inliver233/reverse-skills | (C) CLI·라이브러리 | `git clone https://github.com/inliver233/reverse-skills.git ~/.claude/skills/reverse-skills` | O | O | 1 | Python | 2026-06-28 | 1 | 설치가능 |
+| niuniu122/pixel-perfect-website-clone-skill | (C) CLI·라이브러리 | `git clone https://github.com/<owner>/pixel-perfect-website-clone-skill.git "$env:USERPROFILE\.codex\` | O | O | 1 | Python | 2026-06-27 | 1 | 설치가능 |
+| th3vib3coder/RevEng | (C) CLI·라이브러리 | `git clone https://github.com/th3vib3coder/RevEng.git` | O | O | 1 | Python | 2026-05-23 | 1 | 설치가능 |
+| xintongw431-arch/webgl-runtime-cloner-skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 1 | TypeScript | 2026-07-31 | 1 | 보류(설치법 미기재) |
+| MengTo/Skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+| Q00/r | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+| gugu9999gu/PC-CONTROL-MCP | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+| johunsang/octo-terminal-releases | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+| kjhbond/claude-gpt-usage-tray | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | - | Python | 2026-09-30 | 1 | 보류(설치법 미기재) |
+| kyungpyokim/model-effort-router | (C) CLI·라이브러리 | `git clone https://github.com/kyungpyokim/model-effort-router.git` | O | O | - | Python | 2026-10-19 | 1 | 설치가능 |
+| lexnlin/taste-skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+| minosdevs/copycat-skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+| nontext75/vibe-coding-design-polish | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+| rakanki911/DLSS5-Swapper | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+| xxmisaoxx/t-rex | (A) 스킬·플러그인 | `npx skills add xxmisaoxx/t-rex --skill reverse-engineering-investigator` | O | O | - | Python | 2026-10-11 | 1 | 설치가능 |
+| yelixir-dev/hermes-memory-stack | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+
+2차 판정 합계: 157개 / 설치가능 109 / 보류(설치법 미기재) 29 / 설치불가(404) 9 / 보류(데스크톱 앱 직접설치) 5 / 보류(자료·앱, 스킬 아님) 5

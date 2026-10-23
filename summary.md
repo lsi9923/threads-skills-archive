@@ -99,12 +99,15 @@
 
 ## GitHub 저장소
 
-- 저장글에서 확인된 **고유 저장소 140개**
-- 각 저장소의 별 수·언어·최근 푸시·아카이브 여부를 GitHub API로 수집해 `repo-cache.json`에 보관
-- 판정: `install-plan.md`
+- 저장글 674개에서 확인된 **고유 저장소 299개**
+- 각 저장소의 별 수·언어·최근 푸시·아카이브 여부를 GitHub API로 수집 (`repos-api-check.json`, 160건 실존 확인)
+- 판정: `install-plan.md` — **총 297개 판정 완료** (고유 297, 중복 0)
   - 1차 40개: README를 직접 열어 설치 명령까지 확인
   - 2차 100개: 설명 기반 분류 → 설치 가능 62 / 보류 27 / 미확인 11
-- 2차 분류는 **설명만 보고 내린 판정**이다. 실제 설치·실행 결과는 설치 단계에서 갱신한다.
+  - 3차 157개: README 설치명령 패턴으로 기계 분류 → 설치 가능 109 / 보류 39 / 404로 설치불가 9
+- **정직 고지**: 3차 157개는 사람이 README 전문을 읽고 내린 판정이 아니라 **설치 명령 패턴 기반 기계 분류**다. 저장소 실존(148개 OK)과 설치 명령 추출 여부(119개)는 실측이다.
+- 2·3차 분류는 **설명·명령 패턴만 보고 내린 판정**이다. 실제 설치·실행 결과는 설치 단계에서 갱신한다.
+- 404로 확인된 10개(`MengTo/Skill`, `Q00/o`, `Q00/r`, `gugu9999gu/PC-CONTROL-MCP`, `johunsang/octo-terminal-releases`, `lexnlin/taste-skill`, `minosdevs/copycat-skill`, `nontext75/vibe-coding-design-polish`, `rakanki911/DLSS5-Swapper`, `yelixir-dev/hermes-memory-stack`)는 GitHub API와 인증 `gh api` 양쪽에서 모두 404였다. 삭제·비공개·이름변경 중 하나이며 확인 불가.
 
 ### 설치 원칙
 
