@@ -1,10 +1,10 @@
 # Threads 저장글에서 나온 GitHub 저장소 분석
 
-- 갱신: 2026-10-24 04:19:43
+- 갱신: 2026-10-24 04:29:44
 - **집계 대상 글: 167건 / repo 140개** (접근 확인 139개, 접근불가 1개)
 - 스캔한 details2 파일: **367건** (그중 github 링크가 있던 글 167건)
 - 근거: `C:\Users\imda0\tmp\threads-saved\details2\*.json` 의 `links[].url` + `raw_link_candidates[]` (l.threads.net 리다이렉트 디코딩된 값)
-- 중복 비교: `C:\Users\imda0\.claude\skills`(274개), `C:\Users\imda0\.gjc\agent\skills`(340개), `C:\Users\imda0\.agents\skills`(687개)
+- 중복 비교: `C:\Users\imda0\.claude\skills`(277개), `C:\Users\imda0\.gjc\agent\skills`(343개), `C:\Users\imda0\.agents\skills`(690개)
 
 ## 전체 repo 목록
 
