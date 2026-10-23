@@ -41,7 +41,7 @@
 | CopikProjeckId/audio-drama-release | E (Windows 영상 제작 앱) | `AudioDramaStudio-Free-Setup-0.9.0.exe` (README: Releases 다운로드 후 설치; 셸 설치 명령 없음) | 보통 | Windows 시스템 설치형 프로그램·인터넷 AI API 키; 유료 강의판은 별도 | 보류: Windows 설치 실행 파일로 시스템에 앱 설치해야 함; 미실행 | 무료판 실행 후 사연을 입력하고 음성·삽화·영상을 만든다. |
 | brianhong-dev/omo-jev-plugin | E (OmO 에이전트 확장 플러그인) | `omo install npm:omo-jev-plugin` | 보통 | Jev 또는 OpenRouter API 키 필요·사용 통계 텔레메트리 기본 활성화 | 보류: 결정 모델 API 키 및 OmO 확장 설정 필요; 미설치 | OmO에서 결정 보조 플러그인을 연결해 도구·스킬 선택 조언을 받는다. |
 | abruption/dots-tailscale | C (Dots 리눅스 네트워크 CLI) | `git clone --branch v0.4.0 --depth 1 https://github.com/abruption/dots-tailscale.git` → `bash tailscale-setup.sh check` → `bash tailscale-setup.sh install` | 어려움 | Linux x86_64·Dots 전용 /workspace·SSH 22포트·Tailscale 로그인 필요 | 보류: 현재 Windows와 호환되지 않는 Dots Linux 환경 및 로그인 필요; 미실행 | Dots 클라우드 컴퓨터에 Tailscale과 SSH를 구성해 원격 접속한다. |
-| yazzang-homelab/wb-openai-gateway | B (로컬 MCP·OpenAI 호환 게이트웨이) | `cd wb-agent-gateway` → `npm install` (README: 선택형 테스트 의존성) → `node bin/wb-agent-gateway.js serve --spawn-upstream` | 어려움 | CodeBuddy 계정 인증·로컬 HTTP OAuth 서버·클라이언트 연결 필요 | 보류: CodeBuddy 서버와 최초 접속 인증/승인 필요; 실행·등록 미시도 | CodeBuddy 상류 모델을 로컬 MCP나 OpenAI 호환 API로 연결한다. |
+| yazzang-homelab/wb-openai-gateway | B (로컬 MCP·OpenAI 호환 게이트웨이) | `cd wb-agent-gateway` → `npm install` (README: 선택형 테스트 의존성) → `node bin/wb-agent-gateway.js serve --spawn-upstream` | 어려움 | CodeBuddy 계정 인증·로컬 HTTP OAuth 서버·클라이언트 연결 필요 | 보류: CodeBuddy 서버와 최초 접속 인증/승인 필요; 실행·등록 미실시 | CodeBuddy 상류 모델을 로컬 MCP나 OpenAI 호환 API로 연결한다. |
 | Yeachan-Heo/ifllm-learn | C (Apple MLX 머신러닝 CLI) | `python3.12 -m venv .venv` → `source .venv/bin/activate` → `python -m pip install -e '.[mlx,test]'` | 어려움 | Apple Silicon·Metal·약 9.3GB 모델 다운로드 필요, 현재 Windows 미지원 | 보류: 학습·추론 경로는 macOS Apple Silicon 전용; Windows에 미설치 | Mac에서 분류 정책 LoRA를 학습하고 결과를 비교한다; 데모 뷰어만 별도 실행 가능. |
 | NewTurn2017/hermes-profile-kit | C (Hermes 프로필 CLI) | `pipx install hermes-profile-kit` → `hpk setup` | 보통 | Hermes Agent 요구; 프로필·환경변수/토큰 저장 및 플러그인 변경 가능 | 보류: 대화형 설정에서 각 제공자 인증·토큰 필요; `hpk` 미설치 확인 | Hermes용 용도별 프로필을 만들어 필요할 때 선택한다. |
 | yazzang-homelab/gjc-acct | C (GJC 계정 분리 CLI) | `git clone https://github.com/yazzang-homelab/gjc-acct.git` → `cd gjc-acct` → `./install.sh` | 보통 | Claude/Codex 로그인 슬롯과 사용자별 GJC 설정·자격증명 연동 필요 | 보류: 선행 로그인 슬롯 및 사용자 계정 설정 변경 필요; `gjc-acct` 미설치 확인 | Claude/Codex 로그인 슬롯마다 GJC 실행 계정을 바꿔 사용한다. |
@@ -100,7 +100,7 @@
 - CopikProjeckId/audio-drama-release — 보류: Windows 설치 실행 파일로 시스템에 앱 설치해야 함; 미실행
 - brianhong-dev/omo-jev-plugin — 보류: 결정 모델 API 키 및 OmO 확장 설정 필요; 미설치
 - abruption/dots-tailscale — 보류: 현재 Windows와 호환되지 않는 Dots Linux 환경 및 로그인 필요; 미실행
-- yazzang-homelab/wb-openai-gateway — 보류: CodeBuddy 서버와 최초 접속 인증/승인 필요; 실행·등록 미시도
+- yazzang-homelab/wb-openai-gateway — 보류: CodeBuddy 서버와 최초 접속 인증/승인 필요; 실행·등록 미실시
 - Yeachan-Heo/ifllm-learn — 보류: 학습·추론 경로는 macOS Apple Silicon 전용; Windows에 미설치
 - NewTurn2017/hermes-profile-kit — 보류: 대화형 설정에서 각 제공자 인증·토큰 필요; `hpk` 미설치 확인
 - yazzang-homelab/gjc-acct — 보류: 선행 로그인 슬롯 및 사용자 계정 설정 변경 필요; `gjc-acct` 미설치 확인
