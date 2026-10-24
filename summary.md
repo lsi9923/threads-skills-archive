@@ -100,18 +100,21 @@
 
 ## GitHub 저장소
 
-- 저장글 674개에서 확인된 **저장소 행 299개 → 고유 297개**
-  - 299행 = 접근 확인 289 + 접근불가 404 10
-  - 같은 저장소가 두 번 집계된 2건(`jub0t/concat`, `nousresearch/hermes-agent`)을 빼면 **고유 297개**
-  - 이 297개가 `install-plan.md` 판정 297개와 정확히 일치한다(차집합 0). Excel `01_GitHub저장소` 300행도 고유 297로 같은 집합이다.
+- 저장글 674개에서 확인된 **저장소 행 299개 → 고유 293개**
+  - 299행 = 본표 289 + 404표 10
+  - 404표 10행 가운데 **4행은 진짜 404가 아니라 Threads가 링크를 말줄임(…)으로 표시한 것을 잘린 주소로 저장한 것**이다. 같은 글의 전체 URL을 대조하니 본표에 이미 있는 저장소였다: `MengTo/Skill`→`MengTo/Skills`(#112), `lexnlin/taste-skill`→`Leonxlnx/taste-skill`(#18), `Q00/o`→`Q00/ouroboros`(#115), `Q00/r`→`Q00/rlm-forge`(#207).
+  - 나머지 중복 2행(`jub0t/concat`, `nousresearch/hermes-agent`)은 대소문자만 다른 재수록이다.
+  - 중복 6행을 빼면 **고유 293개**다.
+  - **정정 이력**: 앞서 "고유 297개"라고 적었는데, 그 297은 404표 10행을 모두 별개 저장소로 센 값이다. 절단 링크 4행이 본표와 같은 저장소임을 확인한 뒤 293으로 바로잡았다.
 - 각 저장소의 별 수·언어·최근 푸시·아카이브 여부를 GitHub API로 수집 (`repos-api-check.json`, 160건 실존 확인)
-- 판정: `install-plan.md` — **총 297개 판정 완료** (고유 297, 중복 0)
+- 판정: `install-plan.md` — **총 297개 판정 완료** (중복 0). 이 297은 **행 기준 개수**이고, 절단 링크 4건을 실제 저장소로 합치면 고유 저장소는 293개다. `install-plan.md`는 행 단위 판정표라 297을 그대로 둔다.
   - 1차 40개: README를 직접 열어 설치 명령까지 확인
   - 2차 100개: 설명 기반 분류 → 설치 가능 62 / 보류 27 / 미확인 11
   - 3차 157개: README 설치명령 패턴으로 기계 분류 → 설치 가능 109 / 보류 39 / 404로 설치불가 9
 - **정직 고지**: 3차 157개는 사람이 README 전문을 읽고 내린 판정이 아니라 **설치 명령 패턴 기반 기계 분류**다. 저장소 실존(148개 OK)과 설치 명령 추출 여부(119개)는 실측이다.
 - 2·3차 분류는 **설명·명령 패턴만 보고 내린 판정**이다. 실제 설치·실행 결과는 설치 단계에서 갱신한다.
-- 404로 확인된 10개(`MengTo/Skill`, `Q00/o`, `Q00/r`, `gugu9999gu/PC-CONTROL-MCP`, `johunsang/octo-terminal-releases`, `lexnlin/taste-skill`, `minosdevs/copycat-skill`, `nontext75/vibe-coding-design-polish`, `rakanki911/DLSS5-Swapper`, `yelixir-dev/hermes-memory-stack`)는 GitHub API와 인증 `gh api` 양쪽에서 모두 404였다. 삭제·비공개·이름변경 중 하나이며 확인 불가.
+- **진짜 404는 6개**다: `gugu9999gu/PC-CONTROL-MCP`, `johunsang/octo-terminal-releases`, `minosdevs/copycat-skill`(소유자 계정 자체가 404), `nontext75/vibe-coding-design-polish`, `rakanki911/DLSS5-Swapper`(소유자 계정 자체가 404), `yelixir-dev/hermes-memory-stack`. GitHub API `GET /repos/{owner}/{repo}`와 GraphQL 양쪽에서 404였고, 저장소 이름으로 검색해도 같은 소유자의 저장소가 나오지 않았다. 삭제·비공개·이름변경 중 하나이며 확인 불가.
+  - **정정 이력**: 앞서 10개를 모두 404로 적었다. 4개(`MengTo/Skill`, `Q00/o`, `Q00/r`, `lexnlin/taste-skill`)는 절단 링크였고 실제 저장소는 살아 있다.
 
 ### 설치 원칙
 

@@ -184,7 +184,7 @@
 | NousResearch/Hermes-Bot-Mode | 설치 가능(스킬/에이전트) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to- |
 | OpenBMB/VoxCPM | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Clonin |
 | Panniantong/Agent-Reach | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili,  |
-| Q00/o | 미확인 (저장소 삭제됨·GitHub 404) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 미확인 |
+| Q00/o | 절단링크 (실제 Q00/ouroboros — Threads가 `Q00/o…`로 말줄임) | 미확인 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | 미확인 |
 | Q00/ouroboros | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 보류(대형 앱/GPU/Linux 전용/로컬 빌드 필요) | Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budget |
 | TauricResearch/TradingAgents | 보류 | 미확인 | 보류: 대형 빌드/GPU 필요 | TradingAgents: Multi-Agents LLM Financial Trading Framework |
 | Tencent/BrowserSkill | 설치 가능(스킬/에이전트) | README의 CLI 설치 명령 | 설치 불가(Chrome 확장 · 브라우저 UI 설치) | Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser aut |
@@ -416,17 +416,18 @@
 | niuniu122/pixel-perfect-website-clone-skill | (C) CLI·라이브러리 | `git clone https://github.com/<owner>/pixel-perfect-website-clone-skill.git "$env:USERPROFILE\.codex\` | O | O | 1 | Python | 2026-06-27 | 1 | 설치가능 |
 | th3vib3coder/RevEng | (C) CLI·라이브러리 | `git clone https://github.com/th3vib3coder/RevEng.git` | O | O | 1 | Python | 2026-05-23 | 1 | 설치가능 |
 | xintongw431-arch/webgl-runtime-cloner-skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | 1 | TypeScript | 2026-07-31 | 1 | 보류(설치법 미기재) |
-| MengTo/Skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
-| Q00/r | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+| MengTo/Skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | **절단링크** | - | - | - | - | 0 | 절단링크(실제 MengTo/Skills) |
+| Q00/r | (F) 자료·템플릿 | `README에 설치 명령 없음` | **절단링크** | - | - | - | - | 0 | 절단링크(실제 Q00/rlm-forge) |
 | gugu9999gu/PC-CONTROL-MCP | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
 | johunsang/octo-terminal-releases | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
 | kjhbond/claude-gpt-usage-tray | (F) 자료·템플릿 | `README에 설치 명령 없음` | O | O | - | Python | 2026-09-30 | 1 | 보류(설치법 미기재) |
 | kyungpyokim/model-effort-router | (C) CLI·라이브러리 | `git clone https://github.com/kyungpyokim/model-effort-router.git` | O | O | - | Python | 2026-10-19 | 1 | 설치가능 |
-| lexnlin/taste-skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
+| lexnlin/taste-skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | **절단링크** | - | - | - | - | 0 | 절단링크(실제 Leonxlnx/taste-skill) |
 | minosdevs/copycat-skill | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
 | nontext75/vibe-coding-design-polish | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
 | rakanki911/DLSS5-Swapper | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
 | xxmisaoxx/t-rex | (A) 스킬·플러그인 | `npx skills add xxmisaoxx/t-rex --skill reverse-engineering-investigator` | O | O | - | Python | 2026-10-11 | 1 | 설치가능 |
 | yelixir-dev/hermes-memory-stack | (F) 자료·템플릿 | `README에 설치 명령 없음` | **404** | - | - | - | - | 0 | 설치불가(404) |
 
-2차 판정 합계: 157개 / 설치가능 109 / 보류(설치법 미기재) 29 / 설치불가(404) 9 / 보류(데스크톱 앱 직접설치) 5 / 보류(자료·앱, 스킬 아님) 5
+2차 판정 합계: 157개 / 설치가능 109 / 보류(설치법 미기재) 29 / **절단링크 3** / 진짜 404 6 / 보류(데스크톱 앱 직접설치) 5 / 보류(자료·앱, 스킬 아님) 5
+※ 정정(2026-10-24): 앞서 "설치불가(404) 9"로 적었으나, 그중 `MengTo/Skill`·`lexnlin/taste-skill`·`Q00/r` 3건은 404가 아니라 Threads가 링크를 말줄임(…)으로 표시한 것을 수집기가 잘린 주소로 저장한 **절단 링크**였다. 같은 글의 전체 URL로 확인한 실제 저장소는 각각 `MengTo/Skills`·`Leonxlnx/taste-skill`·`Q00/rlm-forge`이며 모두 본표에 이미 있다. 진짜 404는 6건이다.

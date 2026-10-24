@@ -11,7 +11,8 @@
 | 입력(미판정) | 159 |
 | 중복 제거 후 고유 | **157** |
 | GitHub 실존 확인 | 148 |
-| 404 (삭제·비공개) | 9 |
+| 절단링크(말줄임 복원) | 3 |
+| 404 (삭제·비공개) | 6 |
 | 설치명령 추출됨 | 119 |
 | README 실물 확보 | 142 |
 
@@ -174,27 +175,34 @@
 | 143 | niuniu122/pixel-perfect-website-clone-skill | C (소스 빌드) | `git clone https://github.com/<owner>/pixel-perfect-website-clone-skill.git "$env:USERPROFILE\.codex\` | 2 | O | O | 1 | Python | 2026-06-27 | 1 |
 | 144 | th3vib3coder/RevEng | C (CLI·라이브러리) | `git clone https://github.com/th3vib3coder/RevEng.git` | 3 | O | O | 1 | Python | 2026-05-23 | 1 |
 | 145 | xintongw431-arch/webgl-runtime-cloner-skill | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | O | O | 1 | TypeScript | 2026-07-31 | 1 |
-| 146 | MengTo/Skill | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **404** | - | - | - | 0 |
-| 147 | Q00/r | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **404** | - | - | - | 0 |
+| 146 | MengTo/Skill | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **절단링크** | - | - | 실제 MengTo/Skills | 0 |
+| 147 | Q00/r | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **절단링크** | - | - | 실제 Q00/rlm-forge | 0 |
 | 148 | gugu9999gu/PC-CONTROL-MCP | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **404** | - | - | - | 0 |
 | 149 | johunsang/octo-terminal-releases | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **404** | - | - | - | 0 |
 | 150 | kjhbond/claude-gpt-usage-tray | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | O | O | - | Python | 2026-09-30 | 1 |
 | 151 | kyungpyokim/model-effort-router | C (CLI·라이브러리) | `git clone https://github.com/kyungpyokim/model-effort-router.git` | 3 | O | O | - | Python | 2026-10-19 | 1 |
-| 152 | lexnlin/taste-skill | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **404** | - | - | - | 0 |
+| 152 | lexnlin/taste-skill | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **절단링크** | - | - | 실제 Leonxlnx/taste-skill | 0 |
 | 153 | minosdevs/copycat-skill | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **404** | - | - | - | 0 |
 | 154 | nontext75/vibe-coding-design-polish | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **404** | - | - | - | 0 |
 | 155 | rakanki911/DLSS5-Swapper | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **404** | - | - | - | 0 |
 | 156 | xxmisaoxx/t-rex | A (에이전트 스킬) | `npx skills add xxmisaoxx/t-rex --skill reverse-engineering-investigator` | 2 | O | O | - | Python | 2026-10-11 | 1 |
 | 157 | yelixir-dev/hermes-memory-stack | F (라이브러리·앱·자료집) | `README에 설치 명령 없음` | 0 | - | **404** | - | - | - | 0 |
 
-## 404 저장소 (실존 확인 실패)
+## 절단 링크 복원 (404가 아니었다)
 
-- `MengTo/Skill` — GitHub API 404. 삭제·비공개·이름변경 중 하나이며 확인 불가.
-- `Q00/r` — GitHub API 404. 삭제·비공개·이름변경 중 하나이며 확인 불가.
-- `gugu9999gu/PC-CONTROL-MCP` — GitHub API 404. 삭제·비공개·이름변경 중 하나이며 확인 불가.
-- `johunsang/octo-terminal-releases` — GitHub API 404. 삭제·비공개·이름변경 중 하나이며 확인 불가.
-- `lexnlin/taste-skill` — GitHub API 404. 삭제·비공개·이름변경 중 하나이며 확인 불가.
-- `minosdevs/copycat-skill` — GitHub API 404. 삭제·비공개·이름변경 중 하나이며 확인 불가.
-- `nontext75/vibe-coding-design-polish` — GitHub API 404. 삭제·비공개·이름변경 중 하나이며 확인 불가.
-- `rakanki911/DLSS5-Swapper` — GitHub API 404. 삭제·비공개·이름변경 중 하나이며 확인 불가.
-- `yelixir-dev/hermes-memory-stack` — GitHub API 404. 삭제·비공개·이름변경 중 하나이며 확인 불가.
+Threads가 링크 라벨을 `github.com/Q00/o…` 처럼 말줄임으로 표시하는데, 수집기가 그 **표시 문자열을 실제 주소로 저장**했다. 같은 글의 전체 URL을 대조해 원래 저장소를 찾았다. 3건 모두 본표에 이미 있는 저장소다.
+
+- `MengTo/Skill` → **`MengTo/Skills`** (본표 #112, 6,972★). 같은 글(@keke_appa `DbTH1i3kmgi`)의 links 배열에 전체 URL이 있다.
+- `lexnlin/taste-skill` → **`Leonxlnx/taste-skill`** (본표 #18, 101,626★). 대소문자만 다르다. 같은 글(@unclejobs.ai `DV7oKhnidGz`).
+- `Q00/r` → **`Q00/rlm-forge`** (본표 #207, 121★). 같은 글(@jisang0914 `DYH9z1rGkh9`).
+
+같은 원인으로 1차 표의 `Q00/o`도 **`Q00/ouroboros`** (본표 #115, 6,265★)의 절단 링크였다. 언급 글 3건 모두 화면 라벨이 `github.com/Q00/o…`다.
+
+## 404 저장소 (실존 확인 실패 — 6건)
+
+- `gugu9999gu/PC-CONTROL-MCP` — GitHub API 404 + 이름검색에 같은 소유자 저장소 없음.
+- `johunsang/octo-terminal-releases` — GitHub API 404 + 이름검색에 같은 소유자 저장소 없음.
+- `minosdevs/copycat-skill` — GitHub API 404. **소유자 계정 `minosdevs` 자체가 404.**
+- `nontext75/vibe-coding-design-polish` — GitHub API 404 + 이름검색에 같은 소유자 저장소 없음.
+- `rakanki911/DLSS5-Swapper` — GitHub API 404. **소유자 계정 `rakanki911` 자체가 404.**
+- `yelixir-dev/hermes-memory-stack` — GitHub API 404 + 이름검색에 같은 소유자 저장소 없음.

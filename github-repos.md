@@ -1,8 +1,8 @@
 # Threads 저장글에서 나온 GitHub 저장소 분석
 
 - 갱신: 2026-10-24 05:53:12
-- **집계 대상 글: 278건 / repo 299행 (고유 297개)** (접근 확인 289행, 접근불가 10행)
-- 299행 중 2건은 같은 저장소가 두 번 집계된 것이다(`jub0t/concat`, `nousresearch/hermes-agent`). 중복을 제거한 고유값은 **297개**이며 `install-plan.md`의 판정 297개와 차집합 0으로 일치한다.
+- **집계 대상 글: 278건 / repo 299행 (고유 293개)** (본표 289행 + 404표 10행)
+- 299행 중 6행은 같은 저장소가 다시 실린 중복이다. 그중 4행(`MengTo/Skill`, `lexnlin/taste-skill`, `Q00/o`, `Q00/r`)은 Threads가 링크를 말줄임(…)으로 표시한 것을 수집기가 잘린 주소로 저장한 **절단 복원 대상**이고, 본표에 이미 있는 저장소와 같은 것이다. 나머지 2행은 대소문자만 다른 재수록(`jub0t/concat`, `nousresearch/hermes-agent`)이다. 중복 6행을 빼면 고유값은 **293개**다.
 - 스캔한 details2 파일: **674건** (그중 github 링크가 있던 글 278건)
 - 근거: `C:\Users\imda0\tmp\threads-saved\details2\*.json` 의 `links[].url` + `raw_link_candidates[]` (l.threads.net 리다이렉트 디코딩된 값)
 - 중복 비교: `C:\Users\imda0\.claude\skills`(926개), `C:\Users\imda0\.gjc\agent\skills`(919개), `C:\Users\imda0\.agents\skills`(912개) — 2026-10-24 재실측
@@ -301,20 +301,29 @@
 | 288 | [kyungpyokim/model-effort-router](https://github.com/kyungpyokim/model-effort-router) | 0 | Python | 2026-10-19 | (설명 없음) | 1 | 하 | **없음(신규)** |
 | 289 | [xxmisaoxx/t-rex](https://github.com/xxmisaoxx/t-rex) | 0 | Python | 2026-10-11 | Reverse-engineering skill for coding agents: trace program behavior, preserve evidence and resume across sessions. OpenCode, Claud… | 1 | 중 | codex-web-gpt-setup, reverse-engineer-anything |
 
-## 접근불가 (삭제·비공개·이름변경)
+## 링크 절단 복원 (404가 아니라 잘린 링크)
+
+Threads가 링크 라벨을 `github.com/Q00/o…` 처럼 줄여 표시하는데, 수집기가 그 **표시 문자열을 실제 URL로 착각**해 잘린 주소를 저장했다. 같은 글 안의 전체 링크를 대조하면 원래 저장소가 나온다. 4건 모두 본표에 이미 있는 저장소와 같은 것이다.
+
+| 잘린 링크 | 실제 저장소 | 근거 | 본표 |
+|---|---|---|---|
+| MengTo/Skill | **MengTo/Skills** | 같은 글(@keke_appa `DbTH1i3kmgi`)의 links 배열에 전체 URL 존재 | #112 (6,972★) |
+| lexnlin/taste-skill | **Leonxlnx/taste-skill** | 같은 글(@unclejobs.ai `DV7oKhnidGz`)에 대소문자만 다른 전체 URL 존재 | #18 (101,626★) |
+| Q00/o | **Q00/ouroboros** | 3개 글 전부 링크 라벨이 `github.com/Q00/o…`(말줄임). 전체 URL은 ouroboros | #115 (6,265★) |
+| Q00/r | **Q00/rlm-forge** | 같은 글(@jisang0914 `DYH9z1rGkh9`)의 전체 URL은 rlm-forge | #207 (121★) |
+
+## 진짜 접근불가 (삭제·비공개·소유자 사라짐)
+
+아래 6건은 GitHub API(`GET /repos/{owner}/{repo}`) HTTP 404 + GraphQL 404를 재확인했고, 저장소 이름으로 GitHub 검색해도 같은 소유자의 저장소가 나오지 않는다. 소유자 계정 자체가 404인 곳도 있다.
 
 | repo | 사유 | 언급글 |
-|---|---|---:|
-| gugu9999gu/PC-CONTROL-MCP | GraphQL: Could not resolve to a Repository with the name 'gugu9999gu/PC-CONTROL-MCP'. (repository) | 1 |
-| johunsang/octo-terminal-releases | GraphQL: Could not resolve to a Repository with the name 'johunsang/octo-terminal-releases'. (repository) | 1 |
-| lexnlin/taste-skill | GraphQL: Could not resolve to a Repository with the name 'lexnlin/taste-skill'. (repository) | 1 |
-| MengTo/Skill | GraphQL: Could not resolve to a Repository with the name 'MengTo/Skill'. (repository) | 1 |
-| minosdevs/copycat-skill | GraphQL: Could not resolve to a Repository with the name 'minosdevs/copycat-skill'. (repository) | 1 |
-| nontext75/vibe-coding-design-polish | GraphQL: Could not resolve to a Repository with the name 'nontext75/vibe-coding-design-polish'. (repository) | 1 |
-| Q00/o | GraphQL: Could not resolve to a Repository with the name 'Q00/o'. (repository) | 3 |
-| Q00/r | GraphQL: Could not resolve to a Repository with the name 'Q00/r'. (repository) | 1 |
-| rakanki911/DLSS5-Swapper | GraphQL: Could not resolve to a Repository with the name 'rakanki911/DLSS5-Swapper'. (repository) | 1 |
-| yelixir-dev/hermes-memory-stack | GraphQL: Could not resolve to a Repository with the name 'yelixir-dev/hermes-memory-stack'. (repository) | 1 |
+|---|---|---|
+| gugu9999gu/PC-CONTROL-MCP | 이름검색 결과에 같은 소유자 저장소 없음(동명 타인 저장소만 존재) | 1 |
+| johunsang/octo-terminal-releases | 이름검색 결과에 같은 소유자 저장소 없음 | 1 |
+| minosdevs/copycat-skill | **소유자 계정 minosdevs 자체가 404** | 1 |
+| nontext75/vibe-coding-design-polish | 이름검색 결과에 같은 소유자 저장소 없음 | 1 |
+| rakanki911/DLSS5-Swapper | **소유자 계정 rakanki911 자체가 404** | 1 |
+| yelixir-dev/hermes-memory-stack | 이름검색 결과에 같은 소유자 저장소 없음 | 1 |
 
 ## stars 상위 README 첫 문단 요약
 
@@ -341,10 +350,10 @@
 
 ## 집계
 
-- 총 **299행 (고유 297개)** repo / 집계 대상 글 **278건**
+- 총 **299행 (고유 293개)** repo / 집계 대상 글 **278건**
 - 가치 상 **67개** / 중 189개 / 하 33개
 - 신규(기존 스킬과 중복 없음) **186개** / 겹침 113개
-- 접근불가 10개
+- 접근불가 **6개** (절단 복원 4행은 본표 저장소와 같은 것이므로 고유 개수에서 제외)
 
 ## 판정 기준
 
