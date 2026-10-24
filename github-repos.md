@@ -1,7 +1,8 @@
 # Threads 저장글에서 나온 GitHub 저장소 분석
 
 - 갱신: 2026-10-24 05:53:12
-- **집계 대상 글: 278건 / repo 299개** (접근 확인 289개, 접근불가 10개)
+- **집계 대상 글: 278건 / repo 299행 (고유 297개)** (접근 확인 289행, 접근불가 10행)
+- 299행 중 2건은 같은 저장소가 두 번 집계된 것이다(`jub0t/concat`, `nousresearch/hermes-agent`). 중복을 제거한 고유값은 **297개**이며 `install-plan.md`의 판정 297개와 차집합 0으로 일치한다.
 - 스캔한 details2 파일: **674건** (그중 github 링크가 있던 글 278건)
 - 근거: `C:\Users\imda0\tmp\threads-saved\details2\*.json` 의 `links[].url` + `raw_link_candidates[]` (l.threads.net 리다이렉트 디코딩된 값)
 - 중복 비교: `C:\Users\imda0\.claude\skills`(926개), `C:\Users\imda0\.gjc\agent\skills`(917개), `C:\Users\imda0\.agents\skills`(912개)
@@ -340,7 +341,7 @@
 
 ## 집계
 
-- 총 **299개** repo / 집계 대상 글 **278건**
+- 총 **299행 (고유 297개)** repo / 집계 대상 글 **278건**
 - 가치 상 **67개** / 중 189개 / 하 33개
 - 신규(기존 스킬과 중복 없음) **186개** / 겹침 113개
 - 접근불가 10개
