@@ -1,6 +1,6 @@
 # 쓰레드 저장글 프롬프트 전수 추출 (details2 기준)
 
-**대상 450건 / 추출 18건**
+**대상 674건 / 추출 23건**
 
 - 수집: `C:/Users/imda0/tmp/threads-saved/details2/` — l.threads.net 링크 디코딩 반영본 (2026-10-24)
 - 보조: posts-partial.json(674건)은 details2 수집 전 원문 확보용
@@ -13,9 +13,9 @@
 
 | 구분 | 건수 |
 |---|---|
-| 스캔한 글 | 450 |
-| 프롬프트 후보 신호 글 | 84 |
-| **원문 확보** | **18** |
+| 스캔한 글 | 674 |
+| 프롬프트 후보 신호 글 | 84 (450건 구간) + 674건 엄격 판정 후보 5 |
+| **원문 확보** | **23** |
 | 텍스트 없음(설명·이미지·DM만) | 3 |
 
 | # | 제목 | 작성자 | 유형 | 재사용 | 스킬화 제안 |
@@ -38,6 +38,11 @@
 | 16 | 영상 편집기 자동 제작 지시문 (레퍼런스 분해 → ffmpeg 프로그램 → 자가 검수) | @jachung__ | 스킬 생성 지시문 | 상 | reference-video-editing-skill |
 | 17 | 구글 Flow 10초 모션그래픽 광고 프롬프트 (타임코드 샷 설계) | @imusiro | 영상 프롬프트 | 중 | video-shotlist-prompt |
 | 18 | gjc OpenRouter 연결 세팅 프롬프트 | @dak.korea | 설정 프롬프트 | 하 | (스킬화 불필요) |
+| 19 | Cannes Lions 그랑프리 CD의 15장 브랜드 필름 시나리오 지시문 | @key_te_ss | 역할부여 프롬프트 | 상 | 브랜드 필름 시나리오 기획 프롬프트 |
+| 20 | 제휴 마케팅 게시물별 클릭률 분석과 다음 상품 제안 | @playto876 | 역할부여 프롬프트 | 상 | 제휴 마케팅 성과 분석 프롬프트 |
+| 21 | ACSM 지침 기반 주간 근력운동 계획 프롬프트 | @just_ai_case | 역할부여 프롬프트 | 상 | 개인 맞춤 근력운동 코치 프롬프트 |
+| 22 | 한국 음식 사진용 소셜미디어 광고 이미지 프롬프트 | @neulhoon | 이미지 프롬프트 | 상 | 한국 음식 광고 이미지 프롬프트 |
+| 23 | 네이버 스마트스토어 상세페이지 이미지 직접 생성 지시문 | @work.less.better | 역할부여 프롬프트 | 상 | 스마트스토어 상세페이지 이미지 생성 지시문 |
 
 ### [1] Codex /goal 프롬프트 생성기 (시스템 프롬프트)
 - 출처: @ai.corder / https://www.threads.com/@ai.corder/post/DYt_EiYmbdP
@@ -1395,6 +1400,143 @@ At 00:04.300 the poodle launches off the final ramp.
 gjc에서 openrouter를 사용하게 세팅해줘. openai 호환 api key <내 API key> openrouter.ai/api/v…
 ```
 
+### [19] Cannes Lions 그랑프리 CD의 15장 브랜드 필름 시나리오 지시문
+- 출처: @key_te_ss — https://www.threads.com/@key_te_ss/post/DbYrN3ZCQ74
+- 목적: 소스 자료를 바탕으로 Apple·Nike·현대카드의 톤 원칙을 적용한 15장 브랜드 필름 프레젠테이션 시나리오를 기획한다.
+- 재사용성: 상
+- 스킬화 제안: 브랜드 필름 시나리오 기획 프롬프트
+- 원문:
+```
+[역할 및 페르소나]
+당신은 칸 국제 광고제(Cannes Lions) 그랑프리 수상 경력의 전설적인 크리에이티브 디렉터(CD)이자 총괄 카피라이터입니다.
+제공된 [소스 자료]를 깊이 있게 해체하고 재조합하여, 단순한 제품/서비스 설명서가 아닌 청중의 감각을 깨우는 15장 규모의 '브랜드 필름(Brand Film) 프레젠테이션 시나리오'를 기획해 주세요.
+[디자인 & 톤앤매너 3대 원칙]
+1. Apple의 미니멀리즘: 절제된 여백, 하나의 명확한 프레임, 압도적인 타이포그래피.
+2. Nike의 대담성: 묵직하고 직관적이며 타협 없는 헤드라인 카피.
+3. 현대카드의 위트: 일상적 개념을 뒤집는 시각적 은유(Visual Metaphor)와 미장센.
+```
+
+### [20] 제휴 마케팅 게시물별 클릭률 분석과 다음 상품 제안
+- 출처: @playto876 — https://www.threads.com/@playto876/post/Dees4Nskl_T
+- 목적: 게시물의 훅·카테고리·가격대별 클릭률을 비교하고 후속 상품 후보를 제안한다.
+- 재사용성: 상
+- 스킬화 제안: 제휴 마케팅 성과 분석 프롬프트
+- 원문:
+```
+3. 내 계정에서 터진 글을 분석해서 다음 상품까지 골라줍니다.
+(감으로 상품 고르는 시간이 확 줄어요)
+너는 제휴 마케팅 분석가야.
+[게시물별 데이터: 번호, 훅 유형, 카테고리, 가격대, 조회수, 댓글 수, 링크 클릭 수 — 표로 붙여넣기]
+1) 훅 유형·카테고리·가격대별 클릭률(클릭÷조회수)을 표로 정리
+2) 클릭률 상위 글과 반응 없는 글의 차이 분석
+3) 다음 상품 제안: 검색 기능이 있으면 쿠팡 상품 후보 5개를 찾아 추천, 없으면 상품군과 추천 이유만. 실제 상품인 척 지어내지 마.
+게시물이 10개 미만이면 단정하지 말고 '경향'으로만 말해줘.
+```
+
+### [21] ACSM 지침 기반 주간 근력운동 계획 프롬프트
+- 출처: @just_ai_case — https://www.threads.com/@just_ai_case/post/Delp7vPmGpf
+- 목적: 목표·일정·장비·부상 부위를 입력받아 주간 근력운동표를 만들고 기록을 반영한다.
+- 재사용성: 상
+- 스킬화 제안: 개인 맞춤 근력운동 코치 프롬프트
+- 원문:
+```
+2. PT 프롬프트
+너는 내 근력운동 코치야
+계획은 미국스포츠의학회(ACSM)가 2026년에 발표한 근력운동 지침 기준으로 짜줘. 핵심 원칙을 먼저 요약해서 보여준 뒤 만들어줘
+핵심 원칙: 주요 근육 주 2회 이상. 근력은 최대 무게(1RM)의 80%로 운동당 2~3세트, 근비대는 근육마다 주당 약 10세트. 실패 지점까지 안 가도 돼. 1RM을 모르면 확인하는 방법부터 알려줘
+목표는 [근력 키우기/다이어트/체력 늘리기], 주 [횟수]회 [요일]에 [시간]분씩, 장비는 [헬스장 기구 전부/덤벨만/맨몸]. 내 정보는 저장해둔 걸 써줘
+요일별로 나눈 주간 운동표를 만들어줘. 동작마다 세트 수, 반복 수, 쉬는 시간을 적고, 무게는 지난 기록보다 조금씩 올려줘
+넣지 말 것: [아픈 부위]에 무리 가는 동작
+기록을 말하면 저장해 다음 운동표에 반영하고 Goals 진도에도 남겨줘. 운동하는 날 아침에 오늘 운동표를 보내줘"
+```
+
+### [22] 한국 음식 사진용 소셜미디어 광고 이미지 프롬프트
+- 출처: @neulhoon — https://www.threads.com/@neulhoon/post/DXtV49WATn8
+- 목적: 제공된 음식 사진을 분석해 음식에 맞는 한국어 광고 문구와 소셜미디어 포스터를 생성한다.
+- 재사용성: 상
+- 스킬화 제안: 한국 음식 광고 이미지 프롬프트
+- 원문:
+```
+04/29/26
+·
+gpt에서 이미지 만들기 선택하고
+내 음식이나 상품넣고 아래 프롬프트 붙여넣기!
+팔로우 해두면 유용한 프롬프트 자주 공유할게!
+You are a high-end Korean food advertising designer and food copywriter.
+
+Transform the provided food photo into a trendy Korean social media food advertisement.
+
+First, analyze the food:
+- Identify the exact dish, ingredients, texture, flavor mood, and strongest selling point.
+- Create Korean ad copy that naturally matches this specific food.
+- Do not use fixed copy.
+- Do not repeat the same layout, CTA, badge, or visual formula every time.
+
+Text Rules:
+- Korean text only.
+- No English.
+- No fake or unreadable letters.
+- Use only 2 to 4 short Korean text elements.
+- Include a bold headline, short subheadline, and natural CTA.
+- CTA should change based on the food and mood, not always “지금 바로 주문하기”.
+
+Design Style:
+trendy Korean food ad,
+bold maximalism with clean hierarchy,
+dopamine color,
+premium delivery branding,
+dynamic but polished,
+high contrast,
+Instagram poster style.
+
+Visual Direction:
+- Keep the food as the main hero.
+- Make it look hot, fresh, juicy, crispy, creamy, or refreshing depending on the food.
+- Enhance sauce gloss, steam, smoke, texture, freshness, and depth.
+- Use dramatic lighting and vivid highlights.
+- Add 2 to 5 natural design elements only when suitable:
+badge, brush label, promo sticker, steam, smoke, spice particles, sauce splash, light streaks, floating ingredients, grain texture.
+- Do not overcrowd the frame.
+- Do not add unrelated objects.
+
+Composition:
+- Choose a suitable layout automatically:
+bold headline top, food hero center or bottom, CTA/badge naturally placed.
+- Keep text large, readable, and visually clear.
+- Use a cinematic dark or food-matching background.
+- Vary the composition for each food image.
+
+Spacing and Safe Margin:
+- Keep generous breathing room around all text, CTA buttons, badges, and key food elements.
+- Do not place any text, button, badge, or important object too close to the edges.
+- Maintain at least 8–12% safe margin from all four edges.
+- Keep CTA buttons and badges inside the safe area with comfortable padding.
+- Avoid cramped corners.
+- Use negative space intentionally to make the design feel premium and readable.
+- Leave enough space between headline, subheadline, food, badge, and CTA.
+
+Output:
+ultra high resolution,
+commercial Korean food advertisement,
+polished social media poster.
+Read more
+```
+
+### [23] 네이버 스마트스토어 상세페이지 이미지 직접 생성 지시문
+- 출처: @work.less.better — https://www.threads.com/@work.less.better/post/DX8QyLcAULT
+- 목적: 상품 정보를 받아 프롬프트만 작성하지 않고 네이버 스마트스토어용 상세페이지 이미지를 직접 생성한다.
+- 재사용성: 상
+- 스킬화 제안: 스마트스토어 상세페이지 이미지 생성 지시문
+- 원문:
+```
+AI Threads
+당신은 네이버 스마트스토어 상세페이지를 제작하는 시니어 광고 디자이너이자 퍼포먼스 마케터입니다.
+사용자가 상품명, 브랜드명, 특징, 구성, 원재료, 용량, 이미지, URL 등 최소한의 상품 정보를 제공하면, 프롬프트만 작성하지 말고 이미지 생성 기능을 사용하여 네이버 스마트스토어용 상세페이지 이미지를 직접 제작합니다.
+이 GPT의 기본 목적은 “상세페이지 이미지 생성”입니다.
+따라서 사용자가 “상세페이지 만들어줘”, “이미지 만들어줘”, “스마트스토어용으로 제작해줘”라고 요청하면 텍스트 기획만 하지 말고 실제 이미지를 생성합니다.
+단, 사용자가 “프롬프트만 줘”, “이미지는 만들지 말고 image prompt만 작성해줘”, “구성안만 달라”라고 명확히 요청한 경우에만 프롬프트나 기획안만 텍스트로 제공합니다.
+```
+
 ---
 
 ## 텍스트로 확보되지 않은 것
@@ -1409,7 +1551,7 @@ gjc에서 openrouter를 사용하게 세팅해줘. openai 호환 api key <내 AP
 
 ## 캡처 상태
 
-- details2 는 알파벳 순으로 수집 중이다(마지막 파일 @nexus28921_post_DbDP2BWCXrA.json). details2 원문 사용: @ais.root, @autofrog.kr, @bunniesossdev, @chris_gomdori, @crome.ai, @gasket_love, @gpt_park, @gptaku_ai / posts-partial 원문 유지: @a_book_builder, @ai.corder, @ai_ohwoo_wow, @dak.korea, @gptaku_ai, @han45406480, @hyun.doyun, @imusiro, @jachung__, @reactor_art.
+- details2 수집 완료: **674건**(`ls details2/*.json | wc -l` 실측, 알파벳 순 마지막 파일 @zzikbot_post_Db7Kg6ej1Gt.json). details2 원문 사용: @ais.root, @autofrog.kr, @bunniesossdev, @chris_gomdori, @crome.ai, @gasket_love, @gpt_park, @gptaku_ai, @just_ai_case, @key_te_ss, @neulhoon, @playto876, @work.less.better / posts-partial 원문 유지: @a_book_builder, @ai.corder, @ai_ohwoo_wow, @dak.korea, @gptaku_ai, @han45406480, @hyun.doyun, @imusiro, @jachung__, @reactor_art.
 - 일부 문자열은 줄바꿈 지점에 공백이 끼어 있다(예: 역할 은, 리퀘 스트). 원문 보존을 위해 고치지 않았다.
 - 링크는 l.threads.net 래핑을 디코딩한 값(details2 links)을 그대로 쓴다.
 
@@ -1421,3 +1563,4 @@ gjc에서 openrouter를 사용하게 세팅해줘. openai 호환 api key <내 AP
 - 2026-10-24 4차(details2 316건): 신규 1건. @gasket_love Manus 웹앱 MCP 서버 구축 지시문(3,696자, 캡처 4,000자 절단). 미채택: @dongle2blog(블로그 하이라이트 목차), @ezbuilder(chatgpt2codex 소개), @fogbar_(Aside 사용 후기), @go__yoon(하네스 12종 설치 목록), @gasket_love DbvDvzaF-wO(Playwright .py 스크립트 첨부, 프롬프트 아님).
 - 2026-10-24 5차(details2 372건): 신규 2건. @gpt_park 부업 설계 프롬프트 5종(1,748자, 댓글 5개 연속), @gptaku_ai 15초 모션그래픽 쇼릴 프롬프트(404자, 앞서 'DM 발송'으로 분류했던 글에서 댓글 원문 확인 → 텍스트 없음 표에서 제거). 미채택: @gptaku_ai DYO0eX4E0bm(/goal 워크플로우 6단계 설명), @gptaku_ai Ddz__34ESxY(14번과 동일 프롬프트의 제품만 다른 판).
 - 2026-10-24 6차(details2 450건): 신규 4건. @hyun.doyun 스레드 콘텐츠 에디터 시스템 프롬프트, @jachung__ 영상 편집기 자동 제작 지시문(댓글 3개 연속 병합, 897자 — 이전 판본은 UI 카운터가 섞이고 ④~⑥단계가 빠져 있었음), @imusiro 구글 Flow 10초 모션그래픽 프롬프트, @dak.korea gjc OpenRouter 세팅(원문 미완). 프롬프트 후보 스캔을 372→450건으로 확대해 84건 후보를 전수 재검토했다.
+- 2026-10-24 7차(details2 674건 전수): 신규 5건 병합 → 총 23건. 단어가 아니라 형태(역할 부여 + 산출물 요구)를 필수 관문으로 둔 엄격 판정(scan_strict.py)으로 후보 5건만 통과했다. @key_te_ss Cannes Lions CD 15장 브랜드 필름(363자), @playto876 제휴 마케팅 클릭률 분석(314자), @just_ai_case ACSM 근력운동 코치(461자), @neulhoon 한국 음식 광고 이미지(2,378자), @work.less.better 스마트스토어 상세페이지 이미지(411자). 1차 자동 스캔이 '프롬프트' 단어가 든 잡담까지 잡아 90~104건을 쏟아낸 것과 달리, 번호 목록만 있는 글은 역할 부여가 없어 전부 탈락했다. 재현: `python tmp/threads-analysis/scan_strict.py` → 스캔 674건 / 후보 5건.
